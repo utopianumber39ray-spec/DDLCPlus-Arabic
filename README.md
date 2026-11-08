@@ -1,27 +1,20 @@
-# تعريب Doki Doki Literature Club Plus إلى العربية
+# نسخة معربة من دوكي دوكي بلس
 
 <div dir="rtl">
 
-**ترجمة عربية كاملة، يدوية بالكامل، للعبة Doki Doki Literature Club Plus** .
+**نسخة معربة كاملة من لعبة Doki Doki Literature Club Plus في ملف واحد.**
 
 تغطي الترجمة القصة الرئيسية بكل فصولها (Act 1–3)، والقصص الجانبية (Side Stories)،
-وواجهة اللعبة وتطبيقات الحاسوب الداخلي (الملفات، البريد، الصور، الموسيقى، الإعدادات)،
-ونصوص القصائد. الخطوط العربية مدمجة داخل أصول اللعبة، فلا حاجة لتثبيت أي خط على النظام.
+وواجهة اللعبة وتطبيقاتها الداخلية (الملفات، البريد، الصور، الموسيقى، الإعدادات)،
+ونصوص القصائد. الخطوط العربية مدمجة داخل اللعبة نفسها.
 
-### [⬇️ تحميل أحدث إصدار](../../releases/latest)
-
-### الجديد في 1.2.0
-
-- **الكتابة الآلية تتكشّف من اليمين إلى اليسار** — كانت الحروف تظهر من اليسار فتبدو الجملة مقلوبة أثناء كتابتها.
-- **ترتيب الأسطر في الفقرات الطويلة**: يبدأ كل سطر من اليمين، والسطر التالي يتابع ما قبله،
-  فتُقرأ الفقرة بترتيبها الصحيح من الأعلى إلى الأسفل.
-- إضافة `TextTypewriterEffect.dll` إلى حزمة التعديل (أصبحت تسعة ملفات).
+### [⬇️ تحميل النسخة المعربة](../../releases/latest)
 
 </div>
 
 ---
 
-## ما الذي يشمله التعريب؟
+## ما الذي تشمله النسخة؟
 
 | العنصر | التفاصيل |
 |---|---|
@@ -30,14 +23,39 @@
 | القصة الرئيسية | مترجمة كاملة (Act 1–3) |
 | القصص الجانبية | مترجمة كاملة |
 | الواجهة والتطبيقات | مترجمة (الملفات، البريد، الصور، الموسيقى، الإعدادات) |
-| الخطوط | خطوط TMP عربية مدمجة مع وصل الحروف والتشكيل الصحيح |
+| الخطوط | خطوط عربية مدمجة مع وصل الحروف والتشكيل الصحيح |
+| الكتابة الآلية | تتكشّف من اليمين إلى اليسار، وترتيب الأسطر في الفقرات صحيح |
+| أسماء اللاعبين | العربية مدعومة وتظهر متصلة بالاتجاه الصحيح |
 | الترجمة الآلية | **لا يوجد أي نص مترجم آليًا** |
+
+## طريقة التشغيل
+
+<div dir="rtl">
+
+1. نزّل الملف `DDLCPlus-Arabic-Full-v1.2.0.zip` من صفحة [الإصدارات](../../releases/latest).
+2. فك ضغطه في أي مجلد (كليك يمين ← «استخراج الكل» — لا حاجة لأي برنامج إضافي).
+3. افتح المجلد المستخرَج وشغّل **`Doki Doki Literature Club Plus.exe`**.
+4. اللعبة تفتح **بالعربية مباشرة من أول تشغيل** وتعمل كل مراحلها بدون أي مشاكل.
+
+</div>
+
+## التحقق من السلامة
+
+<div dir="rtl">
+
+بصمة الملف (SHA-256):
+
+```
+6f3e1d413239435d797a239c29049dbfedf7277ddea0b96b24f69a4d40d45bae  DDLCPlus-Arabic-Full-v1.2.0.zip
+```
+
+</div>
 
 ## لقطات من اللعب
 
 <div dir="rtl">
 
-**تبدأ اللعبة بالعربية مباشرة — بدون أي إعداد:**
+**تبدأ اللعبة بالعربية مباشرة:**
 
 <table>
   <tr>
@@ -46,43 +64,29 @@
   </tr>
 </table>
 
-**الحوار واسم اللاعب العربي:**
+**الحوار واتجاه الكتابة والأسطر:**
 
 <table>
   <tr>
-    <td align="center"><img src="screenshots/dialogue.png" alt="حوار مع اسم اللاعب العربي" width="470"><br><sub>اسم اللاعب «أحمد» يظهر مشكّلًا في شريط الاسم</sub></td>
-    <td align="center"><img src="screenshots/dialogue2.png" alt="مشهد داخل الصف" width="470"><br><sub>مشهد داخل الصف</sub></td>
-  </tr>
-</table>
-
-**اتجاه الكتابة والأسطر المتعددة:**
-
-<table>
-  <tr>
-    <td align="center"><img src="screenshots/typing_rtl.png" alt="النص يتكشف من اليمين إلى اليسار" width="470"><br><sub>الكتابة الآلية تتكشّف من اليمين إلى اليسار</sub></td>
-    <td align="center"><img src="screenshots/dialogue_lines.png" alt="فقرة من سطرين تبدأ من اليمين" width="470"><br><sub>فقرة من سطرين — كل سطر يبدأ من اليمين بالترتيب الصحيح</sub></td>
+    <td align="center"><img src="screenshots/dialogue.png" alt="حوار مع اسم اللاعب العربي" width="470"><br><sub>اسم اللاعب العربي في شريط الاسم</sub></td>
+    <td align="center"><img src="screenshots/typing_rtl.png" alt="النص يتكشف من اليمين إلى اليسار" width="470"><br><sub>الكتابة الآلية من اليمين إلى اليسار</sub></td>
   </tr>
   <tr>
+    <td align="center"><img src="screenshots/dialogue_lines.png" alt="فقرة من سطرين" width="470"><br><sub>فقرة من سطرين تبدأ من اليمين بالترتيب الصحيح</sub></td>
     <td align="center"><img src="screenshots/dialogue_quoted.png" alt="سطر بين علامتي اقتباس" width="470"><br><sub>سطر بين علامتي اقتباس محاذى لليمين</sub></td>
-    <td align="center"><img src="screenshots/save_slots.png" alt="شاشة الحفظ" width="470"><br><sub>شاشة الحفظ وخانات الحفظ التلقائي</sub></td>
   </tr>
 </table>
 
-**الاختيارات والشعر:**
+**الاختيارات والشعر والحفظ والإعدادات:**
 
 <table>
   <tr>
-    <td align="center"><img src="screenshots/choice.png" alt="قائمة اختيار مترجمة" width="470"><br><sub>قائمة اختيار أثناء القصة</sub></td>
+    <td align="center"><img src="screenshots/choice.png" alt="قائمة اختيار" width="470"><br><sub>قائمة اختيار أثناء القصة</sub></td>
     <td align="center"><img src="screenshots/poem.png" alt="لعبة كتابة القصيدة" width="470"><br><sub>كتابة القصيدة — الكلمات بالعربية</sub></td>
   </tr>
-</table>
-
-**الحفظ والإعدادات:**
-
-<table>
   <tr>
-    <td align="center"><img src="screenshots/load.png" alt="شاشة التحميل والحفظ التلقائي" width="470"><br><sub>الحفظ التلقائي وخانات الحفظ</sub></td>
-    <td align="center"><img src="screenshots/settings_ingame.png" alt="إعدادات اللعبة" width="470"><br><sub>الإعدادات كاملة بالعربية</sub></td>
+    <td align="center"><img src="screenshots/save_slots.png" alt="شاشة الحفظ" width="470"><br><sub>شاشة الحفظ</sub></td>
+    <td align="center"><img src="screenshots/settings_ingame.png" alt="الإعدادات" width="470"><br><sub>الإعدادات كاملة بالعربية</sub></td>
   </tr>
 </table>
 
@@ -95,54 +99,9 @@
   </tr>
   <tr>
     <td align="center"><img src="screenshots/music.png" alt="تطبيق الموسيقى" width="470"><br><sub>تطبيق الموسيقى</sub></td>
-    <td align="center"><img src="screenshots/settings.png" alt="اختيار اللغة العربية" width="470"><br><sub>اختيار اللغة «العربية»</sub></td>
+    <td align="center"><img src="screenshots/settings.png" alt="اختيار اللغة" width="470"><br><sub>اختيار اللغة «العربية»</sub></td>
   </tr>
 </table>
-
-</div>
-
-## التثبيت
-
-<div dir="rtl">
-
-1. أغلق اللعبة إن كانت تعمل.
-2. نزّل ملف الحزمة `DDLCPlus-Arabic-v1.2.0.zip` من صفحة [الإصدارات](../../releases/latest) وفك ضغطه في أي مكان.
-3. شغّل **`install.bat`** بنقرتين (أو `install.ps1` من PowerShell).
-4. سيكتشف المثبّت مجلد اللعبة تلقائيًا. إن لم يجده، ألصق مسار المجلد الذي يحتوي
-   `Doki Doki Literature Club Plus.exe`.
-5. شغّل اللعبة — **تفتح بالعربية تلقائيًا من أول تشغيل**.
-   يمكنك تغيير اللغة متى شئت من: **الإعدادات ← اللغة**.
-
-المثبّت يحتفظ بنسخة احتياطية من كل ملف أصلي داخل مجلد
-`_DDLCPlus_Arabic_Backup` قبل استبداله.
-
-</div>
-
-## إزالة التعريب
-
-<div dir="rtl">
-
-شغّل **`restore.bat`** (أو `restore.ps1`) من نفس مجلد الحزمة؛ سيعيد كل الملفات الأصلية
-من النسخة الاحتياطية ويحذف ملفات التعريب.
-
-</div>
-
-## التحقق من السلامة
-
-<div dir="rtl">
-
-بصمة ملف الحزمة المضغوطة (SHA-256):
-
-```
-51dfd93475f07d2d1d535033dacb2b93527e8aee2b1760adadb1de29388edf85  DDLCPlus-Arabic-v1.2.0.zip
-```
-
-وداخل الحزمة ملف `SHA256SUMS.txt` يحوي بصمات الملفات التسعة بعد فك الضغط،
-ويمكن التحقق منها بالأمر:
-
-```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath "files\...\langar.cy"
-```
 
 </div>
 
@@ -150,23 +109,17 @@ Get-FileHash -Algorithm SHA256 -LiteralPath "files\...\langar.cy"
 
 <div dir="rtl">
 
-**هل تحتوي الحزمة على اللعبة؟**
-حزمة التعديل (patch) لا تحتوي اللعبة وتتطلب نسخة أصلية من اللعبة، لكن صفحة
-[الإصدارات](../../releases/latest) تتضمن أيضًا **نسخة كاملة جاهزة** (اللعبة + التعريب
-مدمجًا) تُفك وتُشغَّل مباشرة دون أي خطوات إضافية.
+**كيف أشغّل اللعبة؟**
+فك ضغط الملف وشغّل `Doki Doki Literature Club Plus.exe` — لا حاجة لأي إعداد أو تثبيت.
 
-**هل يفقد التثبيت تقدمي أو حفظي؟**
-لا. تُستبدل أصول اللعبة فقط (النصوص والخطوط)، مع نسخة احتياطية كاملة.
+**هل اللعبة تعمل بالعربية من أول مرة؟**
+نعم، تفتح بالعربية مباشرة.
 
 **هل توجد ترجمة آلية؟**
 لا، كل النصوص مكتوبة ومراجعة يدويًا.
 
-**هل يمكن كتابة اسم اللاعب بالعربية في شاشة إدخال الاسم؟**
-نعم. يُعاد تشكيل الاسم ووصله تلقائيًا عند الكتابة وعند التأكيد، ويظهر موصولًا في الحوار
-وفي شريط الاسم وسجل الحوار وشاشات الحفظ.
-
-**حدّثت اللعبة، فماذا أفعل؟**
-قد يُلغي التحديث ملفات التعريب؛ أعد تشغيل `install.bat` بعد التحديث.
+**هل يمكن كتابة اسم اللاعب بالعربية؟**
+نعم، ويظهر موصولًا بالاتجاه الصحيح في الحوار وشريط الاسم وسجل الحوار.
 
 </div>
 
@@ -175,11 +128,9 @@ Get-FileHash -Algorithm SHA256 -LiteralPath "files\...\langar.cy"
 <div dir="rtl">
 
 هذا تعريب من صنع المعجبين. حقوق اللعبة ونصوصها الأصلية تعود إلى **Team Salvato**.
-لا تتضمن هذه الحزمة أي ملفات من اللعبة الأصلية سوى أصول مُعدّلة لازمة للتعريب،
-ولا يجوز استخدامها إلا مع نسخة أصلية مرخّصة من اللعبة.
 
 </div>
 
 ---
 
-<sub>Fan-made Arabic localization for Doki Doki Literature Club Plus . The patch contains no game content beyond modified localization assets and requires a legitimately owned copy of the game. All rights to the original game belong to Team Salvato.</sub>
+<sub>Fan-made Arabic localization for Doki Doki Literature Club Plus. All rights to the original game belong to Team Salvato.</sub>
