@@ -10,6 +10,13 @@
 
 ### [⬇️ تحميل أحدث إصدار](../../releases/latest)
 
+### الجديد في 1.2.0
+
+- **الكتابة الآلية تتكشّف من اليمين إلى اليسار** — كانت الحروف تظهر من اليسار فتبدو الجملة مقلوبة أثناء كتابتها.
+- **ترتيب الأسطر في الفقرات الطويلة**: يبدأ كل سطر من اليمين، والسطر التالي يتابع ما قبله،
+  فتُقرأ الفقرة بترتيبها الصحيح من الأعلى إلى الأسفل.
+- إضافة `TextTypewriterEffect.dll` إلى حزمة التعديل (أصبحت تسعة ملفات).
+
 </div>
 
 ---
@@ -45,6 +52,19 @@
   <tr>
     <td align="center"><img src="screenshots/dialogue.png" alt="حوار مع اسم اللاعب العربي" width="470"><br><sub>اسم اللاعب «أحمد» يظهر مشكّلًا في شريط الاسم</sub></td>
     <td align="center"><img src="screenshots/dialogue2.png" alt="مشهد داخل الصف" width="470"><br><sub>مشهد داخل الصف</sub></td>
+  </tr>
+</table>
+
+**اتجاه الكتابة والأسطر المتعددة:**
+
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/typing_rtl.png" alt="النص يتكشف من اليمين إلى اليسار" width="470"><br><sub>الكتابة الآلية تتكشّف من اليمين إلى اليسار</sub></td>
+    <td align="center"><img src="screenshots/dialogue_lines.png" alt="فقرة من سطرين تبدأ من اليمين" width="470"><br><sub>فقرة من سطرين — كل سطر يبدأ من اليمين بالترتيب الصحيح</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/dialogue_quoted.png" alt="سطر بين علامتي اقتباس" width="470"><br><sub>سطر بين علامتي اقتباس محاذى لليمين</sub></td>
+    <td align="center"><img src="screenshots/save_slots.png" alt="شاشة الحفظ" width="470"><br><sub>شاشة الحفظ وخانات الحفظ التلقائي</sub></td>
   </tr>
 </table>
 
@@ -86,7 +106,7 @@
 <div dir="rtl">
 
 1. أغلق اللعبة إن كانت تعمل.
-2. نزّل ملف الحزمة `DDLCPlus-Arabic-v1.1.0.zip` من صفحة [الإصدارات](../../releases/latest) وفك ضغطه في أي مكان.
+2. نزّل ملف الحزمة `DDLCPlus-Arabic-v1.2.0.zip` من صفحة [الإصدارات](../../releases/latest) وفك ضغطه في أي مكان.
 3. شغّل **`install.bat`** بنقرتين (أو `install.ps1` من PowerShell).
 4. سيكتشف المثبّت مجلد Steam تلقائيًا. إن لم يجده، ألصق مسار المجلد الذي يحتوي
    `Doki Doki Literature Club Plus.exe`، مثل:
@@ -115,10 +135,10 @@
 بصمة ملف الحزمة المضغوطة (SHA-256):
 
 ```
-4767b5f9c8a4bfc5234e756cfe9f08f5cb82c73f125b0d14cade7d4616eeb7f5  DDLCPlus-Arabic-v1.1.0.zip
+33df57472ff0e46083dfd83f1e854caed13bdd1f1938e3b733a49172d2a8bfcf  DDLCPlus-Arabic-v1.2.0.zip
 ```
 
-وداخل الحزمة ملف `SHA256SUMS.txt` يحوي بصمات الملفات الثمانية بعد فك الضغط،
+وداخل الحزمة ملف `SHA256SUMS.txt` يحوي بصمات الملفات التسعة بعد فك الضغط،
 ويمكن التحقق منها على Windows بالأمر:
 
 ```powershell

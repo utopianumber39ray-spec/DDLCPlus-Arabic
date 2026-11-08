@@ -1,10 +1,11 @@
-﻿# DDLC+ Arabic Patch - installer (Windows PowerShell 5+)
+# DDLC+ Arabic Patch - installer (Windows PowerShell 5+)
 $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $src  = Join-Path $root 'files'
 $exeName = 'Doki Doki Literature Club Plus.exe'
 $files = @(
   'Doki Doki Literature Club Plus_Data\Managed\DDLC.dll',
+  'Doki Doki Literature Club Plus_Data\Managed\TextTypewriterEffect.dll',
   'Doki Doki Literature Club Plus_Data\Managed\ArabicShaper.dll',
   'Doki Doki Literature Club Plus_Data\sharedassets1.assets',
   'Doki Doki Literature Club Plus_Data\sharedassets2.assets',
@@ -100,9 +101,15 @@ if ($absent.Count -gt 0) {
 }
 
 Write-Host '[2/2] Installing Arabic files...'
-$dllRel = 'Doki Doki Literature Club Plus_Data\Managed\DDLC.dll'
-$origDll = 'FFE9C000E5530AE6AE7A15B48DD255FAC837EC9B7D1D5163DBC2562CFA5F2CE1'
-$patchedDll = '94677D4623C51D79E6BE3D63FC26566B4C3D2A6AFBEB42D6ED6988CB0E36DFDE'
+$known = @{}
+$known['Doki Doki Literature Club Plus_Data\Managed\DDLC.dll'] = @(
+  'FFE9C000E5530AE6AE7A15B48DD255FAC837EC9B7D1D5163DBC2562CFA5F2CE1',
+  '9B354DF81E2903B7C7AC30A67E4AF20D819ECBA6971328C6D72239900AB49475'
+)
+$known['Doki Doki Literature Club Plus_Data\Managed\TextTypewriterEffect.dll'] = @(
+  'A910CC05704CDB2537C398407B7312092EA02CAA7AD7D30CB4281AC458A74278',
+  '84036A6140E05CEF0D9F554D757BE2BEBA2AD10A7C8AD84C85EDCD71129461BF'
+)
 foreach ($rel in $files) {
   $s = Join-Path $src $rel
   $d = Join-Path $game $rel
@@ -110,10 +117,10 @@ foreach ($rel in $files) {
     Write-Host ('ERROR: missing patch file: ' + $rel) -ForegroundColor Red
     exit 1
   }
-  if ($rel -eq $dllRel -and (Test-Path -LiteralPath $d)) {
+  if ($known.ContainsKey($rel) -and (Test-Path -LiteralPath $d)) {
     $h = (Get-FileHash -LiteralPath $d -Algorithm SHA256).Hash
-    if ($h -ne $origDll -and $h -ne $patchedDll) {
-      Write-Host '  WARNING: your DDLC.dll is from a different game build; keeping it.' -ForegroundColor Yellow
+    if ($known[$rel] -notcontains $h) {
+      Write-Host ('  WARNING: ' + (Split-Path -Leaf $rel) + ' is from a different game build; keeping it.') -ForegroundColor Yellow
       Write-Host '           The language name may appear as "MISSING!" in the list, but Arabic will still work.' -ForegroundColor Yellow
       continue
     }
