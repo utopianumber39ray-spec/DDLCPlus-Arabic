@@ -1,4 +1,4 @@
-# DDLC+ Arabic Patch - installer (Windows PowerShell 5+)
+﻿# DDLC+ Arabic Patch - installer (Windows PowerShell 5+)
 $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $src  = Join-Path $root 'files'
@@ -65,7 +65,6 @@ foreach ($c in $candidates) {
 if (-not $game) {
   Write-Host 'The game folder was not detected automatically.'
   Write-Host 'Paste the full path to the folder that contains "Doki Doki Literature Club Plus.exe"'
-  Write-Host 'Example: C:\Program Files (x86)\Steam\steamapps\common\Doki Doki Literature Club Plus'
   Write-Host ''
   $answer = Read-Host 'Game folder'
   $game = Find-Game $answer
