@@ -5,6 +5,7 @@ $src  = Join-Path $root 'files'
 $exeName = 'Doki Doki Literature Club Plus.exe'
 $files = @(
   'Doki Doki Literature Club Plus_Data\Managed\DDLC.dll',
+  'Doki Doki Literature Club Plus_Data\Managed\ArabicShaper.dll',
   'Doki Doki Literature Club Plus_Data\sharedassets1.assets',
   'Doki Doki Literature Club Plus_Data\sharedassets2.assets',
   'Doki Doki Literature Club Plus_Data\resources.assets',
@@ -101,7 +102,7 @@ if ($absent.Count -gt 0) {
 Write-Host '[2/2] Installing Arabic files...'
 $dllRel = 'Doki Doki Literature Club Plus_Data\Managed\DDLC.dll'
 $origDll = 'FFE9C000E5530AE6AE7A15B48DD255FAC837EC9B7D1D5163DBC2562CFA5F2CE1'
-$patchedDll = '632B27962AF186553A9503B484C751585D50675A1D2A1AB59B6C831A4AFB392C'
+$patchedDll = '94677D4623C51D79E6BE3D63FC26566B4C3D2A6AFBEB42D6ED6988CB0E36DFDE'
 foreach ($rel in $files) {
   $s = Join-Path $src $rel
   $d = Join-Path $game $rel
@@ -125,7 +126,8 @@ Write-Host ''
 Write-Host '============================================================'
 Write-Host '  Done. The Arabic localization is installed.'
 Write-Host ''
-Write-Host '  In game: Settings -> Language -> Arabic (العربية)'
+Write-Host '  The game now starts in Arabic automatically (first launch included).'
+Write-Host '  You can change the language any time from Settings -> Language.'
 Write-Host '  To remove it, run restore.bat'
 Write-Host '============================================================'
 Write-Host ''
