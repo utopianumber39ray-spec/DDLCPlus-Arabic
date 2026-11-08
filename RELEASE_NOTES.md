@@ -4,7 +4,7 @@
 
 ## الملف
 
-`DDLCPlus-Arabic-Full-v1.2.0.zip`
+`DDLCPlus-Arabic-Full-v1.2.1.zip`
 
 ## طريقة التشغيل
 
@@ -23,5 +23,5 @@
 ## التحقق من السلامة
 
 ```
-6f3e1d413239435d797a239c29049dbfedf7277ddea0b96b24f69a4d40d45bae  DDLCPlus-Arabic-Full-v1.2.0.zip
+f62d9ddb72d43624c75492e62cb8ab7ff42e9412cce0e81f3ff524c0d7cdd0bc  DDLCPlus-Arabic-Full-v1.2.1.zip
 ```

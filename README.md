@@ -32,7 +32,7 @@
 
 <div dir="rtl">
 
-1. نزّل الملف `DDLCPlus-Arabic-Full-v1.2.0.zip` من صفحة [الإصدارات](../../releases/latest).
+1. نزّل الملف `DDLCPlus-Arabic-Full-v1.2.1.zip` من صفحة [الإصدارات](../../releases/latest).
 2. فك ضغطه في أي مجلد (كليك يمين ← «استخراج الكل» — لا حاجة لأي برنامج إضافي).
 3. افتح المجلد المستخرَج وشغّل **`Doki Doki Literature Club Plus.exe`**.
 4. اللعبة تفتح **بالعربية مباشرة من أول تشغيل** وتعمل كل مراحلها بدون أي مشاكل.
@@ -46,7 +46,7 @@
 بصمة الملف (SHA-256):
 
 ```
-6f3e1d413239435d797a239c29049dbfedf7277ddea0b96b24f69a4d40d45bae  DDLCPlus-Arabic-Full-v1.2.0.zip
+f62d9ddb72d43624c75492e62cb8ab7ff42e9412cce0e81f3ff524c0d7cdd0bc  DDLCPlus-Arabic-Full-v1.2.1.zip
 ```
 
 </div>
