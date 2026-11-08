@@ -37,3 +37,10 @@
 
 ## التحقق من السلامة
 راجع `SHA256SUMS.txt` للتحقق من بصمات الملفات.
+
+## بصمات ملفات الإصدار (SHA-256)
+
+```
+33df57472ff0e46083dfd83f1e854caed13bdd1f1938e3b733a49172d2a8bfcf  DDLCPlus-Arabic-v1.2.0.zip
+f2417123da25dbbd4c566e97d2aa9a15a685e6c1506f0a833f444aeeb5ce335f  DDLCPlus-Arabic-Full-v1.2.0.7z.001
+```
