@@ -1,10 +1,10 @@
-# نسخة معربة من دوكي دوكي بلس
+﻿# نسخة معربة من دوكي دوكي بلس
 
 نسخة معربة كاملة من **Doki Doki Literature Club Plus** في ملف واحد — آخر إصدار.
 
 ## الملف
 
-`DDLCPlus-Arabic-Full-v1.2.1.zip`
+`DDLCPlus-Arabic-Full-v1.2.2.zip`
 
 ## طريقة التشغيل
 
@@ -23,5 +23,5 @@
 ## التحقق من السلامة
 
 ```
-f62d9ddb72d43624c75492e62cb8ab7ff42e9412cce0e81f3ff524c0d7cdd0bc  DDLCPlus-Arabic-Full-v1.2.1.zip
+5aeca35136e69fcba942ca25707fca59827621e8229e2a56f2bbf0d95997e55f  DDLCPlus-Arabic-Full-v1.2.2.zip
 ```
