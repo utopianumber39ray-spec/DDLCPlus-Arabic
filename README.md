@@ -32,7 +32,7 @@
 
 <div dir="rtl">
 
-1. نزّل الملف `DDLCPlus-Arabic-Full-v1.3.0.zip` من صفحة [الإصدارات](../../releases/latest).
+1. نزّل الملف `DDLCPlus-Arabic-Full-v1.3.1.zip` من صفحة [الإصدارات](../../releases/latest).
 2. فك ضغطه في أي مجلد (كليك يمين ← «استخراج الكل» — لا حاجة لأي برنامج إضافي).
 3. افتح المجلد المستخرَج وشغّل **`Doki Doki Literature Club Plus.exe`**.
 4. اللعبة تفتح **بالعربية مباشرة من أول تشغيل**، والترجمة والخطوط مدمجة بلا إعدادات إضافية.
@@ -46,7 +46,7 @@
 بصمة الملف (SHA-256):
 
 ```
-4f851f48a6344feccc43cbb8f1893d47852d04a2d12b9fa4ab9744556196f562  DDLCPlus-Arabic-Full-v1.3.0.zip
+4515c16914b5a646d6dd82fa989cbeb857e9875c6aee450016f8a4010d2587e1  DDLCPlus-Arabic-Full-v1.3.1.zip
 ```
 
 </div>
@@ -68,12 +68,12 @@
 
 <table>
   <tr>
-    <td align="center"><img src="screenshots/dialogue_sayori_v1.3.0.png" alt="حوار سايوري بالخط الجديد" width="470"><br><sub>حوار أبيض واضح واسم الشخصية بحافة وردية فاتحة</sub></td>
-    <td align="center"><img src="screenshots/dialogue_natsuki_v1.3.0.png" alt="حوار ناتسوكي بالخط الجديد" width="470"><br><sub>اسم ناتسوكي بحجم واضح وحافة وردية غير مشوهة</sub></td>
+    <td align="center"><img src="screenshots/dialogue_sayori_v1.3.1.png" alt="حوار سايوري بالخط الجديد" width="470"><br><sub>حوار أبيض واضح واسم الشخصية بحافة وردية فاتحة</sub></td>
+    <td align="center"><img src="screenshots/dialogue_natsuki_v1.3.1.png" alt="حوار ناتسوكي بالخط الجديد" width="470"><br><sub>اسم ناتسوكي بحجم واضح وحافة وردية غير مشوهة</sub></td>
   </tr>
   <tr>
     <td align="center"><img src="screenshots/typing_rtl.png" alt="النص يتكشف من اليمين إلى اليسار" width="470"><br><sub>الكتابة الآلية من اليمين إلى اليسار</sub></td>
-    <td align="center"><img src="screenshots/settings_v1.3.0.png" alt="الإعدادات بالحواف الوردية الفاتحة" width="470"><br><sub>الإعدادات بالحواف الوردية الفاتحة</sub></td>
+    <td align="center"><img src="screenshots/settings_v1.3.1.png" alt="الإعدادات بالحواف الوردية الفاتحة" width="470"><br><sub>الإعدادات بالحواف الوردية الفاتحة</sub></td>
   </tr>
 </table>
 

@@ -131,7 +131,7 @@ def main():
     files = sorted({spec["file"] for spec in FONT_SPECS})
     env = support.configure_environment(UnityPy.load(*(str(support.DATA / name) for name in files)))
     objects = {(obj.assets_file.name, obj.path_id): obj for obj in env.objects}
-    manifest = {"fonts": [], "materials": [], "method": "Dialogue: Noto Sans Arabic Bold at 1.18 scale, white fill with no outline; character names: Noto Naskh Arabic Bold at 0.78 scale with a thin light-pink outline; settings and interface outline materials preserved"}
+    manifest = {"fonts": [], "materials": [], "method": "Dialogue: Noto Sans Arabic Bold at 1.18 scale, white fill with no outline; character names and linked settings: Noto Sans Arabic Bold at 0.78 scale with a thin light-pink outline; settings and interface outline materials preserved"}
     for spec in FONT_SPECS:
         filename, path_id = spec["file"], spec["path_id"]
         font_obj = objects[(filename, path_id)]

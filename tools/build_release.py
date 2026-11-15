@@ -13,7 +13,7 @@ REPLACEMENTS = {
     ),
     "Doki Doki Literature Club Plus_Data/sharedassets1.assets": (
         ".work/technical/candidate/sharedassets1.assets",
-        "5386fbc086041e62d776ca0a2b942b766914ca92af7d4a31fdc0a69b5ae8cc4b",
+        "878302701c44d89dac77939071660c36d0a7bb8b347c06461e000f891117566d",
     ),
     "Doki Doki Literature Club Plus_Data/Managed/DDLC.dll": (
         ".work/technical/candidate_managed/DDLC.dll",
@@ -46,7 +46,7 @@ def sha256_path(path):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--baseline", type=Path, default=ROOT / ".work/DDLCPlus-Arabic-Full-v1.2.2.zip")
-    parser.add_argument("--output", type=Path, default=ROOT / ".work/DDLCPlus-Arabic-Full-v1.3.0.zip")
+    parser.add_argument("--output", type=Path, default=ROOT / ".work/DDLCPlus-Arabic-Full-v1.3.1.zip")
     args = parser.parse_args()
     baseline = args.baseline.resolve()
     output = args.output.resolve()
@@ -109,7 +109,7 @@ def main():
                 raise ValueError(f"Unchanged entry differs: {info.filename}")
     partial.replace(output)
     report = {
-        "version": "v1.3.0",
+        "version": "v1.3.1",
         "archive": output.name,
         "archive_size": output.stat().st_size,
         "archive_sha256": sha256_path(output),
