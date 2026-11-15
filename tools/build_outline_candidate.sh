@@ -22,9 +22,11 @@ mkdir "$NEXT"
 for source in "$ORIGINAL"/*; do
     ln -s "$source" "$NEXT/$(basename "$source")"
 done
-rm "$NEXT/DDLC.dll"
-"$DOTNET" run --project "$PROJECT/PatchOutline.csproj" -c Release --no-build -- "$ORIGINAL/DDLC.dll" "$NEXT/DDLC.dll"
+rm "$NEXT/DDLC.dll" "$NEXT/TextTypewriterEffect.dll"
+"$DOTNET" run --project "$PROJECT/PatchOutline.csproj" -c Release --no-build -- "$ORIGINAL/DDLC.dll" "$NEXT/DDLC.dll" "$ORIGINAL/TextTypewriterEffect.dll" "$NEXT/TextTypewriterEffect.dll"
 cp "$PROJECT/bin/Release/netstandard2.0/ArabicOutlineFix.dll" "$NEXT/ArabicOutlineFix.dll"
+"$TECH/vendor/dotnet-tools/ilspycmd" "$NEXT/ArabicOutlineFix.dll" -t ArabicOutlineFix -o "$TECH/reports"
+"$TECH/vendor/dotnet-tools/ilspycmd" "$NEXT/TextTypewriterEffect.dll" -t TextTypewriterEffect.TextTypewriterEffect > "$TECH/reports/TextTypewriterEffect.candidate.decompiled.cs"
 mv "$NEXT" "$OUTPUT"
 python3 - "$ROOT" "$OUTPUT" <<'PY'
 import hashlib
@@ -35,7 +37,9 @@ import sys
 root = Path(sys.argv[1])
 output = Path(sys.argv[2])
 original = root / ".work/extracted/Doki Doki Literature Club Plus_Data/Managed/DDLC.dll"
+original_typewriter = root / ".work/extracted/Doki Doki Literature Club Plus_Data/Managed/TextTypewriterEffect.dll"
 candidate = output / "DDLC.dll"
+typewriter = output / "TextTypewriterEffect.dll"
 helper = output / "ArabicOutlineFix.dll"
 def sha256(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -45,6 +49,10 @@ report = {
     "source_sha256": sha256(original),
     "candidate": str(candidate.relative_to(root)),
     "candidate_sha256": sha256(candidate),
+    "typewriter_source": str(original_typewriter.relative_to(root)),
+    "typewriter_source_sha256": sha256(original_typewriter),
+    "typewriter_candidate": str(typewriter.relative_to(root)),
+    "typewriter_sha256": sha256(typewriter),
     "helper": str(helper.relative_to(root)),
     "helper_sha256": sha256(helper),
     "original_modified": False,
@@ -55,7 +63,9 @@ report = {
         "RenpyOutlinesUI.SetOutlines(RenpyOutlines)",
         "RenpyWindowManager.Update()",
         "RenpyPreferencesMenuUI.Update()",
+        "TextTypewriterEffect.StartText(string, int, int, int, int, List<Tuple<int, float>>, float)",
     ],
+    "arabic_dialogue_immediate": True,
     "arabic_ranges": ["0600-06FF", "FB50-FEFF"],
     "arabic_detection": ["text", "textInfo.characterInfo bounded by characterCount and array length"],
     "dialogue_component": "RenpyWindowManager.tte.text (TMPro.TextMeshProUGUI)",
@@ -64,7 +74,7 @@ report = {
     "outline_rgba": [1.0, 0.55, 0.72, 1.0],
     "outline_width": 0.18,
     "dialogue_outline_width": 0.0,
-    "dialogue_name_outline_width": 0.12,
+    "dialogue_name_outline_width": 0.08,
     "runtime_material_replacement": False,
     "diagnostics_removed": True,
     "latin_path_preserved": True,

@@ -14,6 +14,7 @@ EXPECTED_HOOKS = [
     "RenpyOutlinesUI.SetOutlines(RenpyOutlines)",
     "RenpyWindowManager.Update()",
     "RenpyPreferencesMenuUI.Update()",
+    "TextTypewriterEffect.StartText(string, int, int, int, int, List<Tuple<int, float>>, float)",
 ]
 
 
@@ -32,12 +33,15 @@ def main():
     assert sha256(ORIGINAL / "DDLC.dll") == EXPECTED_ORIGINAL == report["source_sha256"]
     assert sha256(CANDIDATE / "DDLC.dll") == EXPECTED_CANDIDATE == report["candidate_sha256"]
     assert sha256(CANDIDATE / "ArabicOutlineFix.dll") == report["helper_sha256"]
+    assert sha256(ORIGINAL / "TextTypewriterEffect.dll") == report["typewriter_source_sha256"]
+    assert sha256(CANDIDATE / "TextTypewriterEffect.dll") == report["typewriter_sha256"]
+    assert report["arabic_dialogue_immediate"] is True
     assert report["original_modified"] is False
     assert report["latin_path_preserved"] is True
     assert report["outline_rgba"] == [1.0, 0.55, 0.72, 1.0]
     assert report["outline_width"] == 0.18
     assert report["dialogue_outline_width"] == 0.0
-    assert report["dialogue_name_outline_width"] == 0.12
+    assert report["dialogue_name_outline_width"] == 0.08
     assert report["runtime_material_replacement"] is False
     assert report["diagnostics_removed"] is True
     assert report["hooks"] == EXPECTED_HOOKS
@@ -45,7 +49,7 @@ def main():
     assert report["dialogue_name_component"] == "RenpyWindowManager.whoText (TMPro.TextMeshProUGUI)"
     assert report["settings_component"] == "RenpyPreferencesMenuUI children (TMPro.TextMeshProUGUI)"
     for source in ORIGINAL.iterdir():
-        if source.name != "DDLC.dll":
+        if source.name not in ("DDLC.dll", "TextTypewriterEffect.dll"):
             assert (CANDIDATE / source.name).is_symlink(), source.name
             assert (CANDIDATE / source.name).resolve() == source.resolve(), source.name
 
@@ -65,15 +69,29 @@ def main():
     preferences = decompiled("RenpyPreferencesMenuUI.candidate")
     assert "ArabicOutlineFix.ApplySettings(this);" in preferences
 
+    typewriter = decompiled("TextTypewriterEffect.candidate")
+    assert "if (!ArabicOutlineFix.TryShowDialogueImmediately(this, newText, autoForwardTime))" in typewriter
+    assert typewriter.index("TryShowDialogueImmediately(this, newText, autoForwardTime)") < typewriter.index("t1.Clear();")
     helper = decompiled("ArabicOutlineFix")
+    assert "public static bool ShouldShowImmediately(string value)" in helper
+    assert "public static bool TryShowDialogueImmediately(object target, string newText, float autoForwardTime)" in helper
+    assert 'GetMethod("SetTextImmediate")' in helper
+    assert ".maxVisibleCharacters = int.MaxValue;" in helper
+    assert ".SetText(newText);" in helper
+    assert ".ForceMeshUpdate();" in helper
+    assert helper.index(".ForceMeshUpdate();") < helper.index('GetMethod("Rewrap")')
     assert "public static void ApplyDialogue(TextMeshProUGUI text)" in helper
     assert "public static void ApplyDialogueName(TextMeshProUGUI text)" in helper
+    assert "dialogueNameText != text" in helper
+    assert 'text.text == "ﺎﻜﻴﻧﻮﻣ"' in helper
+    assert "dialogueNameBaseline + ((text.text ==" in helper
+    assert "Debug.Log" not in helper
     assert "public static void ApplySettings(RenpyPreferencesMenuUI menu)" in helper
     assert "public static bool TryApplyInteractive(TextMeshProUGUI text)" in helper
     assert "text.faceColor = Color.white;" in helper
     assert 'EnableKeyword("OUTLINE_ON")' in helper
     assert 'SetFloat("_OutlineWidth", 0.18f)' in helper
-    assert 'SetFloat("_OutlineWidth", 0.12f)' in helper
+    assert 'SetFloat("_OutlineWidth", 0.08f)' in helper
     assert 'DisableKeyword("OUTLINE_ON")' in helper
     assert 'SetColor("_OutlineColor", OutlineColor)' in helper
     assert "textInfo.characterInfo[j].character" in helper

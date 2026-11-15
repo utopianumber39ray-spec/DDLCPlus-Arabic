@@ -75,7 +75,7 @@ def main():
             assert rect["m_Y"] + rect["m_Height"] <= image.height
             if 0x0600 <= cp <= 0x06FF or 0xFB50 <= cp <= 0xFEFF:
                 if rect["m_Width"] and rect["m_Height"]:
-                    assert spec.get("preserve_sdf") or (spec.get("preserve_marks") and cp in {0x064B, 0x064C, 0x064D, 0x0651}) or glyph["m_Metrics"]["m_HorizontalAdvance"] > 0
+                    assert spec.get("preserve_sdf") or cp in {0x064B, 0x064C, 0x064D, 0x0651} or glyph["m_Metrics"]["m_HorizontalAdvance"] > 0
                     box = (rect["m_X"], image.height - rect["m_Y"] - rect["m_Height"], rect["m_X"] + rect["m_Width"], image.height - rect["m_Y"])
                     actual = image.getchannel("A").crop(box)
                     if spec.get("preserve_marks") and cp in {0x064B, 0x064C, 0x064D, 0x0651}:
@@ -127,7 +127,7 @@ def main():
             baseline_colors = properties(baseline_tree["m_SavedProperties"]["m_Colors"])
             is_dialogue = filename == "sharedassets1.assets" and path_id == 41
             is_name = filename == "sharedassets1.assets" and path_id == 48
-            expected_width = 0.0 if is_dialogue else (0.12 if is_name else OUTLINE_WIDTH)
+            expected_width = 0.0 if is_dialogue else (0.08 if is_name else OUTLINE_WIDTH)
             expected_color = {"r": 1.0, "g": 1.0, "b": 1.0, "a": 1.0} if is_dialogue else OUTLINE_COLOR
             assert abs(floats["_OutlineWidth"] - expected_width) < 0.00001
             assert floats["_OutlineSoftness"] == 0.0

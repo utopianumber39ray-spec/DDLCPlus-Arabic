@@ -6,18 +6,25 @@ from pathlib import Path
 from zipfile import ZIP_DEFLATED, ZipFile, ZipInfo
 
 ROOT = Path(__file__).resolve().parents[1]
+MANAGED_REPORT = json.loads(
+    (ROOT / ".work/technical/candidate_managed/managed_candidate.json").read_text(encoding="utf-8")
+)
 REPLACEMENTS = {
     "Doki Doki Literature Club Plus_Data/resources.assets": (
         ".work/technical/candidate/resources.assets",
-        "ea514f692feceac5f849e5fdfea10d8da5b33ac90e1c7747063bc323896900f8",
+        "4180a4c380e26274592d5a1197bf96e6445f077a734ff1a2b56399221413d499",
     ),
     "Doki Doki Literature Club Plus_Data/sharedassets1.assets": (
         ".work/technical/candidate/sharedassets1.assets",
-        "878302701c44d89dac77939071660c36d0a7bb8b347c06461e000f891117566d",
+        "f6145e7dc7b6c436a19645bfc59b232a752343afa6e4d089cef73abda401dbb7",
     ),
     "Doki Doki Literature Club Plus_Data/Managed/DDLC.dll": (
         ".work/technical/candidate_managed/DDLC.dll",
         "d4da6ba016c1a10a36f2b5df75552f7a05c25529a411d25698eae7a3f5eb81ac",
+    ),
+    "Doki Doki Literature Club Plus_Data/Managed/TextTypewriterEffect.dll": (
+        ".work/technical/candidate_managed/TextTypewriterEffect.dll",
+        MANAGED_REPORT["typewriter_sha256"],
     ),
     "Doki Doki Literature Club Plus_Data/StreamingAssets/AssetBundles/Windows/langar.cy": (
         ".work/final/langar.cy",
@@ -26,9 +33,7 @@ REPLACEMENTS = {
 }
 HELPER_NAME = "Doki Doki Literature Club Plus_Data/Managed/ArabicOutlineFix.dll"
 HELPER_PATH = ".work/technical/candidate_managed/ArabicOutlineFix.dll"
-HELPER_SHA256 = json.loads(
-    (ROOT / ".work/technical/candidate_managed/managed_candidate.json").read_text(encoding="utf-8")
-)["helper_sha256"]
+HELPER_SHA256 = MANAGED_REPORT["helper_sha256"]
 
 
 def sha256_stream(stream):
@@ -46,7 +51,7 @@ def sha256_path(path):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--baseline", type=Path, default=ROOT / ".work/DDLCPlus-Arabic-Full-v1.2.2.zip")
-    parser.add_argument("--output", type=Path, default=ROOT / ".work/DDLCPlus-Arabic-Full-v1.3.1.zip")
+    parser.add_argument("--output", type=Path, default=ROOT / ".work/DDLCPlus-Arabic-Full-v1.3.2.zip")
     args = parser.parse_args()
     baseline = args.baseline.resolve()
     output = args.output.resolve()
@@ -109,7 +114,7 @@ def main():
                 raise ValueError(f"Unchanged entry differs: {info.filename}")
     partial.replace(output)
     report = {
-        "version": "v1.3.1",
+        "version": "v1.3.2",
         "archive": output.name,
         "archive_size": output.stat().st_size,
         "archive_sha256": sha256_path(output),

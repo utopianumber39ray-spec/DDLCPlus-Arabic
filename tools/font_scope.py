@@ -5,7 +5,7 @@ FONT_SPECS = [
     {"file": "sharedassets1.assets", "path_id": 1585, "role": "outlined_ui", "source_font": "NotoSansArabic-Regular.ttf"},
     {"file": "sharedassets1.assets", "path_id": 1586, "role": "menus_and_buttons", "source_font": "NotoSansArabic-Regular.ttf"},
     {"file": "sharedassets1.assets", "path_id": 1587, "role": "regular_text_and_buttons", "source_font": "NotoSansArabic-Regular.ttf"},
-    {"file": "sharedassets1.assets", "path_id": 1588, "role": "dialogue_name_clear", "source_font": "NotoSansArabic-Bold.ttf", "font_scale": 0.78, "preserve_marks": True},
+    {"file": "sharedassets1.assets", "path_id": 1588, "role": "dialogue_name_clear", "source_font": "NotoSansArabic-Bold.ttf", "font_scale": 0.66},
     {"file": "sharedassets1.assets", "path_id": 1596, "role": "dialogue", "source_font": "NotoSansArabic-Bold.ttf"},
     {"file": "sharedassets1.assets", "path_id": 1598, "role": "buttons", "source_font": "NotoSansArabic-Regular.ttf"},
     {"file": "resources.assets", "path_id": 106, "role": "embedded_arabic_font", "source_font": "NotoSansArabic-Regular.ttf"},

@@ -24,7 +24,7 @@
 | القصص الجانبية | مترجمة كاملة |
 | الواجهة والتطبيقات | مترجمة (الملفات، البريد، الصور، الموسيقى، الإعدادات) |
 | الخطوط | خطوط عربية مدمجة مع وصل الحروف والتشكيل الصحيح |
-| الكتابة الآلية | تتكشّف من اليمين إلى اليسار، وترتيب الأسطر في الفقرات صحيح |
+| عرض الحوار | يظهر الحوار العربي كاملًا فورًا من اليمين إلى اليسار، وترتيب الأسطر في الفقرات صحيح |
 | أسماء اللاعبين | العربية مدعومة وتظهر متصلة بالاتجاه الصحيح |
 | الترجمة الآلية | **لا يوجد أي نص مترجم آليًا** |
 
@@ -32,7 +32,7 @@
 
 <div dir="rtl">
 
-1. نزّل الملف `DDLCPlus-Arabic-Full-v1.3.1.zip` من صفحة [الإصدارات](../../releases/latest).
+1. نزّل الملف `DDLCPlus-Arabic-Full-v1.3.2.zip` من صفحة [الإصدارات](../../releases/latest).
 2. فك ضغطه في أي مجلد (كليك يمين ← «استخراج الكل» — لا حاجة لأي برنامج إضافي).
 3. افتح المجلد المستخرَج وشغّل **`Doki Doki Literature Club Plus.exe`**.
 4. اللعبة تفتح **بالعربية مباشرة من أول تشغيل**، والترجمة والخطوط مدمجة بلا إعدادات إضافية.
@@ -46,7 +46,7 @@
 بصمة الملف (SHA-256):
 
 ```
-4515c16914b5a646d6dd82fa989cbeb857e9875c6aee450016f8a4010d2587e1  DDLCPlus-Arabic-Full-v1.3.1.zip
+3b40d00410fcc3b45911415fde6721ac2abd8348055421dc345e8bfebdcaaa88  DDLCPlus-Arabic-Full-v1.3.2.zip
 ```
 
 </div>
@@ -69,11 +69,11 @@
 <table>
   <tr>
     <td align="center"><img src="screenshots/dialogue_sayori_v1.3.1.png" alt="حوار سايوري بالخط الجديد" width="470"><br><sub>حوار أبيض واضح واسم الشخصية بحافة وردية فاتحة</sub></td>
-    <td align="center"><img src="screenshots/dialogue_natsuki_v1.3.1.png" alt="حوار ناتسوكي بالخط الجديد" width="470"><br><sub>اسم ناتسوكي بحجم واضح وحافة وردية غير مشوهة</sub></td>
+    <td align="center"><img src="screenshots/dialogue_natsuki_v1.3.2.png" alt="حوار ناتسوكي بالخط الجديد" width="470"><br><sub>اسم ناتسوكي بحجم واضح وحافة وردية غير مشوهة</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="screenshots/typing_rtl.png" alt="النص يتكشف من اليمين إلى اليسار" width="470"><br><sub>الكتابة الآلية من اليمين إلى اليسار</sub></td>
-    <td align="center"><img src="screenshots/settings_v1.3.1.png" alt="الإعدادات بالحواف الوردية الفاتحة" width="470"><br><sub>الإعدادات بالحواف الوردية الفاتحة</sub></td>
+    <td align="center"><img src="screenshots/dialogue_full_v1.3.2.png" alt="الحوار العربي كامل ومتعدد الأسطر" width="470"><br><sub>الحوار العربي يظهر كاملًا فورًا وباتجاه صحيح</sub></td>
+    <td align="center"><img src="screenshots/settings_v1.3.2.png" alt="الإعدادات بالحواف الوردية الفاتحة" width="470"><br><sub>الإعدادات بالحواف الوردية الفاتحة</sub></td>
   </tr>
 </table>
 

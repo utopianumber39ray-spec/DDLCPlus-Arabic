@@ -4,9 +4,9 @@ using System.Linq;
 using Mono.Cecil;
 using Mono.Cecil.Cil;
 
-if (args.Length != 2)
+if (args.Length != 4)
 {
-    throw new ArgumentException("Usage: PatchOutline <original-DDLC.dll> <candidate-DDLC.dll>");
+    throw new ArgumentException("Usage: PatchOutline <original-DDLC.dll> <candidate-DDLC.dll> <original-TextTypewriterEffect.dll> <candidate-TextTypewriterEffect.dll>");
 }
 
 var resolver = new DefaultAssemblyResolver();
@@ -80,4 +80,25 @@ using (var module = ModuleDefinition.ReadModule(args[0], parameters))
 
     module.Write(args[1]);
 }
-Console.WriteLine("ARABIC_OUTLINE_HOOK_INSTALLED");
+using (var module = ModuleDefinition.ReadModule(args[2], parameters))
+{
+    var helperAssembly = new AssemblyNameReference("ArabicOutlineFix", new Version(1, 0, 0, 0));
+    module.AssemblyReferences.Add(helperAssembly);
+    var helperType = new TypeReference("", "ArabicOutlineFix", module, helperAssembly);
+    var typewriter = module.Types.Single(type => type.FullName == "TextTypewriterEffect.TextTypewriterEffect");
+    var startText = typewriter.Methods.Single(method => method.Name == "StartText" && method.Parameters.Count == 7);
+    var showImmediately = new MethodReference("TryShowDialogueImmediately", module.TypeSystem.Boolean, helperType);
+    showImmediately.Parameters.Add(new ParameterDefinition(module.TypeSystem.Object));
+    showImmediately.Parameters.Add(new ParameterDefinition(module.TypeSystem.String));
+    showImmediately.Parameters.Add(new ParameterDefinition(module.TypeSystem.Single));
+    var processor = startText.Body.GetILProcessor();
+    var first = startText.Body.Instructions[0];
+    processor.InsertBefore(first, processor.Create(OpCodes.Ldarg_0));
+    processor.InsertBefore(first, processor.Create(OpCodes.Ldarg_1));
+    processor.InsertBefore(first, processor.Create(OpCodes.Ldarg_S, startText.Parameters[6]));
+    processor.InsertBefore(first, processor.Create(OpCodes.Call, showImmediately));
+    processor.InsertBefore(first, processor.Create(OpCodes.Brfalse, first));
+    processor.InsertBefore(first, processor.Create(OpCodes.Ret));
+    module.Write(args[3]);
+}
+Console.WriteLine("ARABIC_OUTLINE_AND_TYPEWRITER_HOOKS_INSTALLED");

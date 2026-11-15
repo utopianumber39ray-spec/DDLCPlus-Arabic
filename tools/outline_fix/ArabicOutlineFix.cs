@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 
@@ -5,6 +6,8 @@ public static class ArabicOutlineFix
 {
     private static readonly Color OutlineColor = new Color(1f, 0.55f, 0.72f, 1f);
     private const float OutlineWidth = 0.18f;
+    private static TextMeshProUGUI dialogueNameText;
+    private static float dialogueNameBaseline;
 
     public static void ApplyDialogue(TextMeshProUGUI text)
     {
@@ -18,22 +21,65 @@ public static class ArabicOutlineFix
     {
         if (IsArabic(text))
         {
+            if (dialogueNameText != text)
+            {
+                dialogueNameText = text;
+                dialogueNameBaseline = text.rectTransform.anchoredPosition.y;
+            }
+            Vector2 position = text.rectTransform.anchoredPosition;
+            position.y = dialogueNameBaseline + (text.text == "ﺎﻜﻴﻧﻮﻣ" ? 2f : 5f);
+            text.rectTransform.anchoredPosition = position;
             text.color = Color.white;
             text.faceColor = Color.white;
             text.outlineColor = OutlineColor;
-            text.outlineWidth = 0.12f;
+            text.outlineWidth = 0.08f;
             Material material = text.fontSharedMaterial;
             if (material == null)
             {
                 return;
             }
             material.EnableKeyword("OUTLINE_ON");
-            material.SetFloat("_OutlineWidth", 0.12f);
+            material.SetFloat("_OutlineWidth", 0.08f);
             material.SetFloat("_OutlineSoftness", 0.0f);
             material.SetColor("_OutlineColor", OutlineColor);
             material.SetColor("_FaceColor", Color.white);
             text.SetMaterialDirty();
         }
+    }
+
+    public static bool ShouldShowImmediately(string value)
+    {
+        if (value == null)
+        {
+            return false;
+        }
+        foreach (char character in value)
+        {
+            if (IsArabicCharacter(character))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public static bool TryShowDialogueImmediately(object target, string newText, float autoForwardTime)
+    {
+        if (!ShouldShowImmediately(newText))
+        {
+            return false;
+        }
+        Type type = target.GetType();
+        TextMeshProUGUI text = (TextMeshProUGUI)type.GetField("text").GetValue(target);
+        text.maxVisibleCharacters = int.MaxValue;
+        text.SetText(newText);
+        text.ForceMeshUpdate();
+        Type textFlow = Type.GetType("DDLCArabic.TextFlow, ArabicShaper", true);
+        object wrapped = textFlow.GetMethod("Rewrap").Invoke(null, new object[] { text, newText });
+        type.GetField("t2", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic).SetValue(target, wrapped);
+        type.GetProperty("AutoForwardTime").SetValue(target, autoForwardTime, null);
+        type.GetMethod("SetTextImmediate").Invoke(target, new[] { wrapped });
+        return true;
     }
 
     private static void ConfigureDialogue(TextMeshProUGUI text)

@@ -36,11 +36,19 @@ def set_property(entries, name, value):
 
 
 def render(font, cp, padding):
+    is_mark = cp in {0x064B, 0x064C, 0x064D, 0x0651}
+    if is_mark:
+        font = ImageFont.truetype(font.path, font.size, layout_engine=ImageFont.Layout.BASIC)
     mask, offset = font.getmask2(chr(cp), anchor="ls")
     mask_width, mask_height = mask.size
     if not mask_width or not mask_height or mask.getbbox() is None:
         return None
     source = Image.frombytes("L", mask.size, bytes(mask))
+    if is_mark:
+        bounds = source.getbbox()
+        source = source.crop(bounds)
+        offset = (offset[0] + bounds[0], offset[1] + bounds[1])
+        mask_width, mask_height = source.size
     spread = FACTOR * padding
     padded = Image.new("L", (mask_width + 2 * spread, mask_height + 2 * spread))
     padded.paste(source, (spread, spread))
@@ -63,7 +71,7 @@ def render(font, cp, padding):
             "m_Height": float(height),
             "m_HorizontalBearingX": offset[0] / FACTOR,
             "m_HorizontalBearingY": -offset[1] / FACTOR,
-            "m_HorizontalAdvance": font.getlength(chr(cp)) / FACTOR,
+            "m_HorizontalAdvance": 0.0 if is_mark else font.getlength(chr(cp)) / FACTOR,
         },
     }
 
@@ -131,7 +139,7 @@ def main():
     files = sorted({spec["file"] for spec in FONT_SPECS})
     env = support.configure_environment(UnityPy.load(*(str(support.DATA / name) for name in files)))
     objects = {(obj.assets_file.name, obj.path_id): obj for obj in env.objects}
-    manifest = {"fonts": [], "materials": [], "method": "Dialogue: Noto Sans Arabic Bold at 1.18 scale, white fill with no outline; character names and linked settings: Noto Sans Arabic Bold at 0.78 scale with a thin light-pink outline; settings and interface outline materials preserved"}
+    manifest = {"fonts": [], "materials": [], "method": "Dialogue: Noto Sans Arabic Bold at 1.18 scale, white fill with no outline; character names and linked settings: Noto Sans Arabic Bold at 0.66 scale with proportionally rendered marks and a thin light-pink outline; settings and interface outline materials preserved"}
     for spec in FONT_SPECS:
         filename, path_id = spec["file"], spec["path_id"]
         font_obj = objects[(filename, path_id)]
@@ -196,7 +204,7 @@ def main():
             tree = obj.read_typetree()
             saved = tree["m_SavedProperties"]
             is_dialogue = filename == "sharedassets1.assets" and path_id == 41
-            outline_width = 0.0 if is_dialogue else (0.12 if filename == "sharedassets1.assets" and path_id == 48 else OUTLINE_WIDTH)
+            outline_width = 0.0 if is_dialogue else (0.08 if filename == "sharedassets1.assets" and path_id == 48 else OUTLINE_WIDTH)
             outline_color = {"r": 1.0, "g": 1.0, "b": 1.0, "a": 1.0} if is_dialogue else dict(OUTLINE_COLOR)
             set_property(saved["m_Floats"], "_OutlineWidth", outline_width)
             set_property(saved["m_Floats"], "_OutlineSoftness", 0.0)
