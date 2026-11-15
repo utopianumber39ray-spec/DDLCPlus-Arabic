@@ -1,0 +1,91 @@
+import hashlib
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+TECH = ROOT / ".work/technical"
+ORIGINAL = ROOT / ".work/extracted/Doki Doki Literature Club Plus_Data/Managed"
+CANDIDATE = TECH / "candidate_managed"
+EXPECTED_ORIGINAL = "9b354df81e2903b7c7ac30a67e4af20d819ecba6971328c6d72239900ab49475"
+EXPECTED_CANDIDATE = "d4da6ba016c1a10a36f2b5df75552f7a05c25529a411d25698eae7a3f5eb81ac"
+EXPECTED_HOOKS = [
+    "RenpyOutlines.CreateOutlines(TextMeshProUGUI, RenpyOutlinesUI)",
+    "RenpyOutlines.ApplySingleOutline(RenpyOutlineData, TextMeshProUGUI)",
+    "RenpyOutlinesUI.SetOutlines(RenpyOutlines)",
+    "RenpyWindowManager.Update()",
+    "RenpyPreferencesMenuUI.Update()",
+]
+
+
+def sha256(path):
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def decompiled(name):
+    source = (TECH / "reports" / f"{name}.decompiled.cs").read_text(encoding="utf-8")
+    assert "Error near IL" not in source
+    return source
+
+
+def main():
+    report = json.loads((CANDIDATE / "managed_candidate.json").read_text(encoding="utf-8"))
+    assert sha256(ORIGINAL / "DDLC.dll") == EXPECTED_ORIGINAL == report["source_sha256"]
+    assert sha256(CANDIDATE / "DDLC.dll") == EXPECTED_CANDIDATE == report["candidate_sha256"]
+    assert sha256(CANDIDATE / "ArabicOutlineFix.dll") == report["helper_sha256"]
+    assert report["original_modified"] is False
+    assert report["latin_path_preserved"] is True
+    assert report["outline_rgba"] == [1.0, 0.55, 0.72, 1.0]
+    assert report["outline_width"] == 0.18
+    assert report["dialogue_outline_width"] == 0.0
+    assert report["dialogue_name_outline_width"] == 0.12
+    assert report["runtime_material_replacement"] is False
+    assert report["diagnostics_removed"] is True
+    assert report["hooks"] == EXPECTED_HOOKS
+    assert report["dialogue_component"] == "RenpyWindowManager.tte.text (TMPro.TextMeshProUGUI)"
+    assert report["dialogue_name_component"] == "RenpyWindowManager.whoText (TMPro.TextMeshProUGUI)"
+    assert report["settings_component"] == "RenpyPreferencesMenuUI children (TMPro.TextMeshProUGUI)"
+    for source in ORIGINAL.iterdir():
+        if source.name != "DDLC.dll":
+            assert (CANDIDATE / source.name).is_symlink(), source.name
+            assert (CANDIDATE / source.name).resolve() == source.resolve(), source.name
+
+    outlines = decompiled("RenpyOutlines.candidate")
+    assert outlines.count("ArabicOutlineFix.TryApplyInteractive(text)") == 2
+    assert outlines.index("TryApplyInteractive(text)") < outlines.index("outlineController.ResetStructure()")
+    assert "outlineController.AddNewOutline()" in outlines
+    assert "float outlineWidth = outline.size / 10f;" in outlines
+    assert "text.UpdateFontAsset();" in outlines
+
+    controller = decompiled("RenpyOutlinesUI.candidate")
+    assert "if (!ArabicOutlineFix.TryApplyInteractive(mainText))" in controller
+    assert "ApplyOutlines();" in controller
+    window = decompiled("RenpyWindowManager.candidate")
+    assert "ArabicOutlineFix.ApplyDialogue(tte.text);" in window
+    assert "ArabicOutlineFix.ApplyDialogueName(whoText);" in window
+    preferences = decompiled("RenpyPreferencesMenuUI.candidate")
+    assert "ArabicOutlineFix.ApplySettings(this);" in preferences
+
+    helper = decompiled("ArabicOutlineFix")
+    assert "public static void ApplyDialogue(TextMeshProUGUI text)" in helper
+    assert "public static void ApplyDialogueName(TextMeshProUGUI text)" in helper
+    assert "public static void ApplySettings(RenpyPreferencesMenuUI menu)" in helper
+    assert "public static bool TryApplyInteractive(TextMeshProUGUI text)" in helper
+    assert "text.faceColor = Color.white;" in helper
+    assert 'EnableKeyword("OUTLINE_ON")' in helper
+    assert 'SetFloat("_OutlineWidth", 0.18f)' in helper
+    assert 'SetFloat("_OutlineWidth", 0.12f)' in helper
+    assert 'DisableKeyword("OUTLINE_ON")' in helper
+    assert 'SetColor("_OutlineColor", OutlineColor)' in helper
+    assert "textInfo.characterInfo[j].character" in helper
+    assert "j < textInfo.characterInfo.Length" in helper
+    assert "component.ResetStructure();" in helper
+    assert "text.SetMaterialDirty();" in helper
+    for removed in ("Debug.Log", "Diagnose", "TextSnapshots", "AODIAG", "Resources.FindObjectsOfTypeAll", "fontMaterial =", "fontMaterials ="):
+        assert removed not in helper, removed
+    for injected in (outlines, controller, window, preferences):
+        assert "Diagnose" not in injected and "AODIAG" not in injected
+    print("MANAGED_CANDIDATE_VERIFIED")
+
+
+if __name__ == "__main__":
+    main()

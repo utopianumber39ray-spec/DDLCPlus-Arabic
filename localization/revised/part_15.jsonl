@@ -1,0 +1,910 @@
+{"id": 11913, "label": "m_natsuki_3", "key": -991755418, "index": 2, "ar": "أنت تحب ناتسوكي حقًا، أليس كذلك؟", "en": "You really like Natsuki, don't you?", "notes": "", "reviewed": true}
+{"id": 11914, "label": "m_natsuki_3", "key": 571419019, "index": 3, "ar": "ماذا؟ هذا--", "en": "Eh? That's--", "notes": "", "reviewed": true}
+{"id": 11915, "label": "m_natsuki_3", "key": -1489083459, "index": 4, "ar": "أرجوك، يا [player].", "en": "Oh, come on, [player].", "notes": "", "reviewed": true}
+{"id": 11916, "label": "m_natsuki_3", "key": -1183803265, "index": 5, "ar": "إنه أمر مريب للغاية، كما تعلم؟", "en": "It's awfully suspicious, you know?", "notes": "", "reviewed": true}
+{"id": 11917, "label": "m_natsuki_3", "key": -353871630, "index": 6, "ar": "تقضي الوقت معها في غرفة النادي كل يوم...", "en": "Spending time with her in the clubroom every day...", "notes": "", "reviewed": true}
+{"id": 11918, "label": "m_natsuki_3", "key": 243212270, "index": 7, "ar": "فتتظاهر بأنها تحب المانغا التي تهيم بها...", "en": "Pretending to like the manga that she's into...", "notes": "", "reviewed": true}
+{"id": 11919, "label": "m_natsuki_3", "key": 1153362212, "index": 8, "ar": "أ-أنت تعرف كيف تكون ناتسوكي...!", "en": "Y-You know how Natsuki is...!", "notes": "", "reviewed": true}
+{"id": 11920, "label": "m_natsuki_3", "key": 251602295, "index": 9, "ar": "إن لم ألبّ رغباتها، ستكرهني في النهاية.", "en": "If I don't indulge her, she'll end up hating me.", "notes": "", "reviewed": true}
+{"id": 11921, "label": "m_natsuki_3", "key": 1905883840, "index": 10, "ar": "ماذا؟", "en": "Eh?", "notes": "", "reviewed": true}
+{"id": 11922, "label": "m_natsuki_3", "key": 635833195, "index": 11, "ar": "لا، أظن أنك تخطئ في فهمي، يا [player].", "en": "No, I think you're misunderstanding, [player].", "notes": "", "reviewed": true}
+{"id": 11923, "label": "m_natsuki_3", "key": -146414858, "index": 12, "ar": "ليس الأمر بأن ناتسوكي تكره كل من لا يلبّي طلبها.", "en": "It's not like Natsuki just hates anyone who doesn't give her what she wants.", "notes": "", "reviewed": true}
+{"id": 11924, "label": "m_natsuki_3", "key": -1822180288, "index": 13, "ar": "نعم، هي جريئة، لكنها ليست أنانية إلى هذه الدرجة...", "en": "Yeah, she's assertive, but she's not that selfish...", "notes": "", "reviewed": true}
+{"id": 11925, "label": "m_natsuki_3", "key": -1656850917, "index": 14, "ar": "بل أظن أنك الشخص الوحيد الذي لبّى رغباتها كما فعلت.", "en": "In fact, I think you're the only one who's indulged her as much as you have.", "notes": "", "reviewed": true}
+{"id": 11926, "label": "m_natsuki_3", "key": -1135866931, "index": 15, "ar": "حقًا...", "en": "Is that so...", "notes": "", "reviewed": true}
+{"id": 11927, "label": "m_natsuki_3", "key": -1732451363, "index": 16, "ar": "كنت أعلم ذلك، لكنني لم أرد أن أقرّ به.", "en": "I kind of knew that, but I just didn't want to admit it.", "notes": "", "reviewed": true}
+{"id": 11928, "label": "m_natsuki_3", "key": -1262426647, "index": 17, "ar": "لذا، أحتاج أن أطلب منك أمرا واحدا فقط...", "en": "So, I just need to ask one thing of you...", "notes": "", "reviewed": true}
+{"id": 11929, "label": "m_natsuki_3", "key": -1442016354, "index": 18, "ar": "...كن حذرا. أرجوك؟", "en": "...Be careful. Please?", "notes": "", "reviewed": true}
+{"id": 11930, "label": "m_natsuki_3", "key": 142405854, "index": 19, "ar": "ناتسوكي شخص يصعب توقع تصرّفاته.", "en": "Natsuki is kind of unpredictable.", "notes": "", "reviewed": true}
+{"id": 11931, "label": "m_natsuki_3", "key": 1281219087, "index": 20, "ar": "في كثير من الأحيان، لا تعرف حتى ماذا تريد.", "en": "A lot of times, she doesn't even know what she wants.", "notes": "", "reviewed": true}
+{"id": 11932, "label": "m_natsuki_3", "key": 1307992730, "index": 21, "ar": "فهي الأصغر سنا بيننا.", "en": "After all, she's the youngest one here.", "notes": "", "reviewed": true}
+{"id": 11933, "label": "m_natsuki_3", "key": 1609793965, "index": 22, "ar": "قد لا تعرف كيف تتعامل مع مشاعرها كما يجب.", "en": "She might not know how to handle her own feelings properly.", "notes": "", "reviewed": true}
+{"id": 11934, "label": "m_natsuki_3", "key": 894202182, "index": 23, "ar": "ما أقوله هو...", "en": "What I'm saying is...", "notes": "", "reviewed": true}
+{"id": 11935, "label": "m_natsuki_3", "key": 117550277, "index": 24, "ar": "فإن وقع أمر سيّئ، فقد يلحق الضرر بالنادي أيضًا...", "en": "If something bad happens, then it could end up damaging the club, too...", "notes": "", "reviewed": true}
+{"id": 11936, "label": "m_natsuki_3", "key": 519717554, "index": 25, "ar": "ولا تفعل ذلك بي... صحيح؟", "en": "And you wouldn't do that to me...right?", "notes": "", "reviewed": true}
+{"id": 11937, "label": "m_natsuki_3", "key": 1900438269, "index": 26, "ar": "هذا--", "en": "That's--", "notes": "", "reviewed": true}
+{"id": 11938, "label": "m_natsuki_3", "key": -1532557577, "index": 27, "ar": "لا أجد ما أردّ به على مونيكا.", "en": "I'm not sure how to respond to Monika.", "notes": "", "reviewed": true}
+{"id": 11939, "label": "m_natsuki_3", "key": 1065628150, "index": 28, "ar": "مع اهتمامي بها وبالنادي، فإن إثارة هذا الأمر\nظلم أيضًا.", "en": "While I care about her and the club, it's also kind of unfair to bring that up.", "notes": "", "reviewed": true}
+{"id": 11940, "label": "m_natsuki_3", "key": -1907093674, "index": 29, "ar": "حسنا... أنت ذكي.", "en": "Well...you're smart.", "notes": "", "reviewed": true}
+{"id": 11941, "label": "m_natsuki_3", "key": 1478317844, "index": 30, "ar": "أنا واثقة أنك ستفعل الصواب.", "en": "I'm sure you'll do the right thing.", "notes": "", "reviewed": true}
+{"id": 11942, "label": "m_natsuki_3", "key": -311910811, "index": 31, "ar": "تبتسم مونيكا ابتسامة رقيقة.", "en": "Monika smiles sweetly.", "notes": "", "reviewed": true}
+{"id": 11943, "label": "m_sayori_3", "key": -421360229, "index": 0, "ar": "هاها.", "en": "Ahaha.", "notes": "", "reviewed": true}
+{"id": 11944, "label": "m_sayori_3", "key": -61569464, "index": 1, "ar": "الأمر مضحك بعض الشيء...", "en": "It's kind of funny...", "notes": "", "reviewed": true}
+{"id": 11945, "label": "m_sayori_3", "key": 910244175, "index": 2, "ar": "كيف ذلك؟", "en": "How so?", "notes": "", "reviewed": true}
+{"id": 11946, "label": "m_sayori_3", "key": 1367521022, "index": 3, "ar": "لا، ليس القصيدة...", "en": "No, not the poem...", "notes": "", "reviewed": true}
+{"id": 11947, "label": "m_sayori_3", "key": 472965597, "index": 4, "ar": "أعني أنّ الأمر مضحك: كيف أنّ قصائدك وقصائد سايوري تصبح\nأشبه ببعضها يومًا بعد يوم.", "en": "I mean, it's funny how your poems and Sayori's poems have been getting more and more similar to each other every day.", "notes": "", "reviewed": true}
+{"id": 11948, "label": "m_sayori_3", "key": -797663520, "index": 5, "ar": "أتعجّب من توافقك معها إلى هذا الحدّ.", "en": "I'm surprised you're so in sync with her.", "notes": "", "reviewed": true}
+{"id": 11949, "label": "m_sayori_3", "key": 1294553872, "index": 6, "ar": "لكن من جهة أخرى، أنتما تقضيان وقتا طويلا معا مؤخرا، أليس\nكذلك؟", "en": "Then again, you've been spending a lot of time together lately, haven't you?", "notes": "", "reviewed": true}
+{"id": 11950, "label": "m_sayori_3", "key": 1465764917, "index": 7, "ar": "آه، يمكن القول كذلك...", "en": "Ah, I guess you could say that...", "notes": "", "reviewed": true}
+{"id": 11951, "label": "m_sayori_3", "key": -559028951, "index": 8, "ar": "رغم أنّنا نشأنا صديقين مقربين، لم أكن أراها كثيرًا خلال\nالعام الماضي...", "en": "Although we kind of grew up as best friends, I haven't been seeing as much of her this past year...", "notes": "", "reviewed": true}
+{"id": 11952, "label": "m_sayori_3", "key": -92203282, "index": 9, "ar": "لكنّني منذ انضمامي إلى النادي، صرنا نقضي وقتا طويلا معا\nمن جديد.", "en": "But since I joined the club, we've been spending a lot of time together again.", "notes": "", "reviewed": true}
+{"id": 11953, "label": "m_sayori_3", "key": 1896623456, "index": 10, "ar": "أدري، أدري~", "en": "I see, I see~", "notes": "", "reviewed": true}
+{"id": 11954, "label": "m_sayori_3", "key": -509953663, "index": 11, "ar": "هذا يذكّرني...", "en": "That reminds me...", "notes": "", "reviewed": true}
+{"id": 11955, "label": "m_sayori_3", "key": -2015401818, "index": 12, "ar": "بأنّ سايوري تبدو على غير حالها بعض الشيء اليوم...", "en": "About how Sayori's been a little bit off today...", "notes": "", "reviewed": true}
+{"id": 11956, "label": "m_sayori_3", "key": 234311512, "index": 13, "ar": "نعم؟ هل أخبرتك بشيء؟", "en": "Yeah? Did she tell you something?", "notes": "", "reviewed": true}
+{"id": 11957, "label": "m_sayori_3", "key": 1413612051, "index": 14, "ar": "آه...", "en": "Ah...", "notes": "", "reviewed": true}
+{"id": 11958, "label": "m_sayori_3", "key": 730524648, "index": 15, "ar": "حسنا...", "en": "Well...", "notes": "", "reviewed": true}
+{"id": 11959, "label": "m_sayori_3", "key": 1327308623, "index": 16, "ar": "يا [player]، لم تكن تتودّد إليها، أليس كذلك؟", "en": "[player], you haven't been flirting with her, have you?", "notes": "", "reviewed": true}
+{"id": 11960, "label": "m_sayori_3", "key": -1405598048, "index": 17, "ar": "بالطبع لا!", "en": "O-Of course not!", "notes": "", "reviewed": true}
+{"id": 11961, "label": "m_sayori_3", "key": -1411102818, "index": 18, "ar": "أعاملها كما كنت دائما.", "en": "I've been treating her like I always do.", "notes": "", "reviewed": true}
+{"id": 11962, "label": "m_sayori_3", "key": 1652081091, "index": 19, "ar": "حسنا.", "en": "Alright.", "notes": "", "reviewed": true}
+{"id": 11963, "label": "m_sayori_3", "key": -1862126536, "index": 20, "ar": "أنا فقط أتأكد~", "en": "Just making sure~", "notes": "", "reviewed": true}
+{"id": 11964, "label": "m_sayori_3", "key": -1996037859, "index": 21, "ar": "أعرف كم تهتم بها...", "en": "I know how much you care about her...", "notes": "", "reviewed": true}
+{"id": 11965, "label": "m_sayori_3", "key": 395927244, "index": 22, "ar": "سيكون أمرا فظيعا لو وقع بها أي سوء، لذا راقبها جيدا.", "en": "It would be terrible if something bad happened to her, so keep an eye on her.", "notes": "", "reviewed": true}
+{"id": 11966, "label": "m_sayori_3", "key": 679330730, "index": 23, "ar": "تبدو سايوري أسعد بكثير منذ انضمامك إلى النادي.", "en": "Sayori's been acting so much happier ever since you joined the club.", "notes": "", "reviewed": true}
+{"id": 11967, "label": "m_sayori_3", "key": -1210869569, "index": 24, "ar": "ما الذي حدث فجأة...؟", "en": "What could have happened all of a sudden...?", "notes": "", "reviewed": true}
+{"id": 11968, "label": "m_sayori_3", "key": 1623555996, "index": 25, "ar": "...", "en": "...", "notes": "", "reviewed": true}
+{"id": 11969, "label": "m_sayori_3", "key": 885674984, "index": 26, "ar": "...حسنًا، لا يهم.", "en": "...Well, never mind.", "notes": "", "reviewed": true}
+{"id": 11970, "label": "m_sayori_3", "key": 1112153261, "index": 27, "ar": "ليست هذه اللحظة المناسبة للحديث عن هذا الأمر حقا...", "en": "This really isn't the time to be talking about this...", "notes": "", "reviewed": true}
+{"id": 11971, "label": "m_yuri_3", "key": -1415886983, "index": 0, "ar": "أصبح أسلوبك مصقولًا جدًا، [player].", "en": "Your style's gotten so refined, [player].", "notes": "", "reviewed": true}
+{"id": 11972, "label": "m_yuri_3", "key": 605225069, "index": 1, "ar": "تعلّمت من يوري الكثير من الأمور، أليس كذلك؟", "en": "Yuri's been teaching you a lot of things, hasn't she?", "notes": "", "reviewed": true}
+{"id": 11973, "label": "m_yuri_3", "key": 1563581080, "index": 2, "ar": "حسنا--", "en": "Well--", "notes": "", "reviewed": true}
+{"id": 11974, "label": "m_yuri_3", "key": -552219044, "index": 3, "ar": "لعل ذلك صحيح.", "en": "I guess so.", "notes": "", "reviewed": true}
+{"id": 11975, "label": "m_yuri_3", "key": 809683583, "index": 4, "ar": "نعم... لاحظت كم تقضي من الوقت معها.", "en": "Yeah... I've been noticing how much time you spend with her.", "notes": "", "reviewed": true}
+{"id": 11976, "label": "m_yuri_3", "key": -1426895144, "index": 5, "ar": "أعتقد أنني سمعتها تقول في هذين اليومين أكثر مما قالت\nطوال السنة.", "en": "I think I've heard her say more words these past couple days than she's talked in the whole year.", "notes": "", "reviewed": true}
+{"id": 11977, "label": "m_yuri_3", "key": 1046575324, "index": 6, "ar": "لا أدري كيف فعلتها، لكن ذلك مثير للإعجاب حقا...", "en": "Not sure how you did it, but that's pretty impressive...", "notes": "", "reviewed": true}
+{"id": 11978, "label": "m_yuri_3", "key": -1291337332, "index": 7, "ar": "حسنا، إنها تحتاج فقط إلى شيء من الصبر ووسيلة للتحدث عن\nكل ما يدور في رأسها، أظن...", "en": "Well, she just needs some patience and a way to talk about all the things in her head, I guess...", "notes": "", "reviewed": true}
+{"id": 11979, "label": "m_yuri_3", "key": -968474764, "index": 8, "ar": "أنا أيضا ما زلت أتعوّد على ذلك.", "en": "I'm still getting the hang of it, myself.", "notes": "", "reviewed": true}
+{"id": 11980, "label": "m_yuri_3", "key": 1796705003, "index": 9, "ar": "هم...", "en": "Hm...", "notes": "", "reviewed": true}
+{"id": 11981, "label": "m_yuri_3", "key": -1383154457, "index": 10, "ar": "لا شك أنك تبذل جهدا كبيرا.", "en": "You're certainly putting in a lot of effort.", "notes": "", "reviewed": true}
+{"id": 11982, "label": "m_yuri_3", "key": 522895765, "index": 11, "ar": "لا بد أنك تحبها حقا.", "en": "You must really like her.", "notes": "", "reviewed": true}
+{"id": 11983, "label": "m_yuri_3", "key": 571419019, "index": 12, "ar": "هه؟ إن ذلك--", "en": "Eh? That's--", "notes": "", "reviewed": true}
+{"id": 11984, "label": "m_yuri_3", "key": 1500954072, "index": 13, "ar": "هاها!", "en": "Ahaha!", "notes": "", "reviewed": true}
+{"id": 11985, "label": "m_yuri_3", "key": -1183803265, "index": 14, "ar": "إنه أمر مريب للغاية، أليس كذلك؟", "en": "It's awfully suspicious, you know?", "notes": "", "reviewed": true}
+{"id": 11986, "label": "m_yuri_3", "key": -353871630, "index": 15, "ar": "قضاء الوقت معها في غرفة النادي كل يوم...", "en": "Spending time with her in the clubroom every day...", "notes": "", "reviewed": true}
+{"id": 11987, "label": "m_yuri_3", "key": -1701676135, "index": 16, "ar": "قراءة تلك الرواية القاتمة معها...", "en": "Reading that edgy novel with her...", "notes": "", "reviewed": true}
+{"id": 11988, "label": "m_yuri_3", "key": -835559145, "index": 17, "ar": "حسنا--!", "en": "Well--!", "notes": "", "reviewed": true}
+{"id": 11989, "label": "m_yuri_3", "key": 1504569474, "index": 18, "ar": "أنا فقط... أشعر بالأسف لأنها تجد صعوبة في التواصل مع\nالآخرين.", "en": "I just...feel bad that she has a hard time socializing.", "notes": "", "reviewed": true}
+{"id": 11990, "label": "m_yuri_3", "key": -1877905226, "index": 19, "ar": "هذا يجعلني أريد التأكد من ألا تقضي كل وقتها وحدها.", "en": "It makes me want to make sure she doesn't spend all her time alone.", "notes": "", "reviewed": true}
+{"id": 11991, "label": "m_yuri_3", "key": -595855177, "index": 20, "ar": "وعلاوة على ذلك، الرومان ليس سيئا للغاية أيضا، أليس\nكذلك...", "en": "Besides, the novel isn't too bad either, you know...", "notes": "", "reviewed": true}
+{"id": 11992, "label": "m_yuri_3", "key": 1632217098, "index": 21, "ar": "حسنا، حسنا~", "en": "Alright, alright~", "notes": "", "reviewed": true}
+{"id": 11993, "label": "m_yuri_3", "key": 1455793752, "index": 22, "ar": "أفهمك.", "en": "I get you.", "notes": "", "reviewed": true}
+{"id": 11994, "label": "m_yuri_3", "key": -1024748519, "index": 23, "ar": "فقط... انتبه، حسنا؟", "en": "Just...be careful, alright?", "notes": "", "reviewed": true}
+{"id": 11995, "label": "m_yuri_3", "key": 2052195537, "index": 24, "ar": "أعرف أن يوري غير معتادة على الانفتاح على الآخرين...", "en": "I know that Yuri isn't used to opening herself up...", "notes": "", "reviewed": true}
+{"id": 11996, "label": "m_yuri_3", "key": -332614670, "index": 25, "ar": "فإذا حدث شيء سيئ وهي في حالة هشاشة...", "en": "So if something bad happens while she's vulnerable...", "notes": "", "reviewed": true}
+{"id": 11997, "label": "m_yuri_3", "key": 1552426198, "index": 26, "ar": "فقد يكون الأمر صعبا للغاية عليها.", "en": "Then it could be really hard for her.", "notes": "", "reviewed": true}
+{"id": 11998, "label": "m_yuri_3", "key": 899186584, "index": 27, "ar": "كتبها ليست هروبا كاملا من الواقع.", "en": "Her books aren't a total escape from reality.", "notes": "", "reviewed": true}
+{"id": 11999, "label": "m_yuri_3", "key": 25562569, "index": 28, "ar": "إنها مجرد ضمادة.", "en": "They're just a bandage.", "notes": "", "reviewed": true}
+{"id": 12000, "label": "m_yuri_3", "key": -932513228, "index": 29, "ar": "تقول ذلك وكأنني سأؤذيها...", "en": "You say that like I'm going to hurt her...", "notes": "", "reviewed": true}
+{"id": 12001, "label": "m_yuri_3", "key": 1194731795, "index": 30, "ar": "آسف، لم أقصد ذلك حقا~", "en": "Sorry, I didn't really mean that~", "notes": "", "reviewed": true}
+{"id": 12002, "label": "m_yuri_3", "key": -1982178139, "index": 31, "ar": "إن كان ثمة شيء، فقد تؤذي نفسها عن غير قصد.", "en": "If anything, she might accidentally hurt herself.", "notes": "", "reviewed": true}
+{"id": 12003, "label": "ch22_y_end", "key": -401633245, "index": 0, "ar": "هاها…", "en": "Ahaha...", "notes": "", "reviewed": true}
+{"id": 12004, "label": "ch22_y_end", "key": -1179746547, "index": 1, "ar": "لا يهمني فعلا ما الذي تدور حوله.", "en": "It doesn't really matter what it's about.", "notes": "", "reviewed": true}
+{"id": 12005, "label": "ch22_y_end", "key": -1170035330, "index": 2, "ar": "كان ذهني شديد النشاط مؤخرًا، فاضطررت إلى تفريغ ذلك في\nقلمك.", "en": "My mind has been a little hyperactive lately, so I had to take it out on your pen.", "notes": "", "reviewed": true}
+{"id": 12006, "label": "ch22_y_end", "key": 822744713, "index": 3, "ar": "آه--", "en": "Ah--", "notes": "", "reviewed": true}
+{"id": 12007, "label": "ch22_y_end", "key": -1133879672, "index": 4, "ar": "أعني… س-سقط قلم من حقيبتك أمس، فأخذته إلى البيت لأحفظه\nو…", "en": "That is...a-a pen fell out of your backpack yesterday, so I took it home for safekeeping and...", "notes": "", "reviewed": true}
+{"id": 12008, "label": "ch22_y_end", "key": -1851313541, "index": 5, "ar": "أنا، آه…", "en": "I, um...", "notes": "", "reviewed": true}
+{"id": 12009, "label": "ch22_y_end", "key": -281702907, "index": 6, "ar": "أنا فقط… أحبّ كثيرا… الطريقة… التي يكتب بها.", "en": "I just...really like...the way...that it writes.", "notes": "", "reviewed": true}
+{"id": 12010, "label": "ch22_y_end", "key": 1863294958, "index": 7, "ar": "فكتبت هذه… القصيدة… به.", "en": "So I wrote this...poem...with it.", "notes": "", "reviewed": true}
+{"id": 12011, "label": "ch22_y_end", "key": -1720344496, "index": 8, "ar": "والآن أنت تلمسها…", "en": "And now you're touching it...", "notes": "", "reviewed": true}
+{"id": 12012, "label": "ch22_y_end", "key": -421360229, "index": 9, "ar": "هاها.", "en": "Ahaha.", "notes": "", "reviewed": true}
+{"id": 12013, "label": "ch22_y_end", "key": -424596941, "index": 10, "ar": "أنا… أنا بخير!!", "en": "I-I'm okay!!", "notes": "", "reviewed": true}
+{"id": 12014, "label": "ch22_y_end", "key": -444483102, "index": 11, "ar": "ماذا قلت للتوّ…؟", "en": "What did I just...", "notes": "", "reviewed": true}
+{"id": 12015, "label": "ch22_y_end", "key": 1623555996, "index": 12, "ar": "...", "en": "...", "notes": "", "reviewed": true}
+{"id": 12016, "label": "ch22_y_end", "key": -2085184987, "index": 13, "ar": "…هل نتظاهر بأنّ هذه المحادثة لم تقع؟", "en": "...Can we pretend this conversation never happened?", "notes": "", "reviewed": true}
+{"id": 12017, "label": "ch22_y_end", "key": 2007405485, "index": 14, "ar": "يمكنك الاحتفاظ بالقصيدة، مع ذلك…", "en": "You can keep the poem, though...", "notes": "", "reviewed": true}
+{"id": 12018, "label": "ch23_y_end", "key": 904581862, "index": 0, "ar": "هل أعجبتك؟", "en": "Do you like it??", "notes": "", "reviewed": true}
+{"id": 12019, "label": "ch23_y_end", "key": 563226916, "index": 1, "ar": "لقد كتبتها لك!", "en": "I wrote it for you!", "notes": "", "reviewed": true}
+{"id": 12020, "label": "ch23_y_end", "key": 1727562416, "index": 2, "ar": "إن لم تكن قد أدركت، فالقصيدة عن [gtext]", "en": "In case you couldn't tell, the poem is about [gtext]", "notes": "", "reviewed": true}
+{"id": 12021, "label": "ch23_y_end", "key": 684635051, "index": 3, "ar": "والأهمّ من ذلك، أنّني أضفت إليها عطري.", "en": "More importantly, I've endowed it with my scent.", "notes": "", "reviewed": true}
+{"id": 12022, "label": "ch23_y_end", "key": 1103911815, "index": 4, "ar": "ألست أكثر أعضاء النادي اهتمامًا بالآخرين؟", "en": "See, aren't I the most thoughtful person in the club?", "notes": "", "reviewed": true}
+{"id": 12023, "label": "ch23_y_end", "key": 1623555996, "index": 5, "ar": "...", "en": "...", "notes": "", "reviewed": true}
+{"id": 12024, "label": "ch23_y_end", "key": -1826359813, "index": 6, "ar": "أنا...", "en": "I...", "notes": "", "reviewed": true}
+{"id": 12025, "label": "ch23_y_end", "key": -1647582658, "index": 7, "ar": "أعتقد أنّني... على وشك القيء.", "en": "I think I'm...going to vomit.", "notes": "", "reviewed": true}
+{"id": 12026, "label": "ch22_n_end", "key": -336320411, "index": 0, "ar": "ليست سيئة، أليس كذلك؟", "en": "Not bad, right?", "notes": "", "reviewed": true}
+{"id": 12027, "label": "ch22_n_end", "key": 1643402095, "index": 1, "ar": "هي أطول بكثير من قصيدة أمس.", "en": "It's quite a bit longer than yesterday's.", "notes": "", "reviewed": true}
+{"id": 12028, "label": "ch22_n_end", "key": 1164983196, "index": 2, "ar": "قصيدة أمس كانت قصيرة جدا...", "en": "Yesterday's was way too short...", "notes": "", "reviewed": true}
+{"id": 12029, "label": "ch22_n_end", "key": 2024873733, "index": 3, "ar": "كنت فقط أتهيّأ!", "en": "I was just warming up!", "notes": "", "reviewed": true}
+{"id": 12030, "label": "ch22_n_end", "key": -2138597200, "index": 4, "ar": "أرجو ألاّ تكون قد ظننت أنّ هذا أفضل ما عندي.", "en": "I hope you didn't think that was the best I could do.", "notes": "", "reviewed": true}
+{"id": 12031, "label": "ch22_n_end", "key": 772383202, "index": 5, "ar": "لا، بالطبع لا...", "en": "No, of course not...", "notes": "", "reviewed": true}
+{"id": 12032, "label": "ch22_n_end", "key": -330571404, "index": 6, "ar": "على أيّ حال، الرسالة واضحة جدا في هذه القصيدة.", "en": "Anyway, the message is pretty straightforward in this poem.", "notes": "", "reviewed": true}
+{"id": 12033, "label": "ch22_n_end", "key": -2048231103, "index": 7, "ar": "أشكّ في أنّ عليّ أن أشرحها.", "en": "I doubt I have to explain it.", "notes": "", "reviewed": true}
+{"id": 12034, "label": "ch22_n_end", "key": 1160973119, "index": 8, "ar": "أعني، أيّ شخص سيوافق على أن موضوع هذه القصيدة شخص جاهل وقح...", "en": "Like, anyone would agree that the subject of this poem is an ignorant jerk...", "notes": "", "reviewed": true}
+{"id": 12035, "label": "ch22_n_end", "key": -1303904590, "index": 9, "ar": "لكلّ إنسان هواية غريبة من نوع ما، أو متعة خفية يستحي\nمنها.", "en": "Everyone has some kind of weird hobby, or a guilty pleasure.", "notes": "", "reviewed": true}
+{"id": 12036, "label": "ch22_n_end", "key": 771239540, "index": 10, "ar": "شيء تخشى أن يعرفه الناس فيستهزؤوا بك أو يحتقروك.", "en": "Something that you're afraid if people find out, they'd make fun of you or think less of you.", "notes": "", "reviewed": true}
+{"id": 12037, "label": "ch22_n_end", "key": 1040914426, "index": 11, "ar": "لكن ذلك يجعل الناس أغبياء!", "en": "...But that just makes people stupid!", "notes": "", "reviewed": true}
+{"id": 12038, "label": "ch22_n_end", "key": 174969790, "index": 12, "ar": "من يهتم بما يحبه أحد، ما دام لا يؤذي أحدًا، ويجلب له\nالسعادة؟", "en": "Who cares what someone likes, as long as they're not hurting anyone, and it makes them happy?", "notes": "", "reviewed": true}
+{"id": 12039, "label": "ch22_n_end", "key": -1368200789, "index": 13, "ar": "أعتقد أنّ الناس بحاجة فعلًا إلى أن يتعلّموا احترام\nالآخرين لما يحبونه من أمور غريبة...", "en": "I think people really need to learn to respect others for liking weird things...", "notes": "", "reviewed": true}
+{"id": 12040, "label": "ch22_n_end", "key": 1557129899, "index": 14, "ar": "...كما هو حال اثنتين من فتيات هذا النادي، ولن أذكر\nاسميهما احتراما لهما.", "en": "...Such as two of the girls in this very club, whom I respectfully won't name.", "notes": "", "reviewed": true}
+{"id": 12041, "label": "ch22_n_end", "key": 1355836166, "index": 15, "ar": "من المفارقات أنه حتى في ملاذي الوحيد، لا أستطيع أن أحظى\nباحترام أحد...", "en": "Kind of ironic that even in my one place of comfort, I can't even have people respect me...", "notes": "", "reviewed": true}
+{"id": 12042, "label": "ch22_n_end", "key": 178920121, "index": 16, "ar": "يا إلهي، الآن تجعليني أشكو أكثر من اللازم!", "en": "...Jeez, now you're making me complain too much!", "notes": "", "reviewed": true}
+{"id": 12043, "label": "ch22_n_end", "key": 986292742, "index": 17, "ar": "</i>(………ماذا فعلت؟)<i>", "en": "<i>(...What did I do?)</i>", "notes": "", "reviewed": true}
+{"id": 12044, "label": "ch22_n_end", "key": -1621370984, "index": 18, "ar": "مهما يكن، أنا أحترمك...", "en": "For what it's worth, I respect you...", "notes": "", "reviewed": true}
+{"id": 12045, "label": "ch22_n_end", "key": 1563581080, "index": 19, "ar": "حسنا--", "en": "Well--", "notes": "", "reviewed": true}
+{"id": 12046, "label": "ch22_n_end", "key": 56083259, "index": 20, "ar": "حسنا... شكرا...", "en": "I guess thanks...", "notes": "", "reviewed": true}
+{"id": 12047, "label": "ch22_n_end", "key": -1446395852, "index": 21, "ar": "...لكن من الواضح نوعا ما أنك «تحترم» يوري أكثر، إذن...", "en": "...But it's kind of obvious that you 'respect' Yuri more, so...", "notes": "", "reviewed": true}
+{"id": 12048, "label": "ch22_n_end", "key": 262598748, "index": 22, "ar": "أيا كان... لقد انتهينا من المشاركة، فيمكنك أن ترحل الآن.", "en": "Whatever... We're done sharing, so you can leave now.", "notes": "", "reviewed": true}
+{"id": 12049, "label": "ch22_n_end2", "key": -1477753565, "index": 0, "ar": "[player]………", "en": "[player]...", "notes": "", "reviewed": true}
+{"id": 12050, "label": "ch22_n_end2", "key": 1816431425, "index": 1, "ar": "لماذا لم تأت لتقرأ معي اليوم؟", "en": "Why didn't you come read with me today?", "notes": "", "reviewed": true}
+{"id": 12051, "label": "ch22_n_end2", "key": -180231787, "index": 2, "ar": "كنت أنتظرك.", "en": "I was waiting for you.", "notes": "", "reviewed": true}
+{"id": 12052, "label": "ch22_n_end2", "key": -1777429554, "index": 3, "ar": "لقد انتظرت طويلا.", "en": "I was waiting for a long time.", "notes": "", "reviewed": true}
+{"id": 12053, "label": "ch22_n_end2", "key": -1176807784, "index": 4, "ar": "كان الشيء الوحيد الذي كنت أتطلع إليه اليوم.", "en": "It was the only thing I had to look forward to today.", "notes": "", "reviewed": true}
+{"id": 12054, "label": "ch22_n_end2", "key": -1731017082, "index": 5, "ar": "لماذا أفسدتها؟", "en": "Why did you ruin it?", "notes": "", "reviewed": true}
+{"id": 12055, "label": "ch22_n_end2", "key": 1921124916, "index": 6, "ar": "هل تحبّ يوري أكثر؟", "en": "Do you like Yuri more?", "notes": "", "reviewed": true}
+{"id": 12056, "label": "ch22_n_end2", "key": -1135706782, "index": 7, "ar": "أظنّ أنّه من الأفضل لك ألاّ تقترب منها.", "en": "I think you're better off not associating with her.", "notes": "", "reviewed": true}
+{"id": 12057, "label": "ch22_n_end2", "key": 963269504, "index": 8, "ar": "هل تسمعني؟", "en": "Are you listening to me?", "notes": "", "reviewed": true}
+{"id": 12058, "label": "ch22_n_end2", "key": -1575909677, "index": 9, "ar": "يوري منحرفة مريضة.", "en": "Yuri is a sick freak.", "notes": "", "reviewed": true}
+{"id": 12059, "label": "ch22_n_end2", "key": -160272793, "index": 10, "ar": "لا بدّ أنّ ذلك واضح الآن.", "en": "That should be obvious by now.", "notes": "", "reviewed": true}
+{"id": 12060, "label": "ch22_n_end2", "key": -959505466, "index": 11, "ar": "لذا العب معي بدلا من ذلك.", "en": "So just play with me instead.", "notes": "", "reviewed": true}
+{"id": 12061, "label": "ch22_n_end2", "key": -159111673, "index": 12, "ar": "حسنا؟", "en": "Okay?", "notes": "", "reviewed": true}
+{"id": 12062, "label": "ch22_n_end2", "key": -416426221, "index": 13, "ar": "لا تكرهني، [player]، أليس كذلك؟", "en": "You don't hate me, [player], do you?", "notes": "", "reviewed": true}
+{"id": 12063, "label": "ch22_n_end2", "key": -345809293, "index": 14, "ar": "هل تكرهني؟", "en": "Do you hate me?", "notes": "", "reviewed": true}
+{"id": 12064, "label": "ch22_n_end2", "key": 1367706297, "index": 15, "ar": "هل تريد أن تجعلني أعود إلى البيت باكية؟", "en": "Do you want to make me go home crying?", "notes": "", "reviewed": true}
+{"id": 12065, "label": "ch22_n_end2", "key": 1304790665, "index": 16, "ar": "النادي هو المكان الوحيد الذي أشعر فيه بالأمان.", "en": "The club is the only place I feel safe.", "notes": "", "reviewed": true}
+{"id": 12066, "label": "ch22_n_end2", "key": -1203725640, "index": 17, "ar": "لا تفسد ذلك عليّ.", "en": "Don't ruin that for me.", "notes": "", "reviewed": true}
+{"id": 12067, "label": "ch22_n_end2", "key": 1737622409, "index": 18, "ar": "لا تفسده.", "en": "Don't ruin it.", "notes": "", "reviewed": true}
+{"id": 12068, "label": "ch22_n_end2", "key": -1961604530, "index": 19, "ar": "من فضلك.", "en": "Please.", "notes": "", "reviewed": true}
+{"id": 12069, "label": "ch22_n_end2", "key": 1581576692, "index": 20, "ar": "كفّ فقط عن التحدّث إلى يوري.", "en": "Just stop talking to Yuri.", "notes": "", "reviewed": true}
+{"id": 12070, "label": "ch22_n_end2", "key": 1204539054, "index": 21, "ar": "العب معي بدلا من ذلك.", "en": "Play with me instead.", "notes": "", "reviewed": true}
+{"id": 12071, "label": "ch22_n_end2", "key": -439935259, "index": 22, "ar": "هذا كلّ ما أملك...", "en": "It's all I have...", "notes": "", "reviewed": true}
+{"id": 12072, "label": "ch22_n_end2", "key": 1455294372, "index": 23, "ar": "العب معي.", "en": "Play with me.", "notes": "", "reviewed": true}
+{"id": 12073, "label": "ch22_n_end2", "key": 677781515, "index": 24, "ar": "العب معي!!!", "en": "PLAY WITH ME!!!", "notes": "", "reviewed": true}
+{"id": 12074, "label": "ch23_n_end", "key": -138553401, "index": 0, "ar": "غيّرت رأيي.", "en": "I changed my mind.", "notes": "", "reviewed": true}
+{"id": 12075, "label": "ch23_n_end", "key": 943211118, "index": 1, "ar": "تجاهل كل ما قرأته للتو.", "en": "Ignore everything you just read.", "notes": "", "reviewed": true}
+{"id": 12076, "label": "ch23_n_end", "key": 1867060403, "index": 2, "ar": "لا معنى للتجربة في أي شيء.", "en": "There's no point in trying to do anything.", "notes": "", "reviewed": true}
+{"id": 12077, "label": "ch23_n_end", "key": 1250905092, "index": 3, "ar": "يوري نفسها سبب كونها غير محبوبة إلى هذا الحد.", "en": "It's Yuri's own fault that she's so unlikable.", "notes": "", "reviewed": true}
+{"id": 12078, "label": "ch23_n_end", "key": 1699814263, "index": 4, "ar": "هل تسمعني، [player]؟", "en": "Can you hear me, [player]?", "notes": "", "reviewed": true}
+{"id": 12079, "label": "ch23_n_end", "key": 1753589835, "index": 5, "ar": "لو كنت تقضي وقتا أطول مع مونيكا، لاختفت كل هذه المشكلات.", "en": "If you would just spend more time with Monika, all these problems would go away.", "notes": "", "reviewed": true}
+{"id": 12080, "label": "ch23_n_end", "key": -2102601901, "index": 6, "ar": "يوري وأنا محطمتان نفسيًا، ولا نناسب شخصًا رائعًا\nمثلك.", "en": "Yuri and I are too messed up for someone as wonderful as you.", "notes": "", "reviewed": true}
+{"id": 12081, "label": "ch23_n_end", "key": -1034720563, "index": 7, "ar": "فكّر في مونيكا فقط من الآن فصاعدا.", "en": "Just think of Monika from now on.", "notes": "", "reviewed": true}
+{"id": 12082, "label": "ch23_n_end", "key": -1156874523, "index": 8, "ar": "مونيكا فقط.", "en": "Just Monika.", "notes": "", "reviewed": true}
+{"id": 12083, "label": "ch23_n_end", "key": -1156874522, "index": 9, "ar": "مونيكا فقط.", "en": "Just Monika.", "notes": "", "reviewed": true}
+{"id": 12084, "label": "ch23_n_end", "key": -1156874521, "index": 10, "ar": "مونيكا فقط.", "en": "Just Monika.", "notes": "", "reviewed": true}
+{"id": 12085, "label": "ch23_n_end", "key": -1156874520, "index": 11, "ar": "مونيكا فقط.", "en": "Just Monika.", "notes": "", "reviewed": true}
+{"id": 12086, "label": "ch22_m_end", "key": 470203227, "index": 0, "ar": "آسف، أعلم أنّ قصيدتي مجردة بعض الشيء.", "en": "Sorry, I know it's kind of abstract.", "notes": "", "reviewed": true}
+{"id": 12087, "label": "ch22_m_end", "key": -921380937, "index": 1, "ar": "إنّما أحاول أن... همم...", "en": "I'm just trying to...um...", "notes": "", "reviewed": true}
+{"id": 12088, "label": "ch22_m_end", "key": -1406821446, "index": 2, "ar": "حسنا، لا يهمّ.", "en": "Well, never mind.", "notes": "", "reviewed": true}
+{"id": 12089, "label": "ch22_m_end", "key": -1221715879, "index": 3, "ar": "لا فائدة من الشرح.", "en": "There's no point in explaining.", "notes": "", "reviewed": true}
+{"id": 12090, "label": "ch22_m_end", "key": -1768755757, "index": 4, "ar": "في أيّ حال...", "en": "Anyway...", "notes": "", "reviewed": true}
+{"id": 12091, "label": "ch22_m_end", "key": -765151975, "index": 5, "ar": "وها هي نصيحة مونيكا الكتابية ليومنا هذا!", "en": "Here's Monika's Writing Tip of the Day!", "notes": "", "reviewed": true}
+{"id": 12092, "label": "ch22_m_end", "key": 666334667, "index": 6, "ar": "أحيانا تجد نفسك أمام قرار صعب...", "en": "Sometimes you'll find yourself facing a difficult decision...", "notes": "", "reviewed": true}
+{"id": 12093, "label": "ch22_m_end", "key": -1376906185, "index": 7, "ar": "وعندها، لا تنس حفظ اللعبة!", "en": "When that happens, don't forget to save your game!", "notes": "", "reviewed": true}
+{"id": 12094, "label": "ch22_m_end", "key": -786135388, "index": 8, "ar": "لا تدري متى... همم...", "en": "You never know when...um...", "notes": "", "reviewed": true}
+{"id": 12095, "label": "ch22_m_end", "key": -1967527215, "index": 9, "ar": "...مع من أتحدث؟", "en": "...Who am I talking to?", "notes": "", "reviewed": true}
+{"id": 12096, "label": "ch22_m_end", "key": 882009454, "index": 10, "ar": "هل تسمعني؟", "en": "Can you hear me?", "notes": "", "reviewed": true}
+{"id": 12097, "label": "ch22_m_end", "key": -391175972, "index": 11, "ar": "قل لي إنّك تسمعني.", "en": "Tell me you can hear me.", "notes": "", "reviewed": true}
+{"id": 12098, "label": "ch22_m_end", "key": -1154737942, "index": 12, "ar": "أيّ شيء.", "en": "Anything.", "notes": "", "reviewed": true}
+{"id": 12099, "label": "ch22_m_end", "key": -1574109130, "index": 13, "ar": "...هذه نصيحتي لهذا اليوم!", "en": "...That's my advice for today!", "notes": "", "reviewed": true}
+{"id": 12100, "label": "ch22_m_end", "key": 1510272711, "index": 14, "ar": "شكرا لاستماعك~", "en": "Thanks for listening~", "notes": "", "reviewed": true}
+{"id": 12101, "label": "ch23_m_end", "key": 1418074767, "index": 0, "ar": "يا إلهي! لقد أفزعتني حقًا!", "en": "Jeez! That really startled me!", "notes": "", "reviewed": true}
+{"id": 12102, "label": "ch23_m_end", "key": 1796706926, "index": 1, "ar": "همم...", "en": "Um...", "notes": "", "reviewed": true}
+{"id": 12103, "label": "ch23_m_end", "key": 233014733, "index": 2, "ar": "حسنًا، أظنّ أنّني أخفقت قليلًا في... «كتابة» هذه القصيدة.", "en": "Well, I guess I kinda messed up at, uh... 'writing' this poem.", "notes": "", "reviewed": true}
+{"id": 12104, "label": "ch23_m_end", "key": -1828738468, "index": 3, "ar": "إنّما كنت أحاول أن...", "en": "I was just trying to...", "notes": "", "reviewed": true}
+{"id": 12105, "label": "ch23_m_end", "key": 687394404, "index": 4, "ar": "...لا يهمّ.", "en": "...Never mind.", "notes": "", "reviewed": true}
+{"id": 12106, "label": "ch23_m_end", "key": 706763427, "index": 5, "ar": "لنستأنف مسيرتنا...", "en": "Let's just move on...", "notes": "", "reviewed": true}
+{"id": 12107, "label": "ch22_n_bad", "key": 1623555996, "index": 0, "ar": "………", "en": "...", "notes": "", "reviewed": true}
+{"id": 12108, "label": "ch22_n_bad", "key": -185026043, "index": 1, "ar": "نعم، تماما كما توقّعت...", "en": "Yeah, just as I thought...", "notes": "", "reviewed": true}
+{"id": 12109, "label": "ch22_n_bad", "key": 190059625, "index": 2, "ar": "………؟", "en": "...?", "notes": "", "reviewed": true}
+{"id": 12110, "label": "ch22_n_bad", "key": -1454966216, "index": 3, "ar": "[player]، تعال.", "en": "[player], come on.", "notes": "", "reviewed": true}
+{"id": 12111, "label": "ch22_n_bad", "key": 1692051643, "index": 4, "ar": "لست غبيّا.", "en": "I'm not stupid.", "notes": "", "reviewed": true}
+{"id": 12112, "label": "ch22_n_bad", "key": -253481242, "index": 5, "ar": "أعرف كم من الوقت تقضيه مع يوري...", "en": "I know how much time you've been spending with Yuri...", "notes": "", "reviewed": true}
+{"id": 12113, "label": "ch22_n_bad", "key": -888238493, "index": 6, "ar": "من الواضح أنّك تهتمّ بإبهارها أكثر من محاولة تحسين\nكتابتك.", "en": "It's obvious that you care more about impressing her than trying to improve your writing.", "notes": "", "reviewed": true}
+{"id": 12114, "label": "ch22_n_bad", "key": 1905331611, "index": 7, "ar": "بكلّ صراحة، الأمر مثير للشفقة بعض الشيء.", "en": "To put it bluntly, it's kind of pathetic.", "notes": "", "reviewed": true}
+{"id": 12115, "label": "ch22_n_bad", "key": -806950746, "index": 8, "ar": "لماذا أنت في هذا النادي أصلا، [player]؟", "en": "Why are you even in this club, [player]?", "notes": "", "reviewed": true}
+{"id": 12116, "label": "ch22_n_bad", "key": -1678963240, "index": 9, "ar": "بصراحة...", "en": "Honestly...", "notes": "", "reviewed": true}
+{"id": 12117, "label": "ch22_n_bad", "key": -1545902612, "index": 10, "ar": "ظننت أنّ انضمام عضو جديد سيساعد الجميع على المشاركة\nمعًا أكثر.", "en": "I thought getting a new member would help everyone get more involved together.", "notes": "", "reviewed": true}
+{"id": 12118, "label": "ch22_n_bad", "key": -1121331085, "index": 11, "ar": "لا أن يقصي بعضنا بعضا أكثر.", "en": "Not exclude each other even more.", "notes": "", "reviewed": true}
+{"id": 12119, "label": "ch22_n_bad", "key": 66965381, "index": 12, "ar": "هذا نشاط سخيف في الأساس على أيّ حال...", "en": "This is such a stupid activity anyway...", "notes": "", "reviewed": true}
+{"id": 12120, "label": "ch22_n_bad", "key": 1735011464, "index": 13, "ar": "انظر، لست في مزاج جيد اليوم، وبصراحة لا أشعر بالرغبة في\nالكلام الآن.", "en": "...Look, I'm not in a good mood today, and I just really don't feel like talking right now.", "notes": "", "reviewed": true}
+{"id": 12121, "label": "ch22_n_bad", "key": -192750794, "index": 14, "ar": "من فضلك، اذهب.", "en": "Please go away.", "notes": "", "reviewed": true}
+{"id": 12122, "label": "ch22_n_bad", "key": 706021065, "index": 15, "ar": "………همم.", "en": "...Hm.", "notes": "", "reviewed": true}
+{"id": 12123, "label": "ch22_n_bad", "key": -699558977, "index": 16, "ar": "أعجبتني قصيدتك السابقة أكثر.", "en": "I liked your last one better.", "notes": "", "reviewed": true}
+{"id": 12124, "label": "ch22_n_bad", "key": -2125573712, "index": 17, "ar": "ماذا؟ حقا؟", "en": "Eh? Really?", "notes": "", "reviewed": true}
+{"id": 12125, "label": "ch22_n_bad", "key": 1773896194, "index": 18, "ar": "نعم. ألاحظ أنّك تجرأت أكثر قليلا في هذه.", "en": "Well yeah. I can tell you were a little more daring with this one.", "notes": "", "reviewed": true}
+{"id": 12126, "label": "ch22_n_bad", "key": 1089625790, "index": 19, "ar": "لكنك لست ماهرا بما يكفي لذلك بعد. جاءت مسطّحة.", "en": "But you're really not good enough for that yet. It fell flat.", "notes": "", "reviewed": true}
+{"id": 12127, "label": "ch22_n_bad", "key": 1449075321, "index": 20, "ar": "قد يكون ذلك صحيحا، لكنّني أردت فقط تجربة شيء مختلف.", "en": "That may be true, but I just wanted to try something different.", "notes": "", "reviewed": true}
+{"id": 12128, "label": "ch22_n_bad", "key": 219085105, "index": 21, "ar": "ما زلت أحاول فهم كل هذا.", "en": "I'm still figuring this all out.", "notes": "", "reviewed": true}
+{"id": 12129, "label": "ch22_n_med", "key": 706021065, "index": 0, "ar": "………همم.", "en": "...Hm.", "notes": "", "reviewed": true}
+{"id": 12130, "label": "ch22_n_med", "key": 471891142, "index": 1, "ar": "حسنًا... سأعترف بأنه أفضل من سابقته.", "en": "Well, I can admit that it's better than the last one.", "notes": "", "reviewed": true}
+{"id": 12131, "label": "ch22_n_med", "key": -1195049522, "index": 2, "ar": "جميل أن أراك تبذل جهدا فعلا.", "en": "It's nice to see that you're putting in some effort.", "notes": "", "reviewed": true}
+{"id": 12132, "label": "ch22_n_med", "key": 1511623484, "index": 3, "ar": "هذا جيد...", "en": "That's good...", "notes": "", "reviewed": true}
+{"id": 12133, "label": "ch22_n_med", "key": 228155488, "index": 4, "ar": "فقط تأكد أن في قصيدتك لمسة من كل واحدة منّا.", "en": "Just make sure you find a little bit of influence from everyone.", "notes": "", "reviewed": true}
+{"id": 12134, "label": "ch22_n_med", "key": 863696855, "index": 5, "ar": "أعتقد أنك تأثّرت بيوري قليلا على الأقل، أليس كذلك؟", "en": "I think you're at least being influenced by Yuri a little bit, aren't you?", "notes": "", "reviewed": true}
+{"id": 12135, "label": "ch22_n_med", "key": -594480908, "index": 6, "ar": "أعني، أعلم أنك كنت...", "en": "I mean, I know you've been, like...", "notes": "", "reviewed": true}
+{"id": 12136, "label": "ch22_n_med", "key": -493470823, "index": 7, "ar": "تقضي بعض الوقت معها، أو ما شابه...", "en": "Spending some time with her, or whatever...", "notes": "", "reviewed": true}
+{"id": 12137, "label": "ch22_n_med", "key": -1252856649, "index": 8, "ar": "لكن اعلم أنا ومونيكا في مستواها تماما!", "en": "But you know, Monika and I are just as good as her!", "notes": "", "reviewed": true}
+{"id": 12138, "label": "ch22_n_med", "key": 1298402404, "index": 9, "ar": "أ-أعني في كتابة القصائد!", "en": "A-At poems, I mean!", "notes": "", "reviewed": true}
+{"id": 12139, "label": "ch22_n_med", "key": -1139055655, "index": 10, "ar": "لذا عليك أن تتعلّم شيئا فعلا، وإلا فلن تتحسّن أبدا!", "en": "So you should really try to learn something, or you'll never get better!", "notes": "", "reviewed": true}
+{"id": 12140, "label": "ch22_n_med", "key": -605838677, "index": 11, "ar": "تفضّل، هذه التي كتبتها...", "en": "Here's the one I wrote...", "notes": "", "reviewed": true}
+{"id": 12141, "label": "ch22_n_med", "key": 1255585167, "index": 12, "ar": "وسأجعلك تتعلّم منها شيئا بلا شك.", "en": "I'll make sure you learn something from it.", "notes": "", "reviewed": true}
+{"id": 12142, "label": "ch22_n_med", "key": 706021066, "index": 13, "ar": "………همم.", "en": "...Hm.", "notes": "", "reviewed": true}
+{"id": 12143, "label": "ch22_n_med", "key": 2023902489, "index": 14, "ar": "حسنا، ليست أسوأ بكثير من سابقتها.", "en": "Well, it's not really any worse than your last one.", "notes": "", "reviewed": true}
+{"id": 12144, "label": "ch22_n_med", "key": 454030067, "index": 15, "ar": "لكنني أيضا لا أستطيع القول إنها أفضل.", "en": "But I can't really say it's any better, either.", "notes": "", "reviewed": true}
+{"id": 12145, "label": "ch22_n_med", "key": -23924108, "index": 16, "ar": "أووف...", "en": "Phew...", "notes": "", "reviewed": true}
+{"id": 12146, "label": "ch22_n_med", "key": 199062165, "index": 17, "ar": "ماذا؟ «أووف» ماذا؟", "en": "Huh? 'Phew' what?", "notes": "", "reviewed": true}
+{"id": 12147, "label": "ch22_n_med", "key": -511967202, "index": 18, "ar": "آه...حسنا، أي شيء لا يكون كارثة كاملة سأعتبره فوزا.", "en": "Ah... Well anything that isn't a trainwreck, I'll take as a win.", "notes": "", "reviewed": true}
+{"id": 12148, "label": "ch22_n_med", "key": 1291537530, "index": 19, "ar": "وإحساسي يقول إنك على الأرجح الأكثر نقدا.", "en": "And I get the feeling you're probably the most critical.", "notes": "", "reviewed": true}
+{"id": 12149, "label": "ch22_n_med", "key": -591141376, "index": 20, "ar": "ه-هيا! ما الذي يجعلك--", "en": "H-Hey! What makes you--", "notes": "", "reviewed": true}
+{"id": 12150, "label": "ch22_n_med", "key": -1774788403, "index": 21, "ar": "</i>(انتظر، هل كان ذلك مديحا...؟)<i>", "en": "<i>(Wait, maybe that was a compliment...?)</i>", "notes": "", "reviewed": true}
+{"id": 12151, "label": "ch22_n_med", "key": 1382705343, "index": 22, "ar": "أ-آهه! يسعدني أن يقدّر أحد خبرتي!", "en": "A-Ahah! Glad to see someone recognizes my experience!", "notes": "", "reviewed": true}
+{"id": 12152, "label": "ch22_n_med", "key": -504598646, "index": 23, "ar": "إذن واصل التدريب، ولربما تبلغ يوما ما مستواي!", "en": "Well then, keep practicing and maybe you'll be as good as me someday!", "notes": "", "reviewed": true}
+{"id": 12153, "label": "ch22_n_med", "key": 2060174854, "index": 24, "ar": "هذا...همم...", "en": "That's...uh...", "notes": "", "reviewed": true}
+{"id": 12154, "label": "ch22_n_med", "key": 656800043, "index": 25, "ar": "شيء ما يخبرني أن ناتسوكي أخطأت الفكرة تماما.", "en": "Something tells me Natsuki completely missed the point.", "notes": "", "reviewed": true}
+{"id": 12155, "label": "ch22_n_med", "key": 706021067, "index": 26, "ar": "………همم.", "en": "...Hm.", "notes": "", "reviewed": true}
+{"id": 12156, "label": "ch22_n_med", "key": -1261301585, "index": 27, "ar": "حسنا، ليست سيئة للغاية.", "en": "Well, it's not terrible.", "notes": "", "reviewed": true}
+{"id": 12157, "label": "ch22_n_med", "key": -2076956598, "index": 28, "ar": "لكنها خيّبت ظني كثيرًا بعد قصيدتك السابقة.", "en": "But it's pretty disappointing after your last one.", "notes": "", "reviewed": true}
+{"id": 12158, "label": "ch22_n_med", "key": -220850622, "index": 29, "ar": "لكن من جهة أخرى، لو كانت هذه على قدر سابقتها، لغضبت\nتماما.", "en": "Then again, if this one was as good as your last one, I would be completely pissed.", "notes": "", "reviewed": true}
+{"id": 12159, "label": "ch22_n_med", "key": -41068967, "index": 30, "ar": "حسنا، أعتقد أنني أردت تجربة شيء مختلف قليلا هذه المرة.", "en": "Well, I guess I wanted to try something a little different this time.", "notes": "", "reviewed": true}
+{"id": 12160, "label": "ch22_n_med", "key": -932362087, "index": 31, "ar": "حسنا، هذا عادل. ما زلت جديدا على هذا، فلن أتوقع منك أن\nتجد أسلوبك على الفور.", "en": "Fair enough. You're still new to this, so I wouldn't expect you to find your style right away.", "notes": "", "reviewed": true}
+{"id": 12161, "label": "ch22_n_med", "key": -730017249, "index": 32, "ar": "أعني، كل شخص في النادي يكتب بأسلوب مختلف عن الباقين...", "en": "I mean, everyone in the club writes really differently from each other...", "notes": "", "reviewed": true}
+{"id": 12162, "label": "ch22_n_med", "key": 1945283341, "index": 33, "ar": "لعلك تتأثر قليلًا بكل واحد منا.", "en": "Maybe you'll find a little influence from all of us.", "notes": "", "reviewed": true}
+{"id": 12163, "label": "ch22_n_med", "key": -2088356846, "index": 34, "ar": "على سبيل المثال...", "en": "For instance...", "notes": "", "reviewed": true}
+{"id": 12164, "label": "ch22_n_med", "key": -481227699, "index": 35, "ar": "لاحظت أنك كنت تقضي بعض الوقت مع يوري اليوم...", "en": "I noticed that you were spending some time with Yuri today...", "notes": "", "reviewed": true}
+{"id": 12165, "label": "ch22_n_med", "key": 686429343, "index": 36, "ar": "ليس أنني أبالي بمن تقضي معه وقتك.", "en": "Not that I care who you spend your time with.", "notes": "", "reviewed": true}
+{"id": 12166, "label": "ch22_n_med", "key": 20718660, "index": 37, "ar": "ففي النهاية، تعلّمت ألا أتوقع شيئًا من أحد أبدًا.", "en": "After all, I was taught never to expect anything from anybody.", "notes": "", "reviewed": true}
+{"id": 12167, "label": "ch22_n_med", "key": -127031199, "index": 38, "ar": "فلا تظن إذن أنني كنت أنتظرك أو شيء من هذا القبيل.", "en": "So it's not like I was waiting for you, or anything.", "notes": "", "reviewed": true}
+{"id": 12168, "label": "ch22_n_med", "key": 1816300078, "index": 39, "ar": "على أي حال، عليك على الأقل أن تتصفح قصيدتي...", "en": "Still, you should at least look over my poem...", "notes": "", "reviewed": true}
+{"id": 12169, "label": "ch22_n_med", "key": 1765684258, "index": 40, "ar": "وسيمكنك على الأرجح أن تتعلّم منها شيئا.", "en": "You'll probably be able to learn something from it.", "notes": "", "reviewed": true}
+{"id": 12170, "label": "ch23_n_bad", "key": -1180093069, "index": 0, "ar": "لن أقرأ قصيدة أخرى من قصائد التملق ليوري هذه.", "en": "I'm not going to read another one of your Yuri suck-up poems.", "notes": "", "reviewed": true}
+{"id": 12171, "label": "ch23_n_bad", "key": -1016334433, "index": 1, "ar": "لكنني سأجعلك تقرأ قصيدتي.", "en": "But I'm still going to make you read mine.", "notes": "", "reviewed": true}
+{"id": 12172, "label": "ch23_n_bad", "key": 910895121, "index": 2, "ar": "وهناك سبب لذلك.", "en": "There's a reason.", "notes": "", "reviewed": true}
+{"id": 12173, "label": "ch23_n_bad", "key": 1586405320, "index": 3, "ar": "أتمنى فعلا ألاّ أضطر إلى فعل هذا...", "en": "I really wish I didn't have to do this...", "notes": "", "reviewed": true}
+{"id": 12174, "label": "ch23_n_bad", "key": -1553487016, "index": 4, "ar": "لكنني للأسف لا أملك خيارًا آخر.", "en": "But unfortunately I don't have much of a choice.", "notes": "", "reviewed": true}
+{"id": 12175, "label": "ch23_n_bad", "key": -1470963355, "index": 5, "ar": "فقط...اقرأها باهتمام، حسنا؟", "en": "Just...read it carefully, okay?", "notes": "", "reviewed": true}
+{"id": 12176, "label": "ch23_n_bad", "key": -1181108110, "index": 6, "ar": "وبعد ذلك يمكنك الذهاب.", "en": "Then you can go away.", "notes": "", "reviewed": true}
+{"id": 12177, "label": "ch23_n_bad", "key": 1623555996, "index": 7, "ar": "………", "en": "...", "notes": "", "reviewed": true}
+{"id": 12178, "label": "ch23_n_bad", "key": 1294206388, "index": 8, "ar": "………مه.", "en": "...Meh.", "notes": "", "reviewed": true}
+{"id": 12179, "label": "ch23_n_bad", "key": -1770000991, "index": 9, "ar": "يبدو أنك في نهاية المطاف لم تتعلّم شيئا على الإطلاق.", "en": "I guess you really haven't learned anything after all.", "notes": "", "reviewed": true}
+{"id": 12180, "label": "ch23_n_bad", "key": 533850330, "index": 10, "ar": "بصراحة، لا أعلم لماذا رفعت الآمال من أساسها.", "en": "Honestly, I don't know why I got my hopes up in the first place.", "notes": "", "reviewed": true}
+{"id": 12181, "label": "ch23_n_bad", "key": -7120980, "index": 11, "ar": "هذا تأثّر واضح بيوري...", "en": "This is clearly Yuri's influence...", "notes": "", "reviewed": true}
+{"id": 12182, "label": "ch23_n_bad", "key": -1544516412, "index": 12, "ar": "لم أدرك أنك بهذا القدر من سهولة التأثر.", "en": "I didn't realize you were so impressionable.", "notes": "", "reviewed": true}
+{"id": 12183, "label": "ch23_n_bad", "key": -1486056437, "index": 13, "ar": "تقضي كل هذا الوقت معها في النادي...", "en": "Spending all this time with her in the club...", "notes": "", "reviewed": true}
+{"id": 12184, "label": "ch23_n_bad", "key": 1374216309, "index": 14, "ar": "والآن تحاول الكتابة مثلها...", "en": "Now trying to write like her...", "notes": "", "reviewed": true}
+{"id": 12185, "label": "ch23_n_bad", "key": -173188515, "index": 15, "ar": "هذا سخيف.", "en": "This is stupid.", "notes": "", "reviewed": true}
+{"id": 12186, "label": "ch23_n_bad", "key": 1348470772, "index": 16, "ar": "على الأقل، مونيكا تقدّر كتابتي...", "en": "At least Monika appreciates my writing...", "notes": "", "reviewed": true}
+{"id": 12187, "label": "ch23_n_bad", "key": 1099599898, "index": 17, "ar": "………أاا.", "en": "...Ugh.", "notes": "", "reviewed": true}
+{"id": 12188, "label": "ch23_n_bad", "key": 603445907, "index": 18, "ar": "حسنا...أعتقد أنني سأشاركك قصيدتي الآن.", "en": "Okay...I guess I'm going to share my poem with you now.", "notes": "", "reviewed": true}
+{"id": 12189, "label": "ch23_n_bad", "key": -1380934168, "index": 19, "ar": "أكره حقًا اضطراري إلى فعل هذا.", "en": "I really hate that I have to do this.", "notes": "", "reviewed": true}
+{"id": 12190, "label": "ch23_n_bad", "key": -1553487015, "index": 20, "ar": "لكنني للأسف لا أملك خيارًا آخر.", "en": "But unfortunately I don't have much of a choice.", "notes": "", "reviewed": true}
+{"id": 12191, "label": "ch23_n_bad", "key": -1470963354, "index": 21, "ar": "فقط...اقرأها باهتمام، حسنا؟", "en": "Just...read it carefully, okay?", "notes": "", "reviewed": true}
+{"id": 12192, "label": "ch23_n_bad", "key": -1181108109, "index": 22, "ar": "وبعد ذلك يمكنك الذهاب.", "en": "Then you can go away.", "notes": "", "reviewed": true}
+{"id": 12193, "label": "ch23_n_bad", "key": 1623555997, "index": 23, "ar": "………", "en": "...", "notes": "", "reviewed": true}
+{"id": 12194, "label": "ch23_n_bad", "key": -1963548977, "index": 24, "ar": "يا إلهي.", "en": "Oh, man.", "notes": "", "reviewed": true}
+{"id": 12195, "label": "ch23_n_bad", "key": -1938978322, "index": 25, "ar": "هذا تراجع حقيقي، بجدّية.", "en": "This is seriously a step backwards.", "notes": "", "reviewed": true}
+{"id": 12196, "label": "ch23_n_bad", "key": 1905883840, "index": 26, "ar": "ماذا؟", "en": "Eh?", "notes": "", "reviewed": true}
+{"id": 12197, "label": "ch23_n_bad", "key": 1829835341, "index": 27, "ar": "أعجبتني قصيدتاك الأخيرتان أكثر بكثير من هذه.", "en": "I liked your last two way better than this one.", "notes": "", "reviewed": true}
+{"id": 12198, "label": "ch23_n_med", "key": 1623555996, "index": 0, "ar": "………", "en": "...", "notes": "", "reviewed": true}
+{"id": 12199, "label": "ch23_n_med", "key": 714293715, "index": 1, "ar": "………هذه مقبولة.", "en": "...This one's alright.", "notes": "", "reviewed": true}
+{"id": 12200, "label": "ch23_n_med", "key": -1789262984, "index": 2, "ar": "مقبولة؟", "en": "Alright?", "notes": "", "reviewed": true}
+{"id": 12201, "label": "ch23_n_med", "key": -1509894753, "index": 3, "ar": "نعم، هي على الأقل أفضل من التي كتبتها أمس.", "en": "Yeah, it's at least better than yesterday's.", "notes": "", "reviewed": true}
+{"id": 12202, "label": "ch23_n_med", "key": -2058892707, "index": 4, "ar": "ما زلت لا أستطيع معرفة مدى اهتمامك بالكتابة حقًا، لكنك في\nكل الأحوال تبلي بلاءً حسنًا.", "en": "I still can't really tell how much you actually care about writing, but either way, you're doing alright.", "notes": "", "reviewed": true}
+{"id": 12203, "label": "ch23_n_med", "key": 1222829547, "index": 5, "ar": "رغم أنك لا تقضي وقتا فعليا مع أحد سوى يوري...", "en": "Even though you're not really spending time with anyone but Yuri...", "notes": "", "reviewed": true}
+{"id": 12204, "label": "ch23_n_med", "key": 1331366992, "index": 6, "ar": "أظل أعتقد أن من الجميل أن تكون لدينا أنشطة يشارك فيها\nالجميع.", "en": "I still think it's nice to have activities that we all participate in.", "notes": "", "reviewed": true}
+{"id": 12205, "label": "ch23_n_med", "key": -795854421, "index": 7, "ar": "لذا من الأفضل أن تستمر في بذل الجهد!", "en": "So you better keep working hard!", "notes": "", "reviewed": true}
+{"id": 12206, "label": "ch23_n_med", "key": -568716352, "index": 8, "ar": "أعني...", "en": "I mean...", "notes": "", "reviewed": true}
+{"id": 12207, "label": "ch23_n_med", "key": 378467855, "index": 9, "ar": "أعلم أنني لست رئيسة النادي ولا نائبة الرئيس ولا شيء من\nهذا...", "en": "I know I'm not President or Vice President or anything...", "notes": "", "reviewed": true}
+{"id": 12208, "label": "ch23_n_med", "key": 696187544, "index": 10, "ar": "لكن ذلك لا يعني أنك تستطيع أن تخيّب ظني، حسنا؟", "en": "But that doesn't mean you can let me down, okay?", "notes": "", "reviewed": true}
+{"id": 12209, "label": "ch23_n_med", "key": 330930676, "index": 11, "ar": "لذا اقرأ قصيدتي أنت أيضًا، على الأقل في الوقت الحالي.", "en": "So, at least read mine too for now.", "notes": "", "reviewed": true}
+{"id": 12210, "label": "ch23_n_med", "key": 2021822476, "index": 12, "ar": "لكن لتوضيح الأمور...", "en": "But just to be clear...", "notes": "", "reviewed": true}
+{"id": 12211, "label": "ch23_n_med", "key": 272439794, "index": 13, "ar": "هذه القصيدة...تعني لي الكثير.", "en": "This poem...means a lot to me.", "notes": "", "reviewed": true}
+{"id": 12212, "label": "ch23_n_med", "key": -2076577713, "index": 14, "ar": "فاقرأها باهتمام، حسنا؟", "en": "So read it carefully, okay?", "notes": "", "reviewed": true}
+{"id": 12213, "label": "ch23_n_med", "key": 1623555997, "index": 15, "ar": "………", "en": "...", "notes": "", "reviewed": true}
+{"id": 12214, "label": "ch23_n_med", "key": 714293716, "index": 16, "ar": "………هذه مقبولة.", "en": "...This one's alright.", "notes": "", "reviewed": true}
+{"id": 12215, "label": "ch23_n_med", "key": -1789262983, "index": 17, "ar": "مقبولة؟", "en": "Alright?", "notes": "", "reviewed": true}
+{"id": 12216, "label": "ch23_n_med", "key": 930997161, "index": 18, "ar": "حسنا، نعم.", "en": "Well, yeah.", "notes": "", "reviewed": true}
+{"id": 12217, "label": "ch23_n_med", "key": 863377649, "index": 19, "ar": "هي في مستوى قصيدة أمس، على أي حال.", "en": "About as good as yesterday's, anyway.", "notes": "", "reviewed": true}
+{"id": 12218, "label": "ch23_n_ygave", "key": 62613097, "index": 0, "ar": "ماذا؟", "en": "What?", "notes": "", "reviewed": true}
+{"id": 12219, "label": "ch23_n_ygave", "key": -1409644621, "index": 1, "ar": "أعطيت قصيدتك ليوري؟", "en": "You gave your poem to Yuri?", "notes": "", "reviewed": true}
+{"id": 12220, "label": "ch23_n_ygave", "key": 458409847, "index": 2, "ar": "مقزز!", "en": "Gross!", "notes": "", "reviewed": true}
+{"id": 12221, "label": "ch23_n_ygave", "key": 357424354, "index": 3, "ar": "ما الذي بينكما؟", "en": "What is with you two?", "notes": "", "reviewed": true}
+{"id": 12222, "label": "ch23_n_ygave", "key": -254359997, "index": 4, "ar": "همم...", "en": "Hmph...", "notes": "", "reviewed": true}
+{"id": 12223, "label": "ch23_n_ygave", "key": -1478225124, "index": 5, "ar": "ليس أنني أردت قراءتها أصلا.", "en": "It's not like I wanted to read it anyway.", "notes": "", "reviewed": true}
+{"id": 12224, "label": "ch23_n_ygave", "key": 1146290677, "index": 6, "ar": "يغيظني قليلًا أنك لم تفكر حتى في إظهارها لي.", "en": "It's just pissing me off a little bit that you didn't even think to show me at all.", "notes": "", "reviewed": true}
+{"id": 12225, "label": "ch23_n_ygave", "key": 1099599898, "index": 7, "ar": "………أاا.", "en": "...Ugh.", "notes": "", "reviewed": true}
+{"id": 12226, "label": "ch23_n_ygave", "key": 578582100, "index": 8, "ar": "حسنا...أعتقد أنني سأشاركك قصيدتي على أي حال.", "en": "Okay...I guess I'm going to share my poem with you anyway.", "notes": "", "reviewed": true}
+{"id": 12227, "label": "ch23_n_ygave", "key": -1380934168, "index": 9, "ar": "أكره حقًا اضطراري إلى فعل هذا.", "en": "I really hate that I have to do this.", "notes": "", "reviewed": true}
+{"id": 12228, "label": "ch23_n_ygave", "key": -1553487016, "index": 10, "ar": "لكنني للأسف لا أملك خيارًا آخر.", "en": "But unfortunately I don't have much of a choice.", "notes": "", "reviewed": true}
+{"id": 12229, "label": "ch23_n_ygave", "key": -1470963355, "index": 11, "ar": "فقط...اقرأها باهتمام، حسنا؟", "en": "Just...read it carefully, okay?", "notes": "", "reviewed": true}
+{"id": 12230, "label": "ch23_n_ygave", "key": -1181108110, "index": 12, "ar": "وبعد ذلك يمكنك الذهاب.", "en": "Then you can go away.", "notes": "", "reviewed": true}
+{"id": 12231, "label": "ch22_y_med", "key": 173531309, "index": 0, "ar": "لقد كنت أنتظر هذا...", "en": "I've been waiting for this...", "notes": "", "reviewed": true}
+{"id": 12232, "label": "ch22_y_med", "key": -628652094, "index": 1, "ar": "هيا لنر ما كتبته اليوم.", "en": "Let's see what you've written for today.", "notes": "", "reviewed": true}
+{"id": 12233, "label": "ch22_y_med", "key": 1623555996, "index": 2, "ar": "...", "en": "...", "notes": "", "reviewed": true}
+{"id": 12234, "label": "ch22_y_med", "key": 703472098, "index": 3, "ar": "تبتسم يوري وتأخذ نفسا عميقا.", "en": "Yuri smiles and takes a deep breath.", "notes": "", "reviewed": true}
+{"id": 12235, "label": "ch22_y_med", "key": -1184873140, "index": 4, "ar": "يسعدني مجرّد إمساكها بين يدي.", "en": "I like just holding it.", "notes": "", "reviewed": true}
+{"id": 12236, "label": "ch22_y_med", "key": 190059625, "index": 5, "ar": "...؟", "en": "...?", "notes": "", "reviewed": true}
+{"id": 12237, "label": "ch22_y_med", "key": 1757460407, "index": 6, "ar": "آه، أقصد--", "en": "Ah, I mean--", "notes": "", "reviewed": true}
+{"id": 12238, "label": "ch22_y_med", "key": -493320506, "index": 7, "ar": "القصيدة رائعة!", "en": "The poem turned out good!", "notes": "", "reviewed": true}
+{"id": 12239, "label": "ch22_y_med", "key": -2146209670, "index": 8, "ar": "الأمر، آه...", "en": "It's, ah...", "notes": "", "reviewed": true}
+{"id": 12240, "label": "ch22_y_med", "key": 1295566300, "index": 9, "ar": "...حسنا، هناك بعض الأمور التي يمكنك تحسينها...", "en": "...Well, there are some things that you could work on...", "notes": "", "reviewed": true}
+{"id": 12241, "label": "ch22_y_med", "key": 1999259082, "index": 10, "ar": "لكن ذلك لا يهمّ في الحقيقة.", "en": "But that doesn't really matter.", "notes": "", "reviewed": true}
+{"id": 12242, "label": "ch22_y_med", "key": 1389015838, "index": 11, "ar": "يبدو لي أنّ كلّ ما تكتبه كنز في حدّ ذاته.", "en": "It feels like anything written by you is a treasure.", "notes": "", "reviewed": true}
+{"id": 12243, "label": "ch22_y_med", "key": -401633245, "index": 12, "ar": "ههه...", "en": "Ahaha...", "notes": "", "reviewed": true}
+{"id": 12244, "label": "ch22_y_med", "key": -169239377, "index": 13, "ar": "خرجت تلك العبارة محرجة بعض الشيء...", "en": "That came out a little awkward...", "notes": "", "reviewed": true}
+{"id": 12245, "label": "ch22_y_med", "key": -1546282588, "index": 14, "ar": "ه-هيا نتابع...", "en": "L-Let's move on...", "notes": "", "reviewed": true}
+{"id": 12246, "label": "ch22_y_med", "key": -1618548344, "index": 15, "ar": "تفضّل، هذه القصيدة التي كتبتها.", "en": "Here's the poem I wrote.", "notes": "", "reviewed": true}
+{"id": 12247, "label": "ch22_y_med", "key": -494659801, "index": 16, "ar": "لا يشترط أن تعجبك أو أيّ شيء...", "en": "You don't have to like it or anything...", "notes": "", "reviewed": true}
+{"id": 12248, "label": "ch22_y_good", "key": 173531309, "index": 0, "ar": "كنت أنتظر هذا…", "en": "I've been waiting for this...", "notes": "", "reviewed": true}
+{"id": 12249, "label": "ch22_y_good", "key": -628652094, "index": 1, "ar": "لنر ما الذي كتبته اليوم.", "en": "Let's see what you've written for today.", "notes": "", "reviewed": true}
+{"id": 12250, "label": "ch22_y_good", "key": 1623555996, "index": 2, "ar": "...", "en": "...", "notes": "", "reviewed": true}
+{"id": 12251, "label": "ch22_y_good", "key": 2091053282, "index": 3, "ar": "......", "en": "......", "notes": "", "reviewed": true}
+{"id": 12252, "label": "ch22_y_good", "key": 1164950519, "index": 4, "ar": "تحدّق يوري بالقصيدة، وعلى وجهها أثر الذهول.", "en": "Yuri stares at the poem with a surprised expression on her face.", "notes": "", "reviewed": true}
+{"id": 12253, "label": "ch22_y_good", "key": -79176805, "index": 5, "ar": "هل… أعجبتك؟", "en": "Do you...like it?", "notes": "", "reviewed": true}
+{"id": 12254, "label": "ch22_y_good", "key": -1477753565, "index": 6, "ar": "يا [player]…", "en": "[player]...", "notes": "", "reviewed": true}
+{"id": 12255, "label": "ch22_y_good", "key": -1505713686, "index": 7, "ar": "…كيف أدركت هذا بسرعة؟", "en": "...How did you pick up on this so quickly?", "notes": "", "reviewed": true}
+{"id": 12256, "label": "ch22_y_good", "key": 1852077043, "index": 8, "ar": "فحسب بالأمس، كنت أشرح لك التقنيات التي تستحقّ التدرّب\nعليها…", "en": "Just yesterday, I was telling you the kind of techniques worth practicing...", "notes": "", "reviewed": true}
+{"id": 12257, "label": "ch22_y_good", "key": 44631643, "index": 9, "ar": "ربما كان ذلك هو السبب...", "en": "Maybe that's why...", "notes": "", "reviewed": true}
+{"id": 12258, "label": "ch22_y_good", "key": 1497664318, "index": 10, "ar": "لقد شرحت على نحو بديع.", "en": "You did a good job explaining.", "notes": "", "reviewed": true}
+{"id": 12259, "label": "ch22_y_good", "key": -2119798399, "index": 11, "ar": "أردت حقًا إثراءها بالصور.", "en": "I really wanted to try giving it more imagery.", "notes": "", "reviewed": true}
+{"id": 12260, "label": "ch22_y_good", "key": -1760065563, "index": 12, "ar": "تبتلع يوري ريقها بوضوح.", "en": "Yuri visibly swallows.", "notes": "", "reviewed": true}
+{"id": 12261, "label": "ch22_y_good", "key": -949685073, "index": 13, "ar": "حتى يداها تبدوان متعرقتين.", "en": "Even her hands appear sweaty.", "notes": "", "reviewed": true}
+{"id": 12262, "label": "ch22_y_good", "key": -1148401237, "index": 14, "ar": "آ-آه…", "en": "A-Ah...", "notes": "", "reviewed": true}
+{"id": 12263, "label": "ch22_y_good", "key": 566027384, "index": 15, "ar": "هذا يسعدني كثيرا…", "en": "That makes me so happy...", "notes": "", "reviewed": true}
+{"id": 12264, "label": "ch22_y_good", "key": -1061004552, "index": 16, "ar": "من الرائع أن أشعر بأنّي محلّ تقدير عندك، [player]!", "en": "It's so amazing to feel like I'm valued, [player]!", "notes": "", "reviewed": true}
+{"id": 12265, "label": "ch22_y_good", "key": 483378871, "index": 17, "ar": "كلّ ما تكتبه كنز عندي.", "en": "Everything that you write is a treasure to me.", "notes": "", "reviewed": true}
+{"id": 12266, "label": "ch22_y_good", "key": -232772235, "index": 18, "ar": "يدق قلبي لمجرد إمساكي به…", "en": "My heart pounds just holding it...", "notes": "", "reviewed": true}
+{"id": 12267, "label": "ch22_y_good", "key": -401633245, "index": 19, "ar": "هاها…", "en": "Ahaha...", "notes": "", "reviewed": true}
+{"id": 12268, "label": "ch22_y_good", "key": 1191783866, "index": 20, "ar": "أريد أن أكتب قصيدة عن هذا الشعور…", "en": "I want to write a poem about this feeling...", "notes": "", "reviewed": true}
+{"id": 12269, "label": "ch22_y_good", "key": 1596663488, "index": 21, "ar": "هل هذا سيّء، [player]؟", "en": "Is that bad, [player]?", "notes": "", "reviewed": true}
+{"id": 12270, "label": "ch22_y_good", "key": 1867200159, "index": 22, "ar": "أنا لست غريبة، أليس كذلك؟", "en": "I'm not being weird, right?", "notes": "", "reviewed": true}
+{"id": 12271, "label": "ch22_y_good", "key": -98638861, "index": 23, "ar": "أنا-أنا أجد صعوبة أكبر من المعتاد في كتمان مشاعري...", "en": "I-I'm having a harder time than usual at concealing my emotions...", "notes": "", "reviewed": true}
+{"id": 12272, "label": "ch22_y_good", "key": -1433357153, "index": 24, "ar": "أنا خجولة بعض الشيء.", "en": "I'm kind of embarrassed.", "notes": "", "reviewed": true}
+{"id": 12273, "label": "ch22_y_good", "key": -602423685, "index": 25, "ar": "لكن الآن، كل ما أريده أن تقرأ قصيدتي أيضا.", "en": "But right now, I just want you to read my poem, too.", "notes": "", "reviewed": true}
+{"id": 12274, "label": "ch22_y_good", "key": -159111673, "index": 26, "ar": "حسنا؟", "en": "Okay?", "notes": "", "reviewed": true}
+{"id": 12275, "label": "ch22_y_good", "key": 173531310, "index": 27, "ar": "لقد كنت أنتظر هذا...", "en": "I've been waiting for this...", "notes": "", "reviewed": true}
+{"id": 12276, "label": "ch22_y_good", "key": -628652093, "index": 28, "ar": "هيا لنر ما كتبته اليوم.", "en": "Let's see what you've written for today.", "notes": "", "reviewed": true}
+{"id": 12277, "label": "ch22_y_good", "key": 1623555997, "index": 29, "ar": "...", "en": "...", "notes": "", "reviewed": true}
+{"id": 12278, "label": "ch22_y_good", "key": 2091053283, "index": 30, "ar": "......", "en": "......", "notes": "", "reviewed": true}
+{"id": 12279, "label": "ch22_y_good", "key": 1164950520, "index": 31, "ar": "تحدّق يوري في القصيدة، وتظهر على ملامحها دهشة.", "en": "Yuri stares at the poem with a surprised expression on her face.", "notes": "", "reviewed": true}
+{"id": 12280, "label": "ch22_y_good", "key": -79176804, "index": 32, "ar": "هل... أعجبتك؟", "en": "Do you...like it?", "notes": "", "reviewed": true}
+{"id": 12281, "label": "ch22_y_good", "key": -1477753564, "index": 33, "ar": "[player]...", "en": "[player]...", "notes": "", "reviewed": true}
+{"id": 12282, "label": "ch22_y_good", "key": -227750937, "index": 34, "ar": "قد تكون هذه أفضل من قصيدة أمس حتى...", "en": "This one might even be better than yesterday's...", "notes": "", "reviewed": true}
+{"id": 12283, "label": "ch22_y_good", "key": -1523531854, "index": 35, "ar": "...كيف أدركت الأمر بكل هذه السرعة؟", "en": "...How did you even pick up on this so quickly?", "notes": "", "reviewed": true}
+{"id": 12284, "label": "ch23_y_good", "key": 1719010395, "index": 0, "ar": "أخيرا...", "en": "Finally...", "notes": "", "reviewed": true}
+{"id": 12285, "label": "ch23_y_good", "key": -401633245, "index": 1, "ar": "هههه...", "en": "Ahaha...", "notes": "", "reviewed": true}
+{"id": 12286, "label": "ch23_y_good", "key": -1589242119, "index": 2, "ar": "تقرّب يوري قصيدتي من وجهها وتأخذ نفسًا عميقًا.", "en": "Yuri holds my poem to her face and takes a deep breath.", "notes": "", "reviewed": true}
+{"id": 12287, "label": "ch23_y_good", "key": 1060496138, "index": 3, "ar": "أنا أعشقها.", "en": "I love it.", "notes": "", "reviewed": true}
+{"id": 12288, "label": "ch23_y_good", "key": 266067924, "index": 4, "ar": "أعشق فيها كلّ شيء.", "en": "I love everything about it.", "notes": "", "reviewed": true}
+{"id": 12289, "label": "ch23_y_good", "key": 1371879419, "index": 5, "ar": "[player]، أريد أن آخذها إلى البيت.", "en": "[player], I want to take this home.", "notes": "", "reviewed": true}
+{"id": 12290, "label": "ch23_y_good", "key": -1997069747, "index": 6, "ar": "هل تسمح لي أن أحتفظ بها؟", "en": "Will you let me keep it?", "notes": "", "reviewed": true}
+{"id": 12291, "label": "ch23_y_good", "key": -1961604515, "index": 7, "ar": "رجاء؟", "en": "Please?", "notes": "", "reviewed": true}
+{"id": 12292, "label": "ch23_y_good", "key": 1893158593, "index": 8, "ar": "بالتأكيد، لا يهمني...", "en": "Sure, I don't care...", "notes": "", "reviewed": true}
+{"id": 12293, "label": "ch23_y_good", "key": -421360229, "index": 9, "ar": "هههه.", "en": "Ahaha.", "notes": "", "reviewed": true}
+{"id": 12294, "label": "ch23_y_good", "key": -663295958, "index": 10, "ar": "أنت لطيف معي أكثر مما يجب، [player]...", "en": "You're too nice to me, [player]...", "notes": "", "reviewed": true}
+{"id": 12295, "label": "ch23_y_good", "key": 1124366213, "index": 11, "ar": "لم ألتق قطّ بشخص لطيف مثلك.", "en": "I've never met anyone as nice as you.", "notes": "", "reviewed": true}
+{"id": 12296, "label": "ch23_y_good", "key": -859013636, "index": 12, "ar": "سأموت...", "en": "I could die...", "notes": "", "reviewed": true}
+{"id": 12297, "label": "ch23_y_good", "key": 2139073791, "index": 13, "ar": "ل-ليس بالمعنى الحرفي، لكن--!", "en": "N-Not really, but--!", "notes": "", "reviewed": true}
+{"id": 12298, "label": "ch23_y_good", "key": -20797853, "index": 14, "ar": "أنا فقط لا أعرف كيف أصف هذا الشعور.", "en": "I just don't know how to describe it.", "notes": "", "reviewed": true}
+{"id": 12299, "label": "ch23_y_good", "key": 1179800693, "index": 15, "ar": "لا بأس أن أشعر هكذا، أليس كذلك؟", "en": "It's okay to be feeling this way, right?", "notes": "", "reviewed": true}
+{"id": 12300, "label": "ch23_y_good", "key": 566952552, "index": 16, "ar": "ليس سيئا، أليس كذلك؟", "en": "It's not bad, right?", "notes": "", "reviewed": true}
+{"id": 12301, "label": "ch23_y_good", "key": 415309191, "index": 17, "ar": "تضع يوري قصيدتي على صدرها.", "en": "Yuri holds my poem to her chest.", "notes": "", "reviewed": true}
+{"id": 12302, "label": "ch23_y_good", "key": -1849128561, "index": 18, "ar": "سأحملها إلى البيت معي وأحفظها في غرفتي.", "en": "I'm going to take this home with me and keep it in my room.", "notes": "", "reviewed": true}
+{"id": 12303, "label": "ch23_y_good", "key": -1653872350, "index": 19, "ar": "أتمنى أن يسعدك التفكير في أنها بحوزتي.", "en": "I hope that it makes you feel good when you think about me having it.", "notes": "", "reviewed": true}
+{"id": 12304, "label": "ch23_y_good", "key": 109575500, "index": 20, "ar": "سأعتني بها كلّ الاعتناء!", "en": "I'll take good care of it!", "notes": "", "reviewed": true}
+{"id": 12305, "label": "ch23_y_good", "key": -814024394, "index": 21, "ar": "بل سألمس نفسي وأنا أقرأها مرة بعد مرة.", "en": "I'll even touch myself while reading it over and over.", "notes": "", "reviewed": true}
+{"id": 12306, "label": "ch23_y_good", "key": 950609707, "index": 22, "ar": "وسأخدش يديّ بأطراف الورق حتى تتسلّل زيوت بشرتك إلى دمي.", "en": "I'll give myself paper cuts so your skin oil enters my bloodstream.", "notes": "", "reviewed": true}
+{"id": 12307, "label": "ch23_y_good", "key": -599904588, "index": 23, "ar": "هاهاهاهاها.", "en": "Ahahahahaha.", "notes": "", "reviewed": true}
+{"id": 12308, "label": "ch23_y_good", "key": 1423292606, "index": 24, "ar": "يمكنك أخذ قصيدتي أنت أيضا.", "en": "You can have my poem too.", "notes": "", "reviewed": true}
+{"id": 12309, "label": "ch23_y_good", "key": 2050694623, "index": 25, "ar": "وإضافة إلى ذلك، أنا واثقة بأنك ستودّ حقًا الاحتفاظ بها بعد أن\nتقرأها.", "en": "Besides, after you read it, I know you're really going to want to keep it.", "notes": "", "reviewed": true}
+{"id": 12310, "label": "ch23_y_good", "key": -1838294522, "index": 26, "ar": "خذها، ها هي. لم أعد أطيق الانتظار.", "en": "Here, take it. I can't wait any longer.", "notes": "", "reviewed": true}
+{"id": 12311, "label": "ch23_y_good", "key": 1871783747, "index": 27, "ar": "اسرع! اقرأها!", "en": "Hurry! Read it!", "notes": "", "reviewed": true}
+{"id": 12312, "label": "ch21_m_start", "key": 838645429, "index": 0, "ar": "مرحبا، [player]!", "en": "Hi, [player]!", "notes": "", "reviewed": true}
+{"id": 12313, "label": "ch21_m_start", "key": 1271520166, "index": 1, "ar": "هل قضيت وقتا ممتعا حتى الآن؟", "en": "Having a good time so far?", "notes": "", "reviewed": true}
+{"id": 12314, "label": "ch21_m_start", "key": -873387598, "index": 2, "ar": "آه... نعم.", "en": "Ah...yeah.", "notes": "", "reviewed": true}
+{"id": 12315, "label": "ch21_m_start", "key": 30804025, "index": 3, "ar": "رائع! سعيدة بسماع ذلك!", "en": "Good! Glad to hear it!", "notes": "", "reviewed": true}
+{"id": 12316, "label": "ch21_m_start", "key": -705346078, "index": 4, "ar": "وبالمناسبة، بما أنّك جديد هنا على أيّ حال...", "en": "By the way, since you're new and everything...", "notes": "", "reviewed": true}
+{"id": 12317, "label": "ch21_m_start", "key": 2007752230, "index": 5, "ar": "إذا خطرت لك اقتراحات للنادي، كنشاطات جديدة أو\nأمور يمكننا تحسينها...", "en": "If you ever have any suggestions for the club, like new activities, or things we can do better...", "notes": "", "reviewed": true}
+{"id": 12318, "label": "ch21_m_start", "key": 1061640858, "index": 6, "ar": "أنا أستمع دائما!", "en": "I'm always listening!", "notes": "", "reviewed": true}
+{"id": 12319, "label": "ch21_m_start", "key": -2038502052, "index": 7, "ar": "لا تتردّد في طرح الأفكار، حسنا؟", "en": "Don't be afraid to bring things up, okay?", "notes": "", "reviewed": true}
+{"id": 12320, "label": "ch21_m_start", "key": -1889323466, "index": 8, "ar": "حسنا... سأحتفظ بذلك في بالي.", "en": "Alright...I'll keep that in mind.", "notes": "", "reviewed": true}
+{"id": 12321, "label": "ch21_m_start", "key": 291724115, "index": 9, "ar": "بالطبع سأخشى طرح أيّ شيء.", "en": "Of course I'll be afraid to bring things up.", "notes": "", "reviewed": true}
+{"id": 12322, "label": "ch21_m_start", "key": -313576292, "index": 10, "ar": "من الأفضل لي أن أسير مع التيار حتّى أتأقلم أكثر.", "en": "I'm much better off just going with the flow until I'm more settled in.", "notes": "", "reviewed": true}
+{"id": 12323, "label": "ch21_m_start", "key": -1768755757, "index": 11, "ar": "في أيّ حال...", "en": "Anyway...", "notes": "", "reviewed": true}
+{"id": 12324, "label": "ch21_m_start", "key": -9850011, "index": 12, "ar": "هل تريد مشاركتي قصيدتك؟", "en": "Want to share your poem with me?", "notes": "", "reviewed": true}
+{"id": 12325, "label": "ch21_m_start", "key": -589767807, "index": 13, "ar": "الأمر محرج بعض الشيء، لكنّني أظنّ أنّه لا بدّ من ذلك.", "en": "It's kind of embarrassing, but I guess I have to.", "notes": "", "reviewed": true}
+{"id": 12326, "label": "ch21_m_start", "key": -434357727, "index": 14, "ar": "أهاهاها!", "en": "Ahahaha!", "notes": "", "reviewed": true}
+{"id": 12327, "label": "ch21_m_start", "key": 1493034803, "index": 15, "ar": "لا تقلق، [player]!", "en": "Don't worry, [player]!", "notes": "", "reviewed": true}
+{"id": 12328, "label": "ch21_m_start", "key": 617565527, "index": 16, "ar": "نحن جميعا نشعر بخجل بعض الشيء اليوم، أليس كذلك؟", "en": "We're all a little embarrassed today, you know?", "notes": "", "reviewed": true}
+{"id": 12329, "label": "ch21_m_start", "key": 1848334188, "index": 17, "ar": "لكن هذا نوع الحاجز الذي سنتعلم جميعا تجاوزه قريبا.", "en": "But it's that sort of barrier that we'll all learn to get past soon.", "notes": "", "reviewed": true}
+{"id": 12330, "label": "ch21_m_start", "key": -570236132, "index": 18, "ar": "نعم، هذا صحيح.", "en": "Yeah, that's true.", "notes": "", "reviewed": true}
+{"id": 12331, "label": "ch21_m_start", "key": 1663284084, "index": 19, "ar": "أسلّم قصيدتي إلى مونيكا.", "en": "I hand Monika my poem.", "notes": "", "reviewed": true}
+{"id": 12332, "label": "ch21_m_start", "key": 890922211, "index": 20, "ar": "...همم!", "en": "...Mhm!", "notes": "", "reviewed": true}
+{"id": 12333, "label": "ch21_m_start", "key": -42801016, "index": 21, "ar": "في أيّ حال، هل تريد أن تقرأ قصيدتي الآن؟", "en": "Anyway, do you want to read my poem now?", "notes": "", "reviewed": true}
+{"id": 12334, "label": "ch21_m_start", "key": -194695542, "index": 22, "ar": "لا تقلق، لست بارعة كثيرًا...", "en": "Don't worry, I'm not very good...", "notes": "", "reviewed": true}
+{"id": 12335, "label": "ch21_m_start", "key": 1578909140, "index": 23, "ar": "تبدو واثقة من نفسك كثيرا، وأنت تدّعين أنّك لست جيدة.", "en": "You sound pretty confident for someone who claims to not be very good.", "notes": "", "reviewed": true}
+{"id": 12336, "label": "ch21_m_start", "key": -1188240364, "index": 24, "ar": "حسنا... لأنّ عليّ أن أبدو واثقة.", "en": "Well...that's 'cause I have to sound confident.", "notes": "", "reviewed": true}
+{"id": 12337, "label": "ch21_m_start", "key": 709400563, "index": 25, "ar": "لكنّ ذلك لا يعني أنّني أشعر دائما بذلك، أليس كذلك؟", "en": "That doesn't mean I always feel that way, you know?", "notes": "", "reviewed": true}
+{"id": 12338, "label": "ch21_m_start", "key": 1750144500, "index": 26, "ar": "أفهم...", "en": "I see...", "notes": "", "reviewed": true}
+{"id": 12339, "label": "ch21_m_start", "key": 1474647169, "index": 27, "ar": "حسنا، فلنقرأه إذن.", "en": "Well, let's read it, then.", "notes": "", "reviewed": true}
+{"id": 12340, "label": "ch22_m_start", "key": 1671093801, "index": 0, "ar": "مرحبا من جديد، [player]!", "en": "Hi again, [player]!", "notes": "", "reviewed": true}
+{"id": 12341, "label": "ch22_m_start", "key": 1370044192, "index": 1, "ar": "كيف يسير الأمر في الكتابة؟", "en": "How's the writing going?", "notes": "", "reviewed": true}
+{"id": 12342, "label": "ch22_m_start", "key": -630991843, "index": 2, "ar": "حسنا، على ما يبدو...", "en": "Alright, I guess...", "notes": "", "reviewed": true}
+{"id": 12343, "label": "ch22_m_start", "key": 300270496, "index": 3, "ar": "سأكتفي بذلك.", "en": "I'll take that.", "notes": "", "reviewed": true}
+{"id": 12344, "label": "ch22_m_start", "key": 1402530850, "index": 4, "ar": "ما دام الأمر لا يسير سيئا!", "en": "As long as it's not going bad!", "notes": "", "reviewed": true}
+{"id": 12345, "label": "ch22_m_start", "key": 647234550, "index": 5, "ar": "أنا سعيدة بجديّتك في ذلك.", "en": "I'm happy that you're applying yourself.", "notes": "", "reviewed": true}
+{"id": 12346, "label": "ch22_m_start", "key": 362476828, "index": 6, "ar": "ربما تبتكر تحفة فنية قريبا!", "en": "Maybe soon you'll come up with a masterpiece!", "notes": "", "reviewed": true}
+{"id": 12347, "label": "ch22_m_start", "key": 727779529, "index": 7, "ar": "أهاها، لن أراهن على ذلك...", "en": "Ahaha, I wouldn't count on that...", "notes": "", "reviewed": true}
+{"id": 12348, "label": "ch22_m_start", "key": -508171515, "index": 8, "ar": "لا أحد يدري!", "en": "You never know!", "notes": "", "reviewed": true}
+{"id": 12349, "label": "ch22_m_start", "key": 139959435, "index": 9, "ar": "هل تريد مشاركتي ما كتبته اليوم؟", "en": "Want to share what you wrote for today?", "notes": "", "reviewed": true}
+{"id": 12350, "label": "ch22_m_start", "key": 1639752276, "index": 10, "ar": "بالطبع... تفضّل.", "en": "Sure... Here you go.", "notes": "", "reviewed": true}
+{"id": 12351, "label": "ch22_m_start", "key": 1293424993, "index": 11, "ar": "أعطي قصيدتي إلى مونيكا.", "en": "I give my poem to Monika.", "notes": "", "reviewed": true}
+{"id": 12352, "label": "ch22_m_start", "key": 1623555996, "index": 12, "ar": "………", "en": "...", "notes": "", "reviewed": true}
+{"id": 12353, "label": "ch22_m_start", "key": 1073565568, "index": 13, "ar": "...حسنا!", "en": "...Alright!", "notes": "", "reviewed": true}
+{"id": 12354, "label": "ch22_m_start", "key": 559186144, "index": 14, "ar": "لكن في أيّ حال...", "en": "But anyway...", "notes": "", "reviewed": true}
+{"id": 12355, "label": "ch22_m_start", "key": -1321165412, "index": 15, "ar": "هل تريد أن تقرأ قصيدتي الآن؟", "en": "You want to read my poem now?", "notes": "", "reviewed": true}
+{"id": 12356, "label": "ch22_m_start", "key": 845076797, "index": 16, "ar": "أعجبتني النتيجة التي خرجت بها هذه القصيدة، فأرجو أن تعجبك أنت أيضًا~", "en": "I like the way this one turned out, so I hope you do too~", "notes": "", "reviewed": true}
+{"id": 12357, "label": "ch23_m_start", "key": -1768755757, "index": 0, "ar": "على أي حال...", "en": "Anyway...", "notes": "", "reviewed": true}
+{"id": 12358, "label": "ch23_m_start", "key": 100192481, "index": 1, "ar": "أظننا لن نقلق بشأن قصيدتك...", "en": "I guess we won't worry about your poem...", "notes": "", "reviewed": true}
+{"id": 12359, "label": "ch23_m_start", "key": 124893299, "index": 2, "ar": "كان الأحرى بيوري أن تتحلى بقدر من اللباقة فتدعك تنهي مشاركة\nقصيدتك قبل أن تأخذها.", "en": "Yuri should have at least had the courtesy of letting you finish sharing it before taking it.", "notes": "", "reviewed": true}
+{"id": 12360, "label": "ch23_m_start", "key": 1052633000, "index": 3, "ar": "...حسنا، أيّا كان الأمر.", "en": "...Well, whatever.", "notes": "", "reviewed": true}
+{"id": 12361, "label": "ch23_m_start", "key": -2113956999, "index": 4, "ar": "إن كان ذلك يسعدها، فلن أحاول منعها.", "en": "If it makes her happy, I won't stop her.", "notes": "", "reviewed": true}
+{"id": 12362, "label": "ch23_m_start", "key": 1906279950, "index": 5, "ar": "أما قصيدتي أنا...", "en": "As for mine...", "notes": "", "reviewed": true}
+{"id": 12363, "label": "ch23_m_start", "key": -521824682, "index": 6, "ar": "بذلت جهدا كبيرا... جهدا حقيقيا في هذه القصيدة، لذلك...", "en": "I worked really...really hard on this poem, so...", "notes": "", "reviewed": true}
+{"id": 12364, "label": "ch23_m_start", "key": -559856191, "index": 7, "ar": "آمل أن تكون، إيه، مؤثّرة.", "en": "I hope that it's, uh, effective.", "notes": "", "reviewed": true}
+{"id": 12365, "label": "ch23_m_start", "key": 426514576, "index": 8, "ar": "ها هو ذا...", "en": "Here goes...", "notes": "", "reviewed": true}
+{"id": 12366, "label": "m2_natsuki_1", "key": 815747243, "index": 0, "ar": "أعجبني، [player]!", "en": "I like it, [player]!", "notes": "", "reviewed": true}
+{"id": 12367, "label": "m2_natsuki_1", "key": -1509279890, "index": 1, "ar": "حقا...؟", "en": "Really...?", "notes": "", "reviewed": true}
+{"id": 12368, "label": "m2_natsuki_1", "key": 1898448964, "index": 2, "ar": "إنها لطيفة أكثر بكثير ممّا توقعت.", "en": "It's a lot cuter than I expected.", "notes": "", "reviewed": true}
+{"id": 12369, "label": "m2_natsuki_1", "key": -434357727, "index": 3, "ar": "هاهاها!", "en": "Ahahaha!", "notes": "", "reviewed": true}
+{"id": 12370, "label": "m2_natsuki_1", "key": 2016782917, "index": 4, "ar": "يا إلهي...", "en": "Oh jeez...", "notes": "", "reviewed": true}
+{"id": 12371, "label": "m2_natsuki_1", "key": 910082657, "index": 5, "ar": "لا، لا!", "en": "No, no!", "notes": "", "reviewed": true}
+{"id": 12372, "label": "m2_natsuki_1", "key": -224561039, "index": 6, "ar": "يذكّرني إلى حدّ ما بشيء تكتبه ناتسوكي.", "en": "It kind of makes me think of something Natsuki would write.", "notes": "", "reviewed": true}
+{"id": 12373, "label": "m2_natsuki_1", "key": 223622472, "index": 7, "ar": "وهي كاتبة ماهرة أيضا.", "en": "And she's a good writer, too.", "notes": "", "reviewed": true}
+{"id": 12374, "label": "m2_natsuki_1", "key": -634242464, "index": 8, "ar": "فاعتبر ذلك مديحا!", "en": "So take that as a compliment!", "notes": "", "reviewed": true}
+{"id": 12375, "label": "m2_natsuki_1", "key": -401633245, "index": 9, "ar": "هههه...", "en": "Ahaha...", "notes": "", "reviewed": true}
+{"id": 12376, "label": "m2_natsuki_1", "key": -1469506683, "index": 10, "ar": "إن قلت ذلك.", "en": "If you say so.", "notes": "", "reviewed": true}
+{"id": 12377, "label": "m2_natsuki_1", "key": 883096017, "index": 11, "ar": "أجل!", "en": "Yep!", "notes": "", "reviewed": true}
+{"id": 12378, "label": "m2_natsuki_1", "key": -220870801, "index": 12, "ar": "إذا كنت مهتما بناتسوكي، فاحمل معك وجبة خفيفة دائما.", "en": "If you're interested in Natsuki, then always keep a snack on you.", "notes": "", "reviewed": true}
+{"id": 12379, "label": "m2_natsuki_1", "key": 1648693638, "index": 13, "ar": "ستلتصق بك كجرو.", "en": "She'll cling to you like a puppy.", "notes": "", "reviewed": true}
+{"id": 12380, "label": "m2_natsuki_1", "key": 1500954072, "index": 14, "ar": "هههه!", "en": "Ahaha!", "notes": "", "reviewed": true}
+{"id": 12381, "label": "m2_natsuki_1", "key": -539865608, "index": 15, "ar": "والد ناتسوكي لا يعطيها مصروف الغداء ولا يترك لها أي طعام\nفي البيت، لذا غالبا ما تكون في مزاج عصبي...", "en": "Natsuki's dad doesn't give her lunch money or leave her any food in the house, so she's in a fussy mood pretty often...", "notes": "", "reviewed": true}
+{"id": 12382, "label": "m2_natsuki_1", "key": -89811427, "index": 16, "ar": "لكنها أحيانا تفقد كل قوتها وتنطوي على نفسها.", "en": "But sometimes she just loses all of her strength and shuts down.", "notes": "", "reviewed": true}
+{"id": 12383, "label": "m2_natsuki_1", "key": -1523772579, "index": 17, "ar": "كما كان الأمر قبل قليل.", "en": "Like earlier.", "notes": "", "reviewed": true}
+{"id": 12384, "label": "m2_natsuki_1", "key": -2031631511, "index": 18, "ar": "هذا مجرّد تخمين، لكنني أظنّ أنّها صغيرة القامة لأنّ سوء\nتغذيتها يعيق نموّها في المراهقة...", "en": "This is just a guess, but I think she's so small because her malnutrition is interfering with her adolescent growth...", "notes": "", "reviewed": true}
+{"id": 12385, "label": "m2_natsuki_1", "key": 1424122220, "index": 19, "ar": "...لكن بعض الرجال يفضلون الفتيات صغيرات القامة أيضًا، أتعلم؟", "en": "...But hey, some guys are into petite girls too, you know?", "notes": "", "reviewed": true}
+{"id": 12386, "label": "m2_natsuki_1", "key": 181398500, "index": 20, "ar": "عذرا... كنت أحاول فقط النظر إلى الجانب المشرق!", "en": "Sorry...just trying to look at the bright side!", "notes": "", "reviewed": true}
+{"id": 12387, "label": "m2_yuri_1", "key": 184057242, "index": 0, "ar": "أحسنت فعلا، [player]!", "en": "Great job, [player]!", "notes": "", "reviewed": true}
+{"id": 12388, "label": "m2_yuri_1", "key": 2130342189, "index": 1, "ar": "كنت أقول في نفسي «يا للروعة!» وأنا أقرأه.", "en": "I was going 'Ooh' in my head while reading it.", "notes": "", "reviewed": true}
+{"id": 12389, "label": "m2_yuri_1", "key": 1941060368, "index": 2, "ar": "إنّه مجازي بعمق!", "en": "It's really metaphorical!", "notes": "", "reviewed": true}
+{"id": 12390, "label": "m2_yuri_1", "key": -479334287, "index": 3, "ar": "لا أدري لماذا، لكنني لم أظن أنك ستغوص في عمق كهذا.", "en": "I'm not sure why, but I didn't expect you to go for something so deep.", "notes": "", "reviewed": true}
+{"id": 12391, "label": "m2_yuri_1", "key": 1808171983, "index": 4, "ar": "أظن أنني قللت من شأنك!", "en": "I guess I underestimated you!", "notes": "", "reviewed": true}
+{"id": 12392, "label": "m2_yuri_1", "key": -1745428442, "index": 5, "ar": "من الأسهل لي أن أجعل توقعات الجميع منخفضة.", "en": "It's easiest for me to keep everyone's expectations low.", "notes": "", "reviewed": true}
+{"id": 12393, "label": "m2_yuri_1", "key": 695096003, "index": 6, "ar": "بهذا يكون لكل جهد أبذله قيمة دائمًا.", "en": "That way, it always counts when I put in some effort.", "notes": "", "reviewed": true}
+{"id": 12394, "label": "m2_yuri_1", "key": -1999769699, "index": 7, "ar": "أهاها! هذا ليس عادلا!", "en": "Ahaha! That's not very fair!", "notes": "", "reviewed": true}
+{"id": 12395, "label": "m2_yuri_1", "key": -945178596, "index": 8, "ar": "حسنا، يبدو أنّها نجحت في كل الأحوال.", "en": "Well, I guess it worked, anyway.", "notes": "", "reviewed": true}
+{"id": 12396, "label": "m2_yuri_1", "key": -1498478460, "index": 9, "ar": "أتعلم أن يوري تحب هذا النوع من الكتابة، أليس كذلك؟", "en": "You know that Yuri likes this kind of writing, right?", "notes": "", "reviewed": true}
+{"id": 12397, "label": "m2_yuri_1", "key": -1873422561, "index": 10, "ar": "كتابة مفعمة بالصور والرموز.", "en": "Writing that's full of imagery and symbolism.", "notes": "", "reviewed": true}
+{"id": 12398, "label": "m2_yuri_1", "key": -1604275096, "index": 11, "ar": "أشعر أحيانًا أنّ عقل يوري مفصول تمامًا عن الواقع.", "en": "Sometimes I feel like Yuri's mind is just totally detached from reality.", "notes": "", "reviewed": true}
+{"id": 12399, "label": "m2_yuri_1", "key": 1029590450, "index": 12, "ar": "لكنني لا أقصد أنّ ذلك عيب.", "en": "I don't mean that like it's a bad thing, though.", "notes": "", "reviewed": true}
+{"id": 12400, "label": "m2_yuri_1", "key": 1757269520, "index": 13, "ar": "لكن أحيانًا يخالجني انطباع بأنها فقدت أملها في الناس تمامًا.", "en": "But sometimes I get the impression that she's just totally given up on people.", "notes": "", "reviewed": true}
+{"id": 12401, "label": "m2_yuri_1", "key": 1050690906, "index": 14, "ar": "تمضي وقتًا طويلًا داخل رأسها حتى إنّ ذلك العالم أصبح على الأرجح\nأكثر إثارة لاهتمامها...", "en": "She spends so much time in her own head that it's probably a much more interesting place for her...", "notes": "", "reviewed": true}
+{"id": 12402, "label": "m2_yuri_1", "key": -1620721555, "index": 15, "ar": "ولهذا تسعد كثيرًا حين تعاملها بلطف شديد.", "en": "But that's why she gets so happy when you treat her with a lot of kindness.", "notes": "", "reviewed": true}
+{"id": 12403, "label": "m2_yuri_1", "key": 217122732, "index": 16, "ar": "لا أظن أنّها اعتادت أن تدلّل هكذا.", "en": "I don't think she's used to being indulged like that.", "notes": "", "reviewed": true}
+{"id": 12404, "label": "m2_yuri_1", "key": 1864928414, "index": 17, "ar": "لا بد أنّها محرومة حقًا من التواصل الاجتماعي، فلا تلومها\nإذا بدت شديدة الاندفاع بعض الشيء.", "en": "She must be really starved for social interaction, so don't blame her for coming on a little strongly.", "notes": "", "reviewed": true}
+{"id": 12405, "label": "m2_yuri_1", "key": 636760097, "index": 18, "ar": "كما حدث قبل قليل...", "en": "Like earlier...", "notes": "", "reviewed": true}
+{"id": 12406, "label": "m2_yuri_1", "key": 769593175, "index": 19, "ar": "أعتقد أنّها حين تستثار أكثر من اللازم تنطوي على نفسها\nوتبحث عن وقت لنفسها.", "en": "I think if she gets too stimulated, she ends up withdrawing and looking for alone time.", "notes": "", "reviewed": true}
+{"id": 12407, "label": "m2_yuri_1", "key": 1918616360, "index": 20, "ar": "فجأة، تنفتح الباب.", "en": "Suddenly, the door opens.", "notes": "", "reviewed": true}
+{"id": 12408, "label": "m2_yuri_1", "key": 1527946732, "index": 21, "ar": "يوري!", "en": "Yuri!", "notes": "", "reviewed": true}
+{"id": 12409, "label": "m2_yuri_1", "key": 659447102, "index": 22, "ar": "عدت...", "en": "I'm back...", "notes": "", "reviewed": true}
+{"id": 12410, "label": "m2_yuri_1", "key": -199593575, "index": 23, "ar": "هل فاتني شيء؟", "en": "Did I miss anything?", "notes": "", "reviewed": true}
+{"id": 12411, "label": "m2_yuri_1", "key": 1742213252, "index": 24, "ar": "ليس كثيرا...", "en": "Not really...", "notes": "", "reviewed": true}
+{"id": 12412, "label": "m2_yuri_1", "key": 232964135, "index": 25, "ar": "حسنًا، بدأنا جميعًا نتبادل قصائدنا.", "en": "Well, we all started sharing our poems with each other.", "notes": "", "reviewed": true}
+{"id": 12413, "label": "m2_yuri_1", "key": 1905883840, "index": 26, "ar": "هه؟", "en": "Eh?", "notes": "", "reviewed": true}
+{"id": 12414, "label": "m2_yuri_1", "key": 877530177, "index": 27, "ar": "بدأنا بالفعل؟", "en": "Already?", "notes": "", "reviewed": true}
+{"id": 12415, "label": "m2_yuri_1", "key": 1745389276, "index": 28, "ar": "أ-أعتذر عن تأخّري...", "en": "I-I'm sorry for being late...", "notes": "", "reviewed": true}
+{"id": 12416, "label": "m2_yuri_1", "key": 1707068173, "index": 29, "ar": "لا داعي للاعتذار!", "en": "No need to apologize!", "notes": "", "reviewed": true}
+{"id": 12417, "label": "m2_yuri_1", "key": -387830500, "index": 30, "ar": "لا يزال أمامنا متسع من الوقت، والأهم أنك أخذت كل\nالوقت الذي احتجت إليه.", "en": "We still have plenty of time, so I'm more glad that you took all the time you needed.", "notes": "", "reviewed": true}
+{"id": 12418, "label": "m2_yuri_1", "key": 391347635, "index": 31, "ar": "حسنا...", "en": "Alright...", "notes": "", "reviewed": true}
+{"id": 12419, "label": "m2_yuri_1", "key": 419935268, "index": 32, "ar": "شكرا لك، مونيكا.", "en": "Thanks, Monika.", "notes": "", "reviewed": true}
+{"id": 12420, "label": "m2_yuri_1", "key": 1564754863, "index": 33, "ar": "من الأفضل أن أذهب لأحضر قصيدتي الآن.", "en": "I suppose I should go get my poem now.", "notes": "", "reviewed": true}
+{"id": 12421, "label": "m2_yuri_2", "key": -1317332555, "index": 0, "ar": "[player]، أعتقد أنّك شاهدت قبل قليل شيئا لم يكن مفترضا أن تراه.", "en": "[player], I think you saw something earlier that you weren't supposed to see.", "notes": "", "reviewed": true}
+{"id": 12422, "label": "m2_yuri_2", "key": 1087215284, "index": 1, "ar": "لم أرد أن أضطر إلى قول هذا، لكن لا أرى أمامي مناصا.", "en": "I didn't want to have to tell you this, but I don't think I have a choice.", "notes": "", "reviewed": true}
+{"id": 12423, "label": "m2_yuri_2", "key": 1185020420, "index": 2, "ar": "بات من الخطر نوعًا ما أن تقضي كل هذا الوقت مع يوري.", "en": "It's getting kind of dangerous for you to spend so much time with Yuri.", "notes": "", "reviewed": true}
+{"id": 12424, "label": "m2_yuri_2", "key": 1312674832, "index": 3, "ar": "لا أدري لماذا، لكنها تبدو سريعة الاستثارة جدّا في\nوجودك...", "en": "I don't know why, but she seems pretty easily excitable when she's around you...", "notes": "", "reviewed": true}
+{"id": 12425, "label": "m2_yuri_2", "key": -158131684, "index": 4, "ar": "وهذا ليس مشكلة بحد ذاته.", "en": "Which shouldn't be a problem in itself.", "notes": "", "reviewed": true}
+{"id": 12426, "label": "m2_yuri_2", "key": 1764810175, "index": 5, "ar": "لكن حين تستثار يوري أكثر من اللازم، تجد مكانًا تختبئ فيه\nوتبدأ في جرح نفسها بسكين جيب.", "en": "But when Yuri gets too excited, she finds a place to hide and starts cutting herself with a pocket knife.", "notes": "", "reviewed": true}
+{"id": 12427, "label": "m2_yuri_2", "key": 437991538, "index": 6, "ar": "أليس هذا فظيعا نوعا ما؟", "en": "Isn't that kind of messed up?", "notes": "", "reviewed": true}
+{"id": 12428, "label": "m2_yuri_2", "key": -1739053020, "index": 7, "ar": "إنّها تحمل سكينا مختلفة كل يوم إلى المدرسة، كأن لديها\nمجموعة أو ما شابه...", "en": "She even brings a different one to school every day, like she has a collection or something...", "notes": "", "reviewed": true}
+{"id": 12429, "label": "m2_yuri_2", "key": 102512046, "index": 8, "ar": "أعني، ليس ذلك لأنّها مكتئبة أو شيء من هذا القبيل قطّ!", "en": "I mean, it's definitely not because she's depressed or anything like that!", "notes": "", "reviewed": true}
+{"id": 12430, "label": "m2_yuri_2", "key": -227721978, "index": 9, "ar": "أعتقد أنّها تشعر بنوع من النشوة بسبب ذلك.", "en": "I think she just gets some kind of high from it.", "notes": "", "reviewed": true}
+{"id": 12431, "label": "m2_yuri_2", "key": -1786087581, "index": 10, "ar": "ربما يكون الأمر جنسيًا حتى...", "en": "It might even be, like, a sexual thing...", "notes": "", "reviewed": true}
+{"id": 12432, "label": "m2_yuri_2", "key": -951154021, "index": 11, "ar": "لكن المشكلة أنّك تشجّعها على ذلك نوعا ما.", "en": "But the point is, you've kind of been enabling her.", "notes": "", "reviewed": true}
+{"id": 12433, "label": "m2_yuri_2", "key": 2096536023, "index": 12, "ar": "لكنني لا أقول إنّك مخطئ!", "en": "I'm not saying it's your fault, though!", "notes": "", "reviewed": true}
+{"id": 12434, "label": "m2_yuri_2", "key": -701943062, "index": 13, "ar": "لكن أظنّ هذا هو السبب في أنّ عليّ أن أشرح لك كل شيء...", "en": "But I guess that's why I had to explain it all to you...", "notes": "", "reviewed": true}
+{"id": 12435, "label": "m2_yuri_2", "key": -575194844, "index": 14, "ar": "لذا أظن أن ابتعادك عنها هو الأفضل لها على الأرجح.", "en": "So I think if you keep your distance, that would probably be best for her.", "notes": "", "reviewed": true}
+{"id": 12436, "label": "m2_yuri_2", "key": 51660613, "index": 15, "ar": "وبمناسبة ذلك، لا تتردد في قضاء مزيد من الوقت\nمعي...", "en": "While you're at it, don't be shy to spend a little more time with me...", "notes": "", "reviewed": true}
+{"id": 12437, "label": "m2_yuri_2", "key": 409220381, "index": 16, "ar": "لأقلها بعبارة مخففة، أنا على الأقل متماسكة ذهنيًا... وأعرف كيف أعامل\nأعضاء ناديّ.", "en": "To put it lightly, I at least have it together in the head...and I know how to treat my club members.", "notes": "", "reviewed": true}
+{"id": 12438, "label": "m2_yuri_3", "key": -1811961396, "index": 0, "ar": "لا تقل إنّني لم أحذّرك، [player].", "en": "Don't say I didn't warn you, [player].", "notes": "", "reviewed": true}
+{"id": 12439, "label": "s1_main", "key": -1694160966, "index": 0, "ar": "مرحبا أيها العالم", "en": "Hello World", "notes": "", "reviewed": true}
+{"id": 12440, "label": "start", "key": -1070930795, "index": 0, "ar": "نهاية النسخة التجريبية", "en": "End of demo", "notes": "", "reviewed": true}
+{"id": 12441, "label": "sm1", "key": 366714574, "index": 0, "ar": "حسنا، الجميع!", "en": "Okay, everyone!", "notes": "", "reviewed": true}
+{"id": 12442, "label": "sm1", "key": 1655198006, "index": 1, "ar": "نادي الأدب على وشك الانطلاق.", "en": "The Literature Club is starting.", "notes": "", "reviewed": true}
+{"id": 12443, "label": "sm1", "key": -1212059692, "index": 2, "ar": "لنجلس جميعًا ولنتحقق من الحضور، حسنًا؟", "en": "Let's all have a seat and take attendance, okay?", "notes": "", "reviewed": true}
+{"id": 12444, "label": "sm1", "key": 1623555996, "index": 3, "ar": "...", "en": "...", "notes": "", "reviewed": true}
+{"id": 12445, "label": "sm1", "key": -276377856, "index": 4, "ar": "آه...", "en": "Ugh...", "notes": "", "reviewed": true}
+{"id": 12446, "label": "sm1", "key": -1456863802, "index": 5, "ar": "أشتاق إلى نادي المناظرات...", "en": "I miss Debate Club...", "notes": "", "reviewed": true}
+{"id": 12447, "label": "sm1", "key": -379823761, "index": 6, "ar": "من كان ليتصور أن تأسيس ناد جديد صعب إلى هذا الحد؟", "en": "Who knew it would be so difficult to start a new club?", "notes": "", "reviewed": true}
+{"id": 12448, "label": "sm1", "key": 1773144036, "index": 7, "ar": "يزداد شعوري بالسوء مع كل يوم يمرّ دون أن يأتي أحد...", "en": "I feel worse with every day that passes without anyone coming in...", "notes": "", "reviewed": true}
+{"id": 12449, "label": "sm1", "key": 2124101568, "index": 8, "ar": "أبدأ فعلا في فقدان الثقة بنفسي.", "en": "I'm really starting to lose confidence.", "notes": "", "reviewed": true}
+{"id": 12450, "label": "sm1", "key": 1245472655, "index": 9, "ar": "مونيكا هي العضو الوحيد في نادي الأدب.", "en": "Monika is the only member of the Literature Club.", "notes": "", "reviewed": true}
+{"id": 12451, "label": "sm1", "key": -1151406307, "index": 10, "ar": "خلال الأيام التي مضت، باءت جميع جهودها لاستقطاب أعضاء\nجدد بالفشل.", "en": "In the days that have passed, all of her efforts to recruit new members have been fruitless.", "notes": "", "reviewed": true}
+{"id": 12452, "label": "sm1", "key": 1846606834, "index": 11, "ar": "هل أتعامل مع هذا الأمر بطريقة خاطئة؟", "en": "Am I going about this wrong?", "notes": "", "reviewed": true}
+{"id": 12453, "label": "sm1", "key": 1615063912, "index": 12, "ar": "ترمي مونيكا نظرة إلى إحدى منشوراتها الإعلانية.", "en": "Monika glances at one of her fliers.", "notes": "", "reviewed": true}
+{"id": 12454, "label": "sm1", "key": -530006518, "index": 13, "ar": "العنوان هو: «هل تحب الأدب؟»", "en": "The headline is: \"Do you like literature?\"", "notes": "", "reviewed": true}
+{"id": 12455, "label": "sm1", "key": 985310572, "index": 14, "ar": "ربما لا يهوى أحد الأدب إلى حدّ يجعله يختاره على اهتمامات\nأندية أخرى...", "en": "Maybe nobody is into literature enough to pick it over their other club interests...", "notes": "", "reviewed": true}
+{"id": 12456, "label": "sm1", "key": -1281701233, "index": 15, "ar": "لا أستطيع أن أعتمد فقط على حب الناس للأدب.", "en": "I can't just rely on people liking literature.", "notes": "", "reviewed": true}
+{"id": 12457, "label": "sm1", "key": 966141162, "index": 16, "ar": "عليّ أن أقنعهم برؤية! برؤية.", "en": "I need to sell them on a vision! A vision.", "notes": "", "reviewed": true}
+{"id": 12458, "label": "sm1", "key": -1760165615, "index": 17, "ar": "لكن أيّ نوع من الرؤى...؟", "en": "But what kind of vision...?", "notes": "", "reviewed": true}
+{"id": 12459, "label": "sm1", "key": -1557475534, "index": 18, "ar": "تضع مونيكا رأسها على مكتبها، غارقة في الأفكار.", "en": "Monika rests her head on her desk, deep in thought.", "notes": "", "reviewed": true}
+{"id": 12460, "label": "sm1", "key": 993535989, "index": 19, "ar": "لكن قبل أن تدرك ذلك، يبدأ أثر ليالي السهر الطويلة الأخيرة\nفي الظهور عليها.", "en": "But before she realizes it, the recent nights of staying up too late start to catch up to her.", "notes": "", "reviewed": true}
+{"id": 12461, "label": "sm1", "key": 796653538, "index": 20, "ar": "سكون عميق، وضجيج المكيف يبعث على الطمأنينة...", "en": "It's so quiet, and the noise of the air conditioner is soothing...", "notes": "", "reviewed": true}
+{"id": 12462, "label": "sm1", "key": 1796706926, "index": 21, "ar": "أنا...", "en": "Um...", "notes": "", "reviewed": true}
+{"id": 12463, "label": "sm1", "key": -315868197, "index": 22, "ar": "مرحبا...؟", "en": "Hello...?", "notes": "", "reviewed": true}
+{"id": 12464, "label": "sm1", "key": 1667709572, "index": 23, "ar": "فجأة، تستيقظ مونيكا مذعورة على صوت.", "en": "Suddenly, a voice causes Monika to snap awake.", "notes": "", "reviewed": true}
+{"id": 12465, "label": "sm1", "key": -1676437698, "index": 24, "ar": "آه... يا إلهي! أنا آسفة جدا! لم أفعل هذا من قبل قط!", "en": "Oh...oh my gosh! I'm so sorry! I never do this!", "notes": "", "reviewed": true}
+{"id": 12466, "label": "sm1", "key": -1610986453, "index": 25, "ar": "هيهيه. أهذا نادي القيلولة؟", "en": "Hehe. Is this the Napping Club?", "notes": "", "reviewed": true}
+{"id": 12467, "label": "sm1", "key": 1026991935, "index": 26, "ar": "لا، هذا...", "en": "No, this is...", "notes": "", "reviewed": true}
+{"id": 12468, "label": "sm1", "key": -560665281, "index": 27, "ar": "تتوقف مونيكا عن الكلام، فجأة، وهي تخجل من الاعتراف بأن\nهذا هو نادي الأدب في الحقيقة.", "en": "Monika pauses, suddenly embarrassed to admit that this is, in fact, the Literature Club.", "notes": "", "reviewed": true}
+{"id": 12469, "label": "sm1", "key": 836725626, "index": 28, "ar": "هذا نادي الأدب...", "en": "This is the Literature Club...", "notes": "", "reviewed": true}
+{"id": 12470, "label": "sm1", "key": -2079183196, "index": 29, "ar": "يا للروعة! ظننت للحظة أنني ذهبت إلى المكان الخطأ...", "en": "Yay! I thought I got it wrong for a sec...", "notes": "", "reviewed": true}
+{"id": 12471, "label": "sm1", "key": 1424047886, "index": 30, "ar": "أنا آسفة جدًا... كان من غير اللائق أبدًا أن أفعل ذلك.", "en": "I'm super sorry...it was like, so unprofessional of me to do that.", "notes": "", "reviewed": true}
+{"id": 12472, "label": "sm1", "key": -1850335908, "index": 31, "ar": "لا تعتذري! أنا أفعل ذلك طوال الوقت!", "en": "Don't apologize! I do that all the time!", "notes": "", "reviewed": true}
+{"id": 12473, "label": "sm1", "key": 1413618201, "index": 32, "ar": "آه...", "en": "Oh...", "notes": "", "reviewed": true}
+{"id": 12474, "label": "sm1", "key": 1175177754, "index": 33, "ar": "أمم... هل فاتني اجتماع النادي؟ أين الجميع؟", "en": "Um...did I miss the club meeting? Where is everybody?", "notes": "", "reviewed": true}
+{"id": 12475, "label": "sm1", "key": -1282092022, "index": 34, "ar": "حسنا، بشأن ذلك...", "en": "Well, about that...", "notes": "", "reviewed": true}
+{"id": 12476, "label": "sm1", "key": -1553465267, "index": 35, "ar": "...هذا هو الجميع.", "en": "...This is everybody.", "notes": "", "reviewed": true}
+{"id": 12477, "label": "sm1", "key": -2086329084, "index": 36, "ar": "حقا؟ أنت وحدك؟", "en": "Really? Just you?", "notes": "", "reviewed": true}
+{"id": 12478, "label": "sm1", "key": 819726121, "index": 37, "ar": "لكن... سنحصل على المزيد من الأعضاء! أنا أعمل بجدّ شديد\nفي ذلك!", "en": "But...we're getting more members! I'm working really hard on it!", "notes": "", "reviewed": true}
+{"id": 12479, "label": "sm1", "key": 1323306416, "index": 38, "ar": "لحظة واحدة.", "en": "Hold on a sec.", "notes": "", "reviewed": true}
+{"id": 12480, "label": "sm1", "key": -187992861, "index": 39, "ar": "إذا كنت وحدك...", "en": "If it's just you...", "notes": "", "reviewed": true}
+{"id": 12481, "label": "sm1", "key": 1623555997, "index": 40, "ar": "...", "en": "...", "notes": "", "reviewed": true}
+{"id": 12482, "label": "sm1", "key": 632761805, "index": 41, "ar": "يعني هذا أنني سأصبح نائبة الرئيس!!", "en": "That means I get to be Vice President!!", "notes": "", "reviewed": true}
+{"id": 12483, "label": "sm1", "key": 1854282965, "index": 42, "ar": "انتظري... نائبة الرئيس؟", "en": "Wait...Vice President?", "notes": "", "reviewed": true}
+{"id": 12484, "label": "sm1", "key": -1832895234, "index": 43, "ar": "أنا... ما المؤهلات التي لديك؟", "en": "Um...what are your qualifications?", "notes": "", "reviewed": true}
+{"id": 12485, "label": "sm1", "key": 1670509633, "index": 44, "ar": "حسنا، أنا أجيد القيلولة أكثر منك.", "en": "Well, I'm better at napping than you.", "notes": "", "reviewed": true}
+{"id": 12486, "label": "sm1", "key": -861068530, "index": 45, "ar": "... ربما ينبغي أن أكون أنا الرئيسة!", "en": "...Maybe I should be President!", "notes": "", "reviewed": true}
+{"id": 12487, "label": "sm1", "key": 943653491, "index": 46, "ar": "الآن صرت تستهزئين بي!", "en": "Now you're just making fun of me!", "notes": "", "reviewed": true}
+{"id": 12488, "label": "sm1", "key": -457960731, "index": 47, "ar": "آه... أنا آسفة...", "en": "Oh...I'm sorry...", "notes": "", "reviewed": true}
+{"id": 12489, "label": "sm1", "key": -1625840624, "index": 48, "ar": "آه... ما اسمك؟", "en": "Um...what was your name?", "notes": "", "reviewed": true}
+{"id": 12490, "label": "sm1", "key": 1639782525, "index": 49, "ar": "سايوري.", "en": "Sayori.", "notes": "", "reviewed": true}
+{"id": 12491, "label": "sm1", "key": 1050926291, "index": 50, "ar": "حسنا. سايوري...", "en": "Okay. Sayori...", "notes": "", "reviewed": true}
+{"id": 12492, "label": "sm1", "key": 2145179058, "index": 51, "ar": "أبذل جهدا حقيقيا، جهدا كبيرا، من أجل هذا النادي.", "en": "I've been trying really, really hard on this club.", "notes": "", "reviewed": true}
+{"id": 12493, "label": "sm1", "key": -807413202, "index": 52, "ar": "أعرف أنك رأيتني في موقف غريب، لكن...", "en": "I know you caught me at a weird time, but...", "notes": "", "reviewed": true}
+{"id": 12494, "label": "sm1", "key": -1124988207, "index": 53, "ar": "إنه أمر محبط حقا ألا يؤخذ كلامي على محمل الجد، أتعرفين؟", "en": "It's really disheartening to not be taken seriously, you know?", "notes": "", "reviewed": true}
+{"id": 12495, "label": "sm1", "key": -706588146, "index": 54, "ar": "أنا أهتم بهذا الأمر كثيرا جدا.", "en": "I care so much about this.", "notes": "", "reviewed": true}
+{"id": 12496, "label": "sm1", "key": 2113703393, "index": 55, "ar": "أريد فقط أن أجد أشخاصا آخرين يهتمون مثلي.", "en": "I just want to find other people who do too.", "notes": "", "reviewed": true}
+{"id": 12497, "label": "sm1", "key": 1762107098, "index": 56, "ar": "لا...", "en": "Oh no...", "notes": "", "reviewed": true}
+{"id": 12498, "label": "sm1", "key": -206604042, "index": 57, "ar": "أنا آسفة جدا...", "en": "I'm so sorry...", "notes": "", "reviewed": true}
+{"id": 12499, "label": "sm1", "key": 1524676281, "index": 58, "ar": "أنا أهتم فعلا. أعدك بذلك.", "en": "I do care. I promise.", "notes": "", "reviewed": true}
+{"id": 12500, "label": "sm1", "key": -1309521691, "index": 59, "ar": "صعب عليّ أن أكون جادة، هذا كل شيء...", "en": "I have a hard time being serious, that's all...", "notes": "", "reviewed": true}
+{"id": 12501, "label": "sm1", "key": -590469023, "index": 60, "ar": "لم أعني أن أجرح مشاعرك.", "en": "I didn't mean for it to hurt you.", "notes": "", "reviewed": true}
+{"id": 12502, "label": "sm1", "key": 206105325, "index": 61, "ar": "وكنت أمزح بشأن منصب نائبة الرئيس أيضًا. سأكون نائبة\nرئيس فاشلة...", "en": "And I was joking about the Vice President thing too. I would make a terrible Vice President...", "notes": "", "reviewed": true}
+{"id": 12503, "label": "sm1", "key": 1601303511, "index": 62, "ar": "أعني... أنا متأكدة من أن...", "en": "I mean, I'm sure that...", "notes": "", "reviewed": true}
+{"id": 12504, "label": "sm1", "key": -811552111, "index": 63, "ar": "تحاول مونيكا أن تقول شيئا مريحا، لكن الأمر صعب وهي لا\nتزال لا تعرف الكثير عن سايوري.", "en": "Monika tries to say something reassuring, but it's difficult when she still doesn't know much about Sayori.", "notes": "", "reviewed": true}
+{"id": 12505, "label": "sm1", "key": 415175426, "index": 64, "ar": "...أنا آسفة لأن هذا لم يصبح بعد ناديًا حقيقيًا بالمعنى\nالكامل.", "en": "...I'm sorry that this isn't like, a real club yet.", "notes": "", "reviewed": true}
+{"id": 12506, "label": "sm1", "key": -1154949470, "index": 65, "ar": "هل ستنضمين على الأقل بعد أن أجد بعض الأعضاء الآخرين؟", "en": "Would you still be interested in joining after I found a few more members, at least?", "notes": "", "reviewed": true}
+{"id": 12507, "label": "sm1", "key": 1058627293, "index": 66, "ar": "حسنا، لا...", "en": "Well, no...", "notes": "", "reviewed": true}
+{"id": 12508, "label": "sm1", "key": 730801283, "index": 67, "ar": "أريد الانضمام الآن!", "en": "I want to join now!", "notes": "", "reviewed": true}
+{"id": 12509, "label": "sm1", "key": 409275671, "index": 68, "ar": "حقا؟؟", "en": "Really??", "notes": "", "reviewed": true}
+{"id": 12510, "label": "sm1", "key": -583795791, "index": 69, "ar": "نعم! يبدو ممتعا جدا!", "en": "Yeah! It sounds like a lot of fun!", "notes": "", "reviewed": true}
+{"id": 12511, "label": "sm1", "key": -1257542532, "index": 70, "ar": "وبالإضافة إلى ذلك، أستطيع أن أرى مدى جهدك الشديد.", "en": "Besides, I can tell how hard you've been working.", "notes": "", "reviewed": true}
+{"id": 12512, "label": "sm1", "key": -1442619632, "index": 71, "ar": "إنك تنجزين شيئًا مذهلًا وينبغي أن تكوني فخورة بذلك،\nأتعرفين؟", "en": "You're doing something amazing and you should be proud of it, you know?", "notes": "", "reviewed": true}
+{"id": 12513, "label": "sm1", "key": 1249701662, "index": 72, "ar": "دعيني أساعدك على تحويل هذا الأمر المجهد إلى شيء ممتع.", "en": "So let me help you turn something stressful into something fun.", "notes": "", "reviewed": true}
+{"id": 12514, "label": "sm1", "key": 1177174263, "index": 73, "ar": "إن لم يكن غير ذلك، فأنا جيدة في ذلك، لذا...", "en": "If nothing else, I'm good at that, so...", "notes": "", "reviewed": true}
+{"id": 12515, "label": "sm1", "key": -421360229, "index": 74, "ar": "هههه.", "en": "Ahaha.", "notes": "", "reviewed": true}
+{"id": 12516, "label": "sm1", "key": -423660292, "index": 75, "ar": "بصدق، كيف لي أن أرفض ذلك؟", "en": "Honestly, how could I possibly say no to that?", "notes": "", "reviewed": true}
+{"id": 12517, "label": "sm1", "key": 1969466193, "index": 76, "ar": "هذا لطيف جدا منك، سايوري.", "en": "That's really sweet of you, Sayori.", "notes": "", "reviewed": true}
+{"id": 12518, "label": "sm1", "key": 981704682, "index": 77, "ar": "آه... أنا مونيكا بالمناسبة.", "en": "Oh...I'm Monika, by the way.", "notes": "", "reviewed": true}
+{"id": 12519, "label": "sm1", "key": -514308650, "index": 78, "ar": "مونيكا!", "en": "Monika!", "notes": "", "reviewed": true}
+{"id": 12520, "label": "sm1", "key": -530474422, "index": 79, "ar": "اسم رائع جدا!", "en": "That's such a cool name!", "notes": "", "reviewed": true}
+{"id": 12521, "label": "sm1", "key": -2074971718, "index": 80, "ar": "آه، صرت تحاولين رفع معنوياتي فقط الآن...", "en": "Oh, now you're just trying to cheer me up...", "notes": "", "reviewed": true}
+{"id": 12522, "label": "sm1", "key": 639303056, "index": 81, "ar": "لكنك تبتسمين!", "en": "But you're smiling!", "notes": "", "reviewed": true}
+{"id": 12523, "label": "sm1", "key": -593543202, "index": 82, "ar": "حسنا، لم أقل إن الأمر لم ينجح.", "en": "Well, I didn't say it didn't work.", "notes": "", "reviewed": true}
+{"id": 12524, "label": "sm1", "key": 668232541, "index": 83, "ar": "ترمي مونيكا نظرة إلى المنشور على مكتبها، فتدرك أن اسمها\nمكتوب عليه بالفعل.", "en": "Monika glances at the flier on her desk and realizes that her name is already written on it.", "notes": "", "reviewed": true}
+{"id": 12525, "label": "sm1", "key": 1516668737, "index": 84, "ar": "إذن، ماذا نفعل أولا؟", "en": "So what do we do first?", "notes": "", "reviewed": true}
+{"id": 12526, "label": "sm1", "key": 730524648, "index": 85, "ar": "حسنا...", "en": "Well...", "notes": "", "reviewed": true}
+{"id": 12527, "label": "sm1", "key": -550620452, "index": 86, "ar": "لقد تأخر الوقت كثيرًا، أليس كذلك؟", "en": "It's getting pretty late, isn't it?", "notes": "", "reviewed": true}
+{"id": 12528, "label": "sm1", "key": 1583021039, "index": 87, "ar": "يمكننا العودة إلى المنزل ومحاولة التفكير في أفكار جديدة\nلاستقطاب أعضاء للنادي.", "en": "We can go home and try to come up with some new ideas to recruit club members.", "notes": "", "reviewed": true}
+{"id": 12529, "label": "sm1", "key": -1841099404, "index": 88, "ar": "أستطيع فعل ذلك!", "en": "I can do that!", "notes": "", "reviewed": true}
+{"id": 12530, "label": "sm1", "key": 391979270, "index": 89, "ar": "رائع!", "en": "Cool!", "notes": "", "reviewed": true}
+{"id": 12531, "label": "sm1", "key": -1516935769, "index": 90, "ar": "وأعتقد أنني بحاجة إلى مزيد من التفكير في رؤيتي للنادي.", "en": "And I think I need to put some more thought into my vision for the club.", "notes": "", "reviewed": true}
+{"id": 12532, "label": "sm1", "key": 1962947498, "index": 91, "ar": "تعرفين، شيء مثل... مهمة.", "en": "You know, like...a mission.", "notes": "", "reviewed": true}
+{"id": 12533, "label": "sm1", "key": -1217220312, "index": 92, "ar": "مهمتي أن أجعل الجميع سعداء.", "en": "My mission is to make everyone happy.", "notes": "", "reviewed": true}
+{"id": 12534, "label": "sm1", "key": -421360228, "index": 93, "ar": "هههه.", "en": "Ahaha.", "notes": "", "reviewed": true}
+{"id": 12535, "label": "sm1", "key": -690383033, "index": 94, "ar": "نعم، شيء ما. أحتاج إلى التفكير في ذلك.", "en": "Yeah, something like that. I need to think about it.", "notes": "", "reviewed": true}
+{"id": 12536, "label": "sm1", "key": 1941942269, "index": 95, "ar": "مرحبا، هل تحبين العناق؟", "en": "Hey, do you like hugs?", "notes": "", "reviewed": true}
+{"id": 12537, "label": "sm1", "key": -1557374809, "index": 96, "ar": "... أعتقد كذلك؟", "en": "...I guess so?", "notes": "", "reviewed": true}
+{"id": 12538, "label": "sm1", "key": 1185888381, "index": 97, "ar": "تسحب سايوري مونيكا فجأة إلى عناق ودّي، ثم تتركها.", "en": "Sayori suddenly pulls Monika into a friendly hug, then lets go.", "notes": "", "reviewed": true}
+{"id": 12539, "label": "sm1", "key": 432163942, "index": 98, "ar": "بعض الناس يحتاجون حقا إلى عناق في بعض الأحيان.", "en": "Some people can just really use a hug sometimes.", "notes": "", "reviewed": true}
+{"id": 12540, "label": "sm1", "key": 810778185, "index": 99, "ar": "وبالإضافة إلى ذلك...", "en": "Besides...", "notes": "", "reviewed": true}
+{"id": 12541, "label": "sm1", "key": -2004327321, "index": 100, "ar": "تهمس سايوري بصوت عال.", "en": "Sayori whispers loudly.", "notes": "", "reviewed": true}
+{"id": 12542, "label": "sm1", "key": -1482055416, "index": 101, "ar": "طاقة العناق هي ما يبقيني في أفضل حالاتي!", "en": "Hug energy is what keeps me at my best!", "notes": "", "reviewed": true}
+{"id": 12543, "label": "sm1", "key": -1284711254, "index": 102, "ar": "هههه، طاقة العناق؟", "en": "Ahaha, hug energy?", "notes": "", "reviewed": true}
+{"id": 12544, "label": "sm1", "key": 1858631785, "index": 103, "ar": "تضحك مونيكا.", "en": "Monika laughs.", "notes": "", "reviewed": true}
+{"id": 12545, "label": "sm1", "key": -930557628, "index": 104, "ar": "ورغم أن سايوري مختلفة جدًا عنها، تشعر مونيكا بتحسن\nمزاجها.", "en": "Although Sayori is very different from her, Monika feels her spirits lifted.", "notes": "", "reviewed": true}
+{"id": 12546, "label": "sm1", "key": 46533849, "index": 105, "ar": "ربما لأنها وجدت أخيرًا عضوًا آخر في النادي.", "en": "Maybe it's just because she finally found another club member.", "notes": "", "reviewed": true}
+{"id": 12547, "label": "sm1", "key": -888537843, "index": 106, "ar": "لكن...", "en": "But...", "notes": "", "reviewed": true}
+{"id": 12548, "label": "sm1", "key": -1192360292, "index": 107, "ar": "حسنا، أنا أتطلع إلى الغد، إذن.", "en": "Well, I'm looking forward to tomorrow, then.", "notes": "", "reviewed": true}
+{"id": 12549, "label": "sm1", "key": -1335354354, "index": 108, "ar": "سيكون ممتعا.", "en": "It'll be fun.", "notes": "", "reviewed": true}
+{"id": 12550, "label": "sm1", "key": -1304346128, "index": 109, "ar": "نعم! أنا متحمسة!", "en": "Yeah! I'm excited!", "notes": "", "reviewed": true}
+{"id": 12551, "label": "sm1", "key": 942950721, "index": 110, "ar": "سأفكر بجدّ شديد الليلة في كيفية جذب المزيد من الناس.", "en": "I'm gonna think really hard tonight about how to get more people.", "notes": "", "reviewed": true}
+{"id": 12552, "label": "sm1", "key": -1876779669, "index": 111, "ar": "نعم، وأنا أيضا.", "en": "Yeah, me too.", "notes": "", "reviewed": true}
+{"id": 12553, "label": "sm2", "key": -572348866, "index": 0, "ar": "يمضي يوم، ويحين موعد لقاء نادي الأدب مجددا — مونيكا\nوسايوري.", "en": "A day passes, and the time comes for the Literature Club - Monika and Sayori - to reconvene.", "notes": "", "reviewed": true}
+{"id": 12554, "label": "sm2", "key": -1279502943, "index": 1, "ar": "بصفتها رئيسة النادي، تحرص مونيكا على أن تكون أول من يصل\nإلى غرفة النادي.", "en": "As President, Monika ensures that she's the first to arrive to the clubroom.", "notes": "", "reviewed": true}
+{"id": 12555, "label": "sm2", "key": -1533840431, "index": 2, "ar": "لكنها تجد نفسها تنتظر سايوري أطول مما توقعت.", "en": "But she finds herself waiting longer than expected for Sayori.", "notes": "", "reviewed": true}
+{"id": 12556, "label": "sm2", "key": -1086168599, "index": 3, "ar": "مرّت عشر دقائق بالفعل...", "en": "It's been 10 minutes already...", "notes": "", "reviewed": true}
+{"id": 12557, "label": "sm2", "key": 1690487782, "index": 4, "ar": "ربما غيّرت سايوري رأيها في الانضمام؟", "en": "Maybe Sayori changed her mind about joining?", "notes": "", "reviewed": true}
+{"id": 12558, "label": "sm2", "key": 794559683, "index": 5, "ar": "لا... لا يمكن أن يكون ذلك. كانت متحمسة جدا أمس.", "en": "No... That can't be. She was so excited yesterday.", "notes": "", "reviewed": true}
+{"id": 12559, "label": "sm2", "key": 901256297, "index": 6, "ar": "لكنني أبدأ أشعر بشيء من القلق...", "en": "But I'm getting kind of worried...", "notes": "", "reviewed": true}
+{"id": 12560, "label": "sm2", "key": 1244993786, "index": 7, "ar": "فجأة، تندفع سايوري عبر الباب.", "en": "Suddenly, Sayori comes bounding through the door.", "notes": "", "reviewed": true}
+{"id": 12561, "label": "sm2", "key": -903112007, "index": 8, "ar": "تمسك ورقة بيدها.", "en": "In her hand, she's holding a sheet of paper.", "notes": "", "reviewed": true}
+{"id": 12562, "label": "sm2", "key": -1011967573, "index": 9, "ar": "آسفة على تأخري! ها أنا ذا!", "en": "Sorry I'm late! I'm here!", "notes": "", "reviewed": true}
+{"id": 12563, "label": "sm2", "key": 1863929636, "index": 10, "ar": "لا بأس. أهلا بعودتك.", "en": "It's okay. Welcome back.", "notes": "", "reviewed": true}
+{"id": 12564, "label": "sm2", "key": 1889050821, "index": 11, "ar": "و...", "en": "Aaaaand...", "notes": "", "reviewed": true}
+{"id": 12565, "label": "sm2", "key": 1646158136, "index": 12, "ar": "تلتف سايوري نحو مونيكا وتضع الورقة على مكتبها.", "en": "Sayori spins over to Monika and deposits the sheet onto Monika's desk.", "notes": "", "reviewed": true}
+{"id": 12566, "label": "sm2", "key": 1473373068, "index": 13, "ar": "آه، ما هذا؟", "en": "Oh, what's this?", "notes": "", "reviewed": true}
+{"id": 12567, "label": "sm2", "key": -461971827, "index": 14, "ar": "هذا رائع حقا!", "en": "Hey, this is really good!", "notes": "", "reviewed": true}
+{"id": 12568, "label": "sm2", "key": -938972142, "index": 15, "ar": "أنت من كتبت هذا، سايوري؟", "en": "You wrote this, Sayori?", "notes": "", "reviewed": true}
+{"id": 12569, "label": "sm2", "key": -1978577419, "index": 16, "ar": "بالطبع!", "en": "Of course!", "notes": "", "reviewed": true}
+{"id": 12570, "label": "sm2", "key": 1115409393, "index": 17, "ar": "انتظري...", "en": "Wait...", "notes": "", "reviewed": true}
+{"id": 12571, "label": "sm2", "key": -582973620, "index": 18, "ar": "لا، لحظة! هذه الجهة الخاطئة من الورقة!", "en": "Wait, no! That's the wrong side of the paper!", "notes": "", "reviewed": true}
+{"id": 12572, "label": "sm2", "key": 9527856, "index": 19, "ar": "ها؟", "en": "Huh?", "notes": "", "reviewed": true}
+{"id": 12573, "label": "sm2", "key": 1707882011, "index": 20, "ar": "لم أكن مستعدة لمشاركته بعد، أشعر بالحرج الشديد...", "en": "I wasn't ready to share that yet, I'm so embarrassed...", "notes": "", "reviewed": true}
+{"id": 12574, "label": "sm2", "key": -1216463620, "index": 21, "ar": "تقلب مونيكا الورقة. على الوجه الآخر، قائمة بأفكار لتجنيد\nأعضاء جدد للنادي.", "en": "Monika flips over the paper. Written on the other side is a list of ideas for recruiting new club members.", "notes": "", "reviewed": true}
+{"id": 12575, "label": "sm2", "key": 1981450024, "index": 22, "ar": "أوه! إذن هذا ما كنت تريدين إظهاره لي.", "en": "Ohh! So this is what you meant to show me.", "notes": "", "reviewed": true}
+{"id": 12576, "label": "sm2", "key": -1925707119, "index": 23, "ar": "لكنني أصبحت فضولية الآن... هل تكتبين الشعر كثيرا؟", "en": "But I'm curious now...do you write poetry often?", "notes": "", "reviewed": true}
+{"id": 12577, "label": "sm2", "key": -2028076468, "index": 24, "ar": "أفعل! لكن...", "en": "I do! But...", "notes": "", "reviewed": true}
+{"id": 12578, "label": "sm2", "key": -1561615801, "index": 25, "ar": "أنا متأكدة أن مهارتي لا تقارن أبدا بمهارتك.", "en": "I'm sure I'm not anywhere near as good at it as you are.", "notes": "", "reviewed": true}
+{"id": 12579, "label": "sm2", "key": 1930875211, "index": 26, "ar": "أهاها. حقا؟", "en": "Ahaha. Really?", "notes": "", "reviewed": true}
+{"id": 12580, "label": "sm2", "key": 1110277969, "index": 27, "ar": "في الحقيقة، أنا سيئة جدا في كتابة الشعر...", "en": "I'm actually terrible at writing poetry...", "notes": "", "reviewed": true}
+{"id": 12581, "label": "sm2", "key": -159308950, "index": 28, "ar": "لم أكتب قط شيئا يجعلني راضية.", "en": "I've never written anything I was happy with.", "notes": "", "reviewed": true}
+{"id": 12582, "label": "sm2", "key": -1527475255, "index": 29, "ar": "مثلا، أعيد قراءته دائما بعد أسبوع من كتابته، ثم أقول...", "en": "Like, I always read it again a week after I write it, and I'm like...", "notes": "", "reviewed": true}
+{"id": 12583, "label": "sm2", "key": -781883176, "index": 30, "ar": "«واو، هذا غبي جدًا.»", "en": "'Wow, this is so stupid.'", "notes": "", "reviewed": true}
+{"id": 12584, "label": "sm2", "key": 2056662397, "index": 31, "ar": "لا أدري...", "en": "I dunno...", "notes": "", "reviewed": true}
+{"id": 12585, "label": "sm2", "key": 1289394985, "index": 32, "ar": "كأن الجانب الدرامي في شخصيتي لا يتفق مع الشخص الذي أريد أن\nأكونه... أو شيء من هذا القبيل.", "en": "It's like the dramatic version of me doesn't agree with the person I want myself to be...or something like that.", "notes": "", "reviewed": true}
+{"id": 12586, "label": "sm2", "key": 1242965751, "index": 33, "ar": "آه...", "en": "Aww...", "notes": "", "reviewed": true}
+{"id": 12587, "label": "sm2", "key": -1247484816, "index": 34, "ar": "يجب أن تثقي بنفسك أكثر!", "en": "You should have more confidence in yourself!", "notes": "", "reviewed": true}
+{"id": 12588, "label": "sm2", "key": -1541276224, "index": 35, "ar": "أنت رئيسة نادي الأدب!", "en": "You're the Literature Club President!", "notes": "", "reviewed": true}
+{"id": 12589, "label": "sm2", "key": -1929768410, "index": 36, "ar": "أهاها... أعتقد أنك محقة في ذلك.", "en": "Ahaha...I guess you're not wrong there.", "notes": "", "reviewed": true}
+{"id": 12590, "label": "sm2", "key": 469762466, "index": 37, "ar": "يجب أن أكون قدوة جيدة أو شيء من هذا القبيل.", "en": "I need to like, set a good example or whatever.", "notes": "", "reviewed": true}
+{"id": 12591, "label": "sm2", "key": 325193144, "index": 38, "ar": "همم... أتعلمين، أستطيع أن أتخيل النادي يفعل شيئا من هذا\nالقبيل...", "en": "Hmm...you know, I can envision the club doing something like that...", "notes": "", "reviewed": true}
+{"id": 12592, "label": "sm2", "key": -1208554146, "index": 39, "ar": "يفعل ماذا؟", "en": "Doing what?", "notes": "", "reviewed": true}
+{"id": 12593, "label": "sm2", "key": -1339122411, "index": 40, "ar": "تعرفين... مثل مشاركة القصائد التي نكتبها، وأشباه ذلك.", "en": "You know...like sharing poems we write, and stuff like that.", "notes": "", "reviewed": true}
+{"id": 12594, "label": "sm2", "key": 174981554, "index": 41, "ar": "أوه! نعم!", "en": "Oh! Yeah!", "notes": "", "reviewed": true}
+{"id": 12595, "label": "sm2", "key": 117054180, "index": 42, "ar": "سأحب ذلك كثيرا!", "en": "I would love that!", "notes": "", "reviewed": true}
+{"id": 12596, "label": "sm2", "key": 935062937, "index": 43, "ar": "إنها طريقة رائعة للتعرف على الآخرين، أتعلمين؟", "en": "It's such a good way to learn about other people, you know?", "notes": "", "reviewed": true}
+{"id": 12597, "label": "sm2", "key": 1074138914, "index": 44, "ar": "كأن لدينا عواطف كثيرة لا نستطيع عادة التعبير عنها\nللآخرين...", "en": "It's like, we have so many emotions that we can't express to other people, usually...", "notes": "", "reviewed": true}
+{"id": 12598, "label": "sm2", "key": 1060029559, "index": 45, "ar": "لكن يمكنك التعبير عنها في قصيدة، أليس كذلك؟", "en": "But you can when it's in a poem, right?", "notes": "", "reviewed": true}
+{"id": 12599, "label": "sm2", "key": 1998230500, "index": 46, "ar": "نعم!", "en": "Yeah!", "notes": "", "reviewed": true}
+{"id": 12600, "label": "sm2", "key": -192753681, "index": 47, "ar": "أعتقد أن ذلك يساعدني على تكوين رؤية أكثر تماسكا للنادي.", "en": "I think that's helping me form a more cohesive vision for the club.", "notes": "", "reviewed": true}
+{"id": 12601, "label": "sm2", "key": -1639445381, "index": 48, "ar": "لذا أنا سعيدة لأنك أريتني إياه... حسنا، رغم أنه كان\nبالصدفة.", "en": "So I'm glad you showed me...well, even though it was by accident.", "notes": "", "reviewed": true}
+{"id": 12602, "label": "sm2", "key": -136838771, "index": 49, "ar": "وأنا أيضا!", "en": "Me too!", "notes": "", "reviewed": true}
+{"id": 12603, "label": "sm2", "key": -1009418988, "index": 50, "ar": "شعرت بالحرج في البداية، لكن من الجيد نوعا ما أن شخصا آخر\nقرأه.", "en": "I felt embarrassed at first, but now it feels kind of good that someone else read it.", "notes": "", "reviewed": true}
+{"id": 12604, "label": "sm2", "key": 490445636, "index": 51, "ar": "سأحاول أن أريك المزيد منها في المستقبل!", "en": "I'll try to show you more of them in the future!", "notes": "", "reviewed": true}
+{"id": 12605, "label": "sm2", "key": 1957864173, "index": 52, "ar": "سأكون سعيدة بذلك.", "en": "I'd love that.", "notes": "", "reviewed": true}
+{"id": 12606, "label": "sm2", "key": 2129939571, "index": 53, "ar": "يا إلهي، لقد بدأت أتشتت...", "en": "Oh jeez, I'm getting distracted...", "notes": "", "reviewed": true}
+{"id": 12607, "label": "sm2", "key": 2017021151, "index": 54, "ar": "هل تودّين أن نمرّ معا على هذه الأفكار لتجنيد الأعضاء؟", "en": "Do you want to go over this recruitment brainstorm together?", "notes": "", "reviewed": true}
+{"id": 12608, "label": "sm2", "key": -1832054050, "index": 55, "ar": "لقد عصف عقلي بقوة!", "en": "My brain stormed so hard!", "notes": "", "reviewed": true}
+{"id": 12609, "label": "sm2", "key": -972650629, "index": 56, "ar": "كانت كإعصار في عقلي.", "en": "It was like a brain hurricane.", "notes": "", "reviewed": true}
+{"id": 12610, "label": "sm2", "key": -1276162695, "index": 57, "ar": "عقلي كارثة طبيعية.", "en": "My brain is a natural disaster.", "notes": "", "reviewed": true}
+{"id": 12611, "label": "sm2", "key": 1272298680, "index": 58, "ar": "أهاهاها!", "en": "Ahahahaha!", "notes": "", "reviewed": true}
+{"id": 12612, "label": "sm2", "key": 371224051, "index": 59, "ar": "سايوري، هذا فظيع.", "en": "Sayori, that's terrible.", "notes": "", "reviewed": true}
+{"id": 12613, "label": "sm2", "key": 370210465, "index": 60, "ar": "على أي حال، لنلق نظرة على القائمة...", "en": "Anyway, let's take a look at the list...", "notes": "", "reviewed": true}
+{"id": 12614, "label": "sm2", "key": 1623555996, "index": 61, "ar": "...", "en": "...", "notes": "", "reviewed": true}
+{"id": 12615, "label": "sm2", "key": 1969093851, "index": 62, "ar": "... «اصنع كعكًا صغيرًا».", "en": "...'Make cupcakes'.", "notes": "", "reviewed": true}
+{"id": 12616, "label": "sm2", "key": -1419391551, "index": 63, "ar": "كنت جائعة...", "en": "I was hungry...", "notes": "", "reviewed": true}
+{"id": 12617, "label": "sm2", "key": -821260158, "index": 64, "ar": "لكنها فكرة جيدة!", "en": "But it's a good idea!", "notes": "", "reviewed": true}
+{"id": 12618, "label": "sm2", "key": 319767833, "index": 65, "ar": "أليس كذلك؟", "en": "Isn't it?", "notes": "", "reviewed": true}
+{"id": 12619, "label": "sm2", "key": 1796706926, "index": 66, "ar": "أمم...", "en": "Um...", "notes": "", "reviewed": true}
+{"id": 12620, "label": "sm2", "key": 734229048, "index": 67, "ar": "دعيني أفكر في هذا...", "en": "Let me think about this...", "notes": "", "reviewed": true}
+{"id": 12621, "label": "sm2", "key": 1558115069, "index": 68, "ar": "أعني... متى سنجد فرصة لإعطاء الناس الكعك الصغير؟", "en": "I mean... When would we have the chance to give people cupcakes?", "notes": "", "reviewed": true}
+{"id": 12622, "label": "sm2", "key": 650207817, "index": 69, "ar": "تعرفين، مثلا حين يحضرون إلى النادي!", "en": "You know, like when they come into the club!", "notes": "", "reviewed": true}
+{"id": 12623, "label": "sm2", "key": 2068781370, "index": 70, "ar": "ماذا لو كتبنا في المنشورات أن لدينا كعكا صغيرا مجانا؟", "en": "What if we said we had free cupcakes on the fliers?", "notes": "", "reviewed": true}
+{"id": 12624, "label": "sm2", "key": -424934530, "index": 71, "ar": "أنا... نوعا ما قلقة من أن يجذب ذلك النوع الخطأ من الناس،\nتعرفين؟", "en": "I'm, like...kinda worried that would bring in the wrong kinds of people, you know?", "notes": "", "reviewed": true}
+{"id": 12625, "label": "sm2", "key": -1419597181, "index": 72, "ar": "أي نوع خاطئ؟", "en": "Wrong kinds?", "notes": "", "reviewed": true}
+{"id": 12626, "label": "sm2", "key": -537077816, "index": 73, "ar": "سيأتي الناس من أجل الكعك الصغير فقط ثم يرحلون...", "en": "People would come just for the cupcakes and then leave...", "notes": "", "reviewed": true}
+{"id": 12627, "label": "sm2", "key": -1134682367, "index": 74, "ar": "آه، لن يفعل أحد ذلك!", "en": "Aw, nobody would do that!", "notes": "", "reviewed": true}
+{"id": 12628, "label": "sm2", "key": 1804717033, "index": 75, "ar": "سيكون ذلك قاسيا!", "en": "That would be mean!", "notes": "", "reviewed": true}
+{"id": 12629, "label": "sm2", "key": -807698146, "index": 76, "ar": "لكن تعرفين، أريد أن أجد أشخاصا مهتمين بالأدب فعلا!", "en": "But you know, I want to find people who are really into literature!", "notes": "", "reviewed": true}
+{"id": 12630, "label": "sm2", "key": -394239585, "index": 77, "ar": "حتى لو لم يعرفوا ذلك بعد.", "en": "Even if they don't know it yet.", "notes": "", "reviewed": true}
+{"id": 12631, "label": "sm2", "key": 1764796826, "index": 78, "ar": "دعينا ننظر، الشيء التالي في القائمة...", "en": "Let's see, the next thing on the list...", "notes": "", "reviewed": true}
+{"id": 12632, "label": "sm2", "key": 678730429, "index": 79, "ar": "«ابحث عن أشخاص يقرؤون الكتب».", "en": "'Hunt for people reading books'.", "notes": "", "reviewed": true}
+{"id": 12633, "label": "sm2", "key": -301830789, "index": 80, "ar": "لا أظن أنني أفهم...", "en": "I don't think I get it...", "notes": "", "reviewed": true}
+{"id": 12634, "label": "sm2", "key": 4258039, "index": 81, "ar": "أعني، التجول في المدرسة والعثور على أشخاص يقرؤون كتبا،\nتعرفين؟", "en": "Like, going around the school and finding people who are reading books, you know?", "notes": "", "reviewed": true}
+{"id": 12635, "label": "sm2", "key": -642267401, "index": 82, "ar": "مثلا في الصباح، أو أثناء الغداء...", "en": "Like in the morning, or during lunch...", "notes": "", "reviewed": true}
+{"id": 12636, "label": "sm2", "key": 18375837, "index": 83, "ar": "وسندعوهم لزيارة نادي الأدب!", "en": "And we'd tell them to check out the Literature Club!", "notes": "", "reviewed": true}
+{"id": 12637, "label": "sm2", "key": -357639266, "index": 84, "ar": "حسنا، المشكلة في ذلك هي أن...", "en": "Well, the problem with that is like...", "notes": "", "reviewed": true}
+{"id": 12638, "label": "sm2", "key": -715284088, "index": 85, "ar": "أليس معظم من يقرؤون الكتب يفعلون ذلك من أجل واجب مدرسي\nأو شيء من هذا القبيل؟", "en": "Wouldn't most people reading books just be doing it for an assignment or something?", "notes": "", "reviewed": true}
+{"id": 12639, "label": "sm2", "key": 1232305854, "index": 86, "ar": "كيف سنعلم إن كانوا يقرؤون من أجل المتعة فقط؟", "en": "How would we know if they're just reading for fun?", "notes": "", "reviewed": true}
+{"id": 12640, "label": "sm2", "key": 376476870, "index": 87, "ar": "أمم... حسنا، يمكننا أن نسألهم...", "en": "Um...well, we could ask them...", "notes": "", "reviewed": true}
+{"id": 12641, "label": "sm2", "key": -115650311, "index": 88, "ar": "لكن حينها سنزعج أشخاصا يحاولون أداء واجباتهم المدرسية...", "en": "But then we'd be bothering people who are trying to do schoolwork...", "notes": "", "reviewed": true}
+{"id": 12642, "label": "sm2", "key": 2033910810, "index": 89, "ar": "لم أفكر في ذلك الجزء، أنا آسفة...", "en": "I didn't think about that part, I'm sorry...", "notes": "", "reviewed": true}
+{"id": 12643, "label": "sm2", "key": 449619470, "index": 90, "ar": "لا تعتذري.", "en": "Hey, don't apologize.", "notes": "", "reviewed": true}
+{"id": 12644, "label": "sm2", "key": -694405083, "index": 91, "ar": "أنت تأتي بأفكار أكثر مما أستطيع أنا.", "en": "You're coming up with a lot more things than I can.", "notes": "", "reviewed": true}
+{"id": 12645, "label": "sm2", "key": 1676800808, "index": 92, "ar": "آه، فكرتك التالية هي توزيع المنشورات، بدلا من تعليقها\nعلى الجدار فقط.", "en": "Oh, your next idea is to hand out fliers, rather than just put them up on the wall.", "notes": "", "reviewed": true}
+{"id": 12646, "label": "sm2", "key": 2048457011, "index": 93, "ar": "أود بالتأكيد أن نبدأ بفعل ذلك.", "en": "I'd definitely like to start doing that.", "notes": "", "reviewed": true}
+{"id": 12647, "label": "sm2", "key": -1378896852, "index": 94, "ar": "أنا مفيدة!", "en": "I'm useful!", "notes": "", "reviewed": true}
+{"id": 12648, "label": "sm2", "key": 133654390, "index": 95, "ar": "أهاها. لم أقل أبدا أنك لست كذلك.", "en": "Ahaha. I never said you weren't.", "notes": "", "reviewed": true}
+{"id": 12649, "label": "sm2", "key": -22607801, "index": 96, "ar": "أحتاج فقط إلى التفكير... ماذا سنقول للناس حين نوزعها؟", "en": "I just need to think...what would we tell people when handing them out?", "notes": "", "reviewed": true}
+{"id": 12650, "label": "sm2", "key": 1321668025, "index": 97, "ar": "لا أريد أن أقول فقط... «انضموا إلى نادي الأدب!»", "en": "I don't want to just be like...'Join the Literature Club!'", "notes": "", "reviewed": true}
+{"id": 12651, "label": "sm2", "key": -1610950195, "index": 98, "ar": "دعينا نجد طريقة أفضل لشد انتباه الناس.", "en": "Let's figure out how we can better engage people.", "notes": "", "reviewed": true}
+{"id": 12652, "label": "sm2", "key": -886550178, "index": 99, "ar": "ماذا لو حدثتهم عن أنشطة النادي وما شابه؟", "en": "What if you told them about the club activities and stuff?", "notes": "", "reviewed": true}
+{"id": 12653, "label": "sm2", "key": -2055960034, "index": 100, "ar": "أي أنشطة للنادي؟", "en": "What club activities?", "notes": "", "reviewed": true}
+{"id": 12654, "label": "sm2", "key": 514273148, "index": 101, "ar": "نعم، أعتقد أنه من واجبي اقتراح ذلك، أليس كذلك؟", "en": "Yeah, I guess it's supposed to be my job to come up with that, right?", "notes": "", "reviewed": true}
+{"id": 12655, "label": "sm2", "key": 595256501, "index": 102, "ar": "رؤية للنادي.", "en": "A vision for the club.", "notes": "", "reviewed": true}
+{"id": 12656, "label": "sm2", "key": -47729289, "index": 103, "ar": "حسنا يا سايوري، تظاهري بأنك شخص عادي للحظة...", "en": "Okay, Sayori, pretend you're a normal person for a second...", "notes": "", "reviewed": true}
+{"id": 12657, "label": "sm2", "key": 1609188238, "index": 104, "ar": "انتظري! لم أعني الأمر على هذا النحو!", "en": "Wait! I didn't mean it like that!", "notes": "", "reviewed": true}
+{"id": 12658, "label": "sm2", "key": 1500954072, "index": 105, "ar": "أهاها!", "en": "Ahaha!", "notes": "", "reviewed": true}
+{"id": 12659, "label": "sm2", "key": 1425717875, "index": 106, "ar": "تعرفين، كعابر سبيل عادي يستلم منشورا.", "en": "You know, like a random passerby who's getting a flier.", "notes": "", "reviewed": true}
+{"id": 12660, "label": "sm2", "key": 623064456, "index": 107, "ar": "كيف ستتفاعلين مع فكرة نادي الأدب؟", "en": "How would you react to the idea of a Literature Club?", "notes": "", "reviewed": true}
+{"id": 12661, "label": "sm2", "key": 1823183990, "index": 108, "ar": "همم...", "en": "Hmm...", "notes": "", "reviewed": true}
+{"id": 12662, "label": "sm2", "key": 1408077442, "index": 109, "ar": "ربما مثل...", "en": "Probably like...", "notes": "", "reviewed": true}
+{"id": 12663, "label": "sm2", "key": -179549630, "index": 110, "ar": "الأدب غبييي.", "en": "Literature is stuuupid.", "notes": "", "reviewed": true}
+{"id": 12664, "label": "sm2", "key": -1079839472, "index": 111, "ar": "سأنضم إلى نادي الأنمي.", "en": "I'm joining the Anime Club.", "notes": "", "reviewed": true}
+{"id": 12665, "label": "sm2", "key": 678057747, "index": 112, "ar": "يا إلهي... ما هذا...؟", "en": "What the heck...?", "notes": "", "reviewed": true}
+{"id": 12666, "label": "sm2", "key": 264209539, "index": 113, "ar": "أهاها! آسفة، كنت فقط أفكر في إحدى صديقاتي.", "en": "Ahaha! Sorry, I was just thinking of a friend of mine.", "notes": "", "reviewed": true}
+{"id": 12667, "label": "sm2", "key": -964905050, "index": 114, "ar": "حسنًا، ماذا لو قلت إننا... نقرأ معًا ونناقش ما نقرؤه\nسويًا؟", "en": "Okay, what if I said that we, like...do group reading and discuss it together?", "notes": "", "reviewed": true}
+{"id": 12668, "label": "sm2", "key": -1683501252, "index": 115, "ar": "سأغفو على الأرجح طوال ذلك...", "en": "I would probably nap through that...", "notes": "", "reviewed": true}
+{"id": 12669, "label": "sm2", "key": 94257991, "index": 116, "ar": "هذه هي أنت يا سايوري.", "en": "That's you, Sayori.", "notes": "", "reviewed": true}
+{"id": 12670, "label": "sm2", "key": 1816462871, "index": 117, "ar": "نعم، لكن ذلك لا يبدو ممتعا لمعظم الناس على أي حال!", "en": "Yeah, but that doesn't really sound fun to most people anyway!", "notes": "", "reviewed": true}
+{"id": 12671, "label": "sm2", "key": 1074865424, "index": 118, "ar": "نحتاج فعلا إلى شد انتباههم، تعرفين؟", "en": "We need to really catch their interest, you know?", "notes": "", "reviewed": true}
+{"id": 12672, "label": "sm2", "key": -276377856, "index": 119, "ar": "آخ...", "en": "Ugh...", "notes": "", "reviewed": true}
+{"id": 12673, "label": "sm2", "key": -968507017, "index": 120, "ar": "هذا مزعج للغاية. لماذا الأمر بهذه الصعوبة؟", "en": "This sucks. Why is this so hard?", "notes": "", "reviewed": true}
+{"id": 12674, "label": "sm2", "key": 113575145, "index": 121, "ar": "مونيكا...", "en": "Monika...", "notes": "", "reviewed": true}
+{"id": 12675, "label": "sm2", "key": -1607376659, "index": 122, "ar": "لا تحزني...", "en": "Don't be sad...", "notes": "", "reviewed": true}
+{"id": 12676, "label": "sm2", "key": 1199924105, "index": 123, "ar": "ما الذي تحبينه في الأدب، سايوري؟", "en": "What do you like about literature, Sayori?", "notes": "", "reviewed": true}
+{"id": 12677, "label": "sm2", "key": -1273337961, "index": 124, "ar": "أنا؟", "en": "Me?", "notes": "", "reviewed": true}
+{"id": 12678, "label": "sm2", "key": -657425366, "index": 125, "ar": "حسنا، شيء مما قلته عن القصيدة آنفا...", "en": "Well, kind of what I said about the poem earlier...", "notes": "", "reviewed": true}
+{"id": 12679, "label": "sm2", "key": 1283588480, "index": 126, "ar": "أعتقد أنه يمنحك فرصة التعبير عن نفسك.", "en": "I think it gives you the chance to express yourself.", "notes": "", "reviewed": true}
+{"id": 12680, "label": "sm2", "key": 1862551644, "index": 127, "ar": "أعني، التعبير عن نفسك بطرق لا تستطيعين عادة فعلها، حين\nتقضين يومك المعتاد وتتكلمين مع صديقاتك.", "en": "Like, express yourself in ways you can't normally do, when you're just doing your normal day and talking to your friends.", "notes": "", "reviewed": true}
+{"id": 12681, "label": "sm2", "key": -1007013858, "index": 128, "ar": "أعني، لدينا جميعا أفكار ومشاعر كثيرة لا تتاح لنا... فرصة\nمشاركتها، تعرفين؟", "en": "I mean, we all have so many thoughts and feelings that we just...don't get to share, you know?", "notes": "", "reviewed": true}
+{"id": 12682, "label": "sm2", "key": 1948151264, "index": 129, "ar": "إنه، نوعا ما...", "en": "It's, like...", "notes": "", "reviewed": true}
+{"id": 12683, "label": "sm2", "key": -539327829, "index": 130, "ar": "…حميم.", "en": "...Intimate.", "notes": "", "reviewed": true}
+{"id": 12684, "label": "sm2", "key": -190149701, "index": 131, "ar": "نعم...", "en": "Yeah...", "notes": "", "reviewed": true}
+{"id": 12685, "label": "sm2", "key": 1038985550, "index": 132, "ar": "كيف نوصّل الفكرة إلى الناس؟", "en": "How do we get that across to people?", "notes": "", "reviewed": true}
+{"id": 12686, "label": "sm2", "key": 2144369753, "index": 133, "ar": "يمكن أن نقول... «اعبر عن ذاتك الحقيقية!»", "en": "We could be like...'Express your true self!'", "notes": "", "reviewed": true}
+{"id": 12687, "label": "sm2", "key": -1091626187, "index": 134, "ar": "«تقاربوا معنا!»", "en": "'Be intimate with us!'", "notes": "", "reviewed": true}
+{"id": 12688, "label": "sm2", "key": 1696856192, "index": 135, "ar": "حسنا، هذا... إلى حدّ ما...", "en": "Okay, that's kind of...", "notes": "", "reviewed": true}
+{"id": 12689, "label": "sm2", "key": -1713857532, "index": 136, "ar": "هههه، أنا أمزح فقط.", "en": "Ehehe, I'm just kidding.", "notes": "", "reviewed": true}
+{"id": 12690, "label": "sm2", "key": 422620783, "index": 137, "ar": "…يا إلهي!", "en": "...Oh my gosh!", "notes": "", "reviewed": true}
+{"id": 12691, "label": "sm2", "key": -1933620873, "index": 138, "ar": "ماذا؟ ما الأمر؟", "en": "What? What is it?", "notes": "", "reviewed": true}
+{"id": 12692, "label": "sm2", "key": 1875056574, "index": 139, "ar": "نسيت جميع أغراضي في فصلي!", "en": "I forgot all of my things in my classroom!", "notes": "", "reviewed": true}
+{"id": 12693, "label": "sm2", "key": 1752603026, "index": 140, "ar": "لا بد أنني تحمست كثيرًا وأسرعت إلى هنا. كم أنا غبية...", "en": "I must have gotten too excited and rushed here, silly me...", "notes": "", "reviewed": true}
+{"id": 12694, "label": "sm2", "key": 2014115849, "index": 141, "ar": "أسرعت؟ لكن ألم تكوني--", "en": "Rushed? But weren't--", "notes": "", "reviewed": true}
+{"id": 12695, "label": "sm2", "key": -1390418681, "index": 142, "ar": "آه، لا بأس... لكن هل أردت أخذ أغراضك؟", "en": "Ah, never mind... Did you want to get your stuff, then?", "notes": "", "reviewed": true}
+{"id": 12696, "label": "sm2", "key": 1931198616, "index": 143, "ar": "سأنسى الأمر إن لم أفعله الآن!", "en": "I'll forget if I don't do it now!", "notes": "", "reviewed": true}
+{"id": 12697, "label": "sm2", "key": -1842271739, "index": 144, "ar": "هههه. حسنا، سأنتظرك إذن.", "en": "Ahaha. Well, I'll wait for you, then.", "notes": "", "reviewed": true}
+{"id": 12698, "label": "sm2", "key": -1083516759, "index": 145, "ar": "حسنا، لن يستغرق ذلك ثانية!", "en": "Okay, it'll only take a second!", "notes": "", "reviewed": true}
+{"id": 12699, "label": "sm2", "key": -1144063285, "index": 146, "ar": "تندفع سايوري خارج الغرفة، فتبقى مونيكا وحيدة للحظة.", "en": "Sayori dashes out of the room, leaving Monika momentarily alone.", "notes": "", "reviewed": true}
+{"id": 12700, "label": "sm2", "key": -756371429, "index": 147, "ar": "تتنهد مونيكا وتبدأ في تدوين أفكارها على ورقة.", "en": "Monika sighs and starts jotting her thoughts on a sheet of paper.", "notes": "", "reviewed": true}
+{"id": 12701, "label": "sm2", "key": 355591409, "index": 148, "ar": "عبّر عن نفسك...", "en": "Express yourself...", "notes": "", "reviewed": true}
+{"id": 12702, "label": "sm2", "key": -720904694, "index": 149, "ar": "كن من تريد أن تكون...", "en": "Be who you want to be...", "notes": "", "reviewed": true}
+{"id": 12703, "label": "sm2", "key": 781575753, "index": 150, "ar": "اصنع أصدقاء جددا...", "en": "Make new friends...", "notes": "", "reviewed": true}
+{"id": 12704, "label": "sm2", "key": 1623555997, "index": 151, "ar": "...", "en": "...", "notes": "", "reviewed": true}
+{"id": 12705, "label": "sm2", "key": -1959909711, "index": 152, "ar": "اكتشف... ذاتًا جديدة.", "en": "Discover...a new you.", "notes": "", "reviewed": true}
+{"id": 12706, "label": "sm2", "key": -48256050, "index": 153, "ar": "اكتشف قلبك.", "en": "Discover your heart.", "notes": "", "reviewed": true}
+{"id": 12707, "label": "sm2", "key": 109659487, "index": 154, "ar": "لا...", "en": "No...", "notes": "", "reviewed": true}
+{"id": 12708, "label": "sm2", "key": -310404650, "index": 155, "ar": "اكتب ما في قلبك.", "en": "Write your heart out.", "notes": "", "reviewed": true}
+{"id": 12709, "label": "sm2", "key": 109659488, "index": 156, "ar": "لا...", "en": "No...", "notes": "", "reviewed": true}
+{"id": 12710, "label": "sm2", "key": 865081846, "index": 157, "ar": "اكتب إلى قلبك.", "en": "Write into your heart.", "notes": "", "reviewed": true}
+{"id": 12711, "label": "sm2", "key": 755174290, "index": 158, "ar": "اكتب طريقك إلى قلبك.", "en": "Write the way into your heart.", "notes": "", "reviewed": true}
+{"id": 12712, "label": "sm2", "key": -1119148714, "index": 159, "ar": "…انضم إلى نادي الأدب. …اكتب طريقك إلى قلبك.", "en": "...Join the Literature Club. ...Write the way into your heart.", "notes": "", "reviewed": true}
+{"id": 12713, "label": "sm2", "key": 1623555998, "index": 160, "ar": "...", "en": "...", "notes": "", "reviewed": true}
+{"id": 12714, "label": "sm2", "key": 1898531297, "index": 161, "ar": "يا إلهي، هذا سخيف...", "en": "Wow, that's lame...", "notes": "", "reviewed": true}
+{"id": 12715, "label": "sm2", "key": 782434779, "index": 162, "ar": "مونيكا!!", "en": "Monika!!", "notes": "", "reviewed": true}
+{"id": 12716, "label": "sm2", "key": 1905883942, "index": 163, "ar": "آه!", "en": "Ah!", "notes": "", "reviewed": true}
+{"id": 12717, "label": "sm2", "key": -64616809, "index": 164, "ar": "فزعتني!", "en": "You startled me!", "notes": "", "reviewed": true}
+{"id": 12718, "label": "sm2", "key": -608003750, "index": 165, "ar": "آسفة!", "en": "Sorry!", "notes": "", "reviewed": true}
+{"id": 12719, "label": "sm2", "key": -902502103, "index": 166, "ar": "لكنه أمر مهم!", "en": "But it's something important!", "notes": "", "reviewed": true}
+{"id": 12720, "label": "sm2", "key": -1959030972, "index": 167, "ar": "في طريقي إلى فصلي... كانت هناك فتاة تقرأ كتابا!", "en": "On the way to my classroom...there was a girl reading a book!", "notes": "", "reviewed": true}
+{"id": 12721, "label": "sm2", "key": 983478129, "index": 168, "ar": "تقرأ كتابا؟", "en": "Reading a book?", "notes": "", "reviewed": true}
+{"id": 12722, "label": "sm2", "key": 1008767846, "index": 169, "ar": "هيا، دعنا نسرع لدعوتها للانضمام!", "en": "Let's hurry and recruit her!", "notes": "", "reviewed": true}
+{"id": 12723, "label": "sm2", "key": 511674318, "index": 170, "ar": "انتظري... أمتأكدة أنها لا تقرأ لأداء واجب منزلي\nفحسب؟", "en": "Wait...are you sure she's not just doing homework?", "notes": "", "reviewed": true}
+{"id": 12724, "label": "sm2", "key": -954703379, "index": 171, "ar": "كان واضحا أنها كانت غارقة فيه حقا!", "en": "I could tell she was really into it!", "notes": "", "reviewed": true}
+{"id": 12725, "label": "sm2", "key": 1796706927, "index": 172, "ar": "أم...", "en": "Um...", "notes": "", "reviewed": true}
+{"id": 12726, "label": "sm2", "key": -1398725546, "index": 173, "ar": "حسنا، أعتقد أننا يمكننا... أن نلقي نظرة...", "en": "Well, I guess we could...take a look...", "notes": "", "reviewed": true}
+{"id": 12727, "label": "sm2", "key": 50904152, "index": 174, "ar": "تمسك مونيكا بأحد منشورات النادي وتنهض من مقعدها.", "en": "Monika grabs one of her fliers and stands up from her desk.", "notes": "", "reviewed": true}
+{"id": 12728, "label": "sm2", "key": 1906652477, "index": 175, "ar": "ثم تنطلق الاثنتان خارج الفصل، وسايوري تسبق في المقدمة.", "en": "Then the two depart the classroom, with Sayori leading the way.", "notes": "", "reviewed": true}
+{"id": 12729, "label": "sm2", "key": 1895427560, "index": 176, "ar": "من هنا!", "en": "This way!", "notes": "", "reviewed": true}
+{"id": 12730, "label": "sm2", "key": -1195706089, "index": 177, "ar": "لا تضطرّين إلى الجري...", "en": "You don't have to run...", "notes": "", "reviewed": true}
+{"id": 12731, "label": "sm2", "key": 1234301369, "index": 178, "ar": "تقود سايوري مونيكا إلى فصل بعينه، ثم تخفض صوتها حتى يصبح\nهمسا.", "en": "Sayori leads Monika over to a particular classroom, then lowers her voice to a whisper.", "notes": "", "reviewed": true}
+{"id": 12732, "label": "sm2", "key": 2086521183, "index": 179, "ar": "انظري، من هنا!", "en": "See, in here!", "notes": "", "reviewed": true}
+{"id": 12733, "label": "sm2", "key": -535177322, "index": 180, "ar": "تتطلع مونيكا عبر النافذة.", "en": "Monika peers through the window.", "notes": "", "reviewed": true}
+{"id": 12734, "label": "sm2", "key": -228518310, "index": 181, "ar": "وبالفعل، هناك فتاة تجلس وحدها تقرأ كتابا بتركيز شديد.", "en": "Sure enough, there's a girl sitting alone, intently reading a book.", "notes": "", "reviewed": true}
+{"id": 12735, "label": "sm2", "key": -1885364245, "index": 182, "ar": "أشعر أنني متطفلة وأنا أفعل هذا...", "en": "I feel like a creep doing this...", "notes": "", "reviewed": true}
+{"id": 12736, "label": "sm2", "key": -1134206766, "index": 183, "ar": "يجب أن تدخل وتتحدث معها!", "en": "You should go inside and talk to her!", "notes": "", "reviewed": true}
+{"id": 12737, "label": "sm2", "key": -1273337960, "index": 184, "ar": "أنا؟", "en": "Me?", "notes": "", "reviewed": true}
+{"id": 12738, "label": "sm2", "key": 184220976, "index": 185, "ar": "أنت رئيسة النادي! وأنا على الأغلب سأنفرها...", "en": "You're the President! And I would probably scare her away...", "notes": "", "reviewed": true}
+{"id": 12739, "label": "sm2", "key": 81450636, "index": 186, "ar": "حسنا... حسنًا، سأفعلها.", "en": "Okay...fine, I'll do it.", "notes": "", "reviewed": true}
+{"id": 12740, "label": "sm2", "key": -1742144876, "index": 187, "ar": "تأخذ مونيكا نفسا عميقا، ثم تدخل الفصل بخجل.", "en": "Monika takes a deep breath, then timidly enters the classroom.", "notes": "", "reviewed": true}
+{"id": 12741, "label": "sm2", "key": -440416367, "index": 188, "ar": "لقد كان ذلك سريعًا!", "en": "That was fast!", "notes": "", "reviewed": true}
+{"id": 12742, "label": "sm2", "key": 1657898686, "index": 189, "ar": "يا إلهي، أشعر بالحرج الشديد...", "en": "Oh my gosh, I'm so embarrassed...", "notes": "", "reviewed": true}
+{"id": 12743, "label": "sm2", "key": -1605600469, "index": 190, "ar": "لماذا؟ ماذا حدث؟", "en": "Why? What happened?", "notes": "", "reviewed": true}
+{"id": 12744, "label": "sm2", "key": 1796706928, "index": 191, "ar": "أم...", "en": "Um...", "notes": "", "reviewed": true}
+{"id": 12745, "label": "sm2", "key": 1061036931, "index": 192, "ar": "حسنا، دخلت الفصل، ولم ترفع حتى رأسها عن كتابها...", "en": "Well, I entered the classroom, and she didn't even look up from her book...", "notes": "", "reviewed": true}
+{"id": 12746, "label": "sm2", "key": 482036959, "index": 193, "ar": "فقط... تركت المنشور على مكتبها، ثم خرجت.", "en": "So I kind of just...left the flier on her desk, and then walked out.", "notes": "", "reviewed": true}
+{"id": 12747, "label": "sm2", "key": 1500954073, "index": 194, "ar": "هههه!", "en": "Ahaha!", "notes": "", "reviewed": true}
+{"id": 12748, "label": "sm2", "key": 258276053, "index": 195, "ar": "هذا لطيف نوعا ما.", "en": "That's kind of cute.", "notes": "", "reviewed": true}
+{"id": 12749, "label": "sm2", "key": 1623555999, "index": 196, "ar": "...", "en": "...", "notes": "", "reviewed": true}
+{"id": 12750, "label": "sm2", "key": 1956570980, "index": 197, "ar": "لكنني واثقة أنها سترى المنشور وترغب في الانضمام إلى\nالنادي!", "en": "But I'm sure she'll see it and want to join the club!", "notes": "", "reviewed": true}
+{"id": 12751, "label": "sm2", "key": -297010143, "index": 198, "ar": "آمل ذلك...", "en": "I hope so...", "notes": "", "reviewed": true}
+{"id": 12752, "label": "sm2", "key": 508999960, "index": 199, "ar": "…هل نعود الآن؟", "en": "...Shall we head back now?", "notes": "", "reviewed": true}
+{"id": 12753, "label": "sm2", "key": -1654863468, "index": 200, "ar": "تعود الاثنتان إلى غرفة النادي، سايوري تشعر بالإنجاز،\nومونيكا لا تزال محرجة قليلا من تلك المقابلة.", "en": "The two head back to the clubroom, Sayori feeling rather accomplished, and Monika still feeling a bit embarrassed by the encounter.", "notes": "", "reviewed": true}
+{"id": 12754, "label": "sm2", "key": -785081626, "index": 201, "ar": "بعد عودتهما، تستأنف مونيكا وسايوري اجتماعهما\nلوضع الخطط.", "en": "Upon returning, Monika and Sayori resume their strategy meeting.", "notes": "", "reviewed": true}
+{"id": 12755, "label": "sm2", "key": 1054875168, "index": 202, "ar": "تتبادلان أفكارًا حول أساليب متنوعة لاستقطاب الأعضاء، من الجادة\nإلى الطريفة.", "en": "They discuss various different kinds of recruitment tactics, from professional to silly.", "notes": "", "reviewed": true}
+{"id": 12756, "label": "sm2", "key": -1495607435, "index": 203, "ar": "بعد مراجعة قائمة سايوري، وإضافة مونيكا أفكارها الخاصة،\nخرجتا بنتيجة أفضل مما بدأتا به.", "en": "After going through Sayori's list, and with Monika coming up with ideas of her own, the two end in a better spot than from where they began.", "notes": "", "reviewed": true}
+{"id": 12757, "label": "sm2", "key": 370907920, "index": 204, "ar": "حسنا، أعتقد أن اليوم كان مجديا إلى حد كبير، أليس كذلك؟", "en": "Well, I would say today was pretty productive, wasn't it?", "notes": "", "reviewed": true}
+{"id": 12758, "label": "sm2", "key": 1998230501, "index": 205, "ar": "نعم!", "en": "Yeah!", "notes": "", "reviewed": true}
+{"id": 12759, "label": "sm2", "key": -858673063, "index": 206, "ar": "أعتقد أننا بدأنا نسجل تقدما.", "en": "I think we're starting to make progress.", "notes": "", "reviewed": true}
+{"id": 12760, "label": "sm2", "key": -171728719, "index": 207, "ar": "لا أطيق الانتظار حتى ينضم إلينا أعضاء جدد~", "en": "I can't wait to get some new members~", "notes": "", "reviewed": true}
+{"id": 12761, "label": "sm2", "key": 365888343, "index": 208, "ar": "مهلا، ما هذا؟", "en": "Hey, what's this?", "notes": "", "reviewed": true}
+{"id": 12762, "label": "sm2", "key": 362674286, "index": 209, "ar": "تتأمل سايوري الورقة التي كانت مونيكا تدوّن عليها أفكارها.", "en": "Sayori peers at the sheet of paper Monika was jotting on earlier.", "notes": "", "reviewed": true}
+{"id": 12763, "label": "sm2", "key": 158357493, "index": 210, "ar": "آه! لا تكترثي لها...", "en": "Oh! Don't mind that...", "notes": "", "reviewed": true}
+{"id": 12764, "label": "sm2", "key": 164385629, "index": 211, "ar": "كنت فقط أفكر مع نفسي.", "en": "I was just thinking to myself.", "notes": "", "reviewed": true}
+{"id": 12765, "label": "sm2", "key": 1263521666, "index": 212, "ar": "انضم إلى نادي الأدب...", "en": "Join the Literature Club...", "notes": "", "reviewed": true}
+{"id": 12766, "label": "sm2", "key": 1318683069, "index": 213, "ar": "اكتب طريقك... إلى قلبك؟", "en": "Write the way...into your heart?", "notes": "", "reviewed": true}
+{"id": 12767, "label": "sm2", "key": 1693285755, "index": 214, "ar": "هذا لطيف للغاية!", "en": "That's so cute!", "notes": "", "reviewed": true}
+{"id": 12768, "label": "sm2", "key": -401633245, "index": 215, "ar": "هههه...", "en": "Ahaha...", "notes": "", "reviewed": true}
+{"id": 12769, "label": "sm2", "key": 1783525082, "index": 216, "ar": "كنت أظنها مبالغا فيها بعض الشيء.", "en": "I thought it was a little overdramatic.", "notes": "", "reviewed": true}
+{"id": 12770, "label": "sm2", "key": -888537843, "index": 217, "ar": "لكن...", "en": "But...", "notes": "", "reviewed": true}
+{"id": 12771, "label": "sm2", "key": -1870391494, "index": 218, "ar": "تتوقف سايوري لحظة لتفكر.", "en": "Sayori pauses and thinks for a moment.", "notes": "", "reviewed": true}
+{"id": 12772, "label": "sm2", "key": -1082867586, "index": 219, "ar": "أتعرفين...", "en": "You know...", "notes": "", "reviewed": true}
+{"id": 12773, "label": "sm2", "key": -1020027403, "index": 220, "ar": "لا أعتقد أنك تمنحين نفسك التقدير الذي تستحقين.", "en": "I don't think you give yourself enough credit.", "notes": "", "reviewed": true}
+{"id": 12774, "label": "sm2", "key": 1240219395, "index": 221, "ar": "ماذا؟ ما قصدك؟", "en": "What? What do you mean?", "notes": "", "reviewed": true}
+{"id": 12775, "label": "sm2", "key": -232518971, "index": 222, "ar": "أي...", "en": "Like...", "notes": "", "reviewed": true}
+{"id": 12776, "label": "sm2", "key": -541365526, "index": 223, "ar": "لا أعرف، لكن أعتقد أنني أدركت ذلك من حديثنا اليوم.", "en": "I dunno, I feel like I can tell from talking to you today.", "notes": "", "reviewed": true}
+{"id": 12777, "label": "sm2", "key": 1354067759, "index": 224, "ar": "يبدو أنك دائما خائفة من ارتكاب خطأ.", "en": "It seems like you're always afraid of doing something wrong.", "notes": "", "reviewed": true}
+{"id": 12778, "label": "sm2", "key": -28690662, "index": 225, "ar": "نعم، لكن...", "en": "Yeah, but...", "notes": "", "reviewed": true}
+{"id": 12779, "label": "sm2", "key": -259336758, "index": 226, "ar": "هل تصفين نفسك بأنك مثالية؟", "en": "Would you call yourself a perfectionist?", "notes": "", "reviewed": true}
+{"id": 12780, "label": "sm2", "key": 1623556000, "index": 227, "ar": "...", "en": "...", "notes": "", "reviewed": true}
+{"id": 12781, "label": "sm2", "key": 726317977, "index": 228, "ar": "…نعم.", "en": "...Yeah.", "notes": "", "reviewed": true}
+{"id": 12782, "label": "sm2", "key": 989048119, "index": 229, "ar": "نعم، على الأرجح أنا كذلك.", "en": "Yeah, I definitely am.", "notes": "", "reviewed": true}
+{"id": 12783, "label": "sm2", "key": 2004766081, "index": 230, "ar": "أقصد... لدي دائما تصور في رأسي عن كيف أريد أن تسير\nالأمور.", "en": "I mean...I always have an idea in my head of how I want things to go.", "notes": "", "reviewed": true}
+{"id": 12784, "label": "sm2", "key": -1523238346, "index": 231, "ar": "وكأنني لا أقبل أي شيء أقل من ذلك.", "en": "And it's like, I can't accept anything less than that.", "notes": "", "reviewed": true}
+{"id": 12785, "label": "sm2", "key": -317229884, "index": 232, "ar": "لكنني أعتقد أنه في النهاية يساعدني على بذل أقصى ما عندي\nفي كل شيء... لذا لا أرى أنه سيئ إلى هذا الحد.", "en": "But I think in the end, it helps me try my hardest at everything...so I don't think it's that bad.", "notes": "", "reviewed": true}
+{"id": 12786, "label": "sm2", "key": 1849459120, "index": 233, "ar": "خذ هذا النادي مثلًا؛ لدينا فرصة لنجعله تمامًا كما نتصوره.", "en": "Like with this club, we have such an opportunity to make it into exactly how we envision it.", "notes": "", "reviewed": true}
+{"id": 12787, "label": "sm2", "key": -708318358, "index": 234, "ar": "لكن يخالجني شعور بأن أمامنا فرصة واحدة فقط.", "en": "But it feels like we only have one shot at it.", "notes": "", "reviewed": true}
+{"id": 12788, "label": "sm2", "key": 1177473920, "index": 235, "ar": "لذلك... أخشى حقًا أن تنحرف الأمور عن ذلك\nالتصور.", "en": "So...I'm just really afraid of it deviating from that. The vision.", "notes": "", "reviewed": true}
+{"id": 12789, "label": "sm2", "key": 686589976, "index": 236, "ar": "ما التصور؟", "en": "What's the vision?", "notes": "", "reviewed": true}
+{"id": 12790, "label": "sm2", "key": 1059154215, "index": 237, "ar": "إنه...", "en": "It's...", "notes": "", "reviewed": true}
+{"id": 12791, "label": "sm2", "key": -2006668900, "index": 238, "ar": "تتوقف مونيكا لتفكر، ثم تهزّ رأسها.", "en": "Monika pauses to think, then shakes her head to herself.", "notes": "", "reviewed": true}
+{"id": 12792, "label": "sm2", "key": -1628787458, "index": 239, "ar": "تتنهد.", "en": "She sighs.", "notes": "", "reviewed": true}
+{"id": 12793, "label": "sm2", "key": 937973788, "index": 240, "ar": "لا أعرف.", "en": "I don't know.", "notes": "", "reviewed": true}
+{"id": 12794, "label": "sm2", "key": 2037624153, "index": 241, "ar": "أريد فقط أن يكون الجميع...", "en": "I just want everyone to...", "notes": "", "reviewed": true}
+{"id": 12795, "label": "sm2", "key": 1623556001, "index": 242, "ar": "...", "en": "...", "notes": "", "reviewed": true}
+{"id": 12796, "label": "sm2", "key": 818225995, "index": 243, "ar": "يخبو صوت مونيكا.", "en": "Monika trails off.", "notes": "", "reviewed": true}
+{"id": 12797, "label": "sm2", "key": 798443706, "index": 244, "ar": "وبابتسامة، تنقر سايوري بإصبعها على الورقة.", "en": "Smiling, Sayori taps her finger against the sheet of paper.", "notes": "", "reviewed": true}
+{"id": 12798, "label": "sm2", "key": -755880398, "index": 245, "ar": "«اكتب طريقك إلى قلبك».", "en": "\"Write the way into your heart.\"", "notes": "", "reviewed": true}
+{"id": 12799, "label": "sm2", "key": -1754282927, "index": 246, "ar": "أعتقد أن ما تحاولين فعله...", "en": "I think what you're trying to do...", "notes": "", "reviewed": true}
+{"id": 12800, "label": "sm2", "key": 685129874, "index": 247, "ar": "…هو بناء النادي الذي <i>أنت</i> تحتاجينه أكثر من أي شخص.", "en": "...is to make the club that <i>you</i> need the most, out of anyone.", "notes": "", "reviewed": true}
+{"id": 12801, "label": "sm2", "key": -873878319, "index": 248, "ar": "حسنا، أنت من تعرفين نفسك أفضل من غيرك، بالطبع.", "en": "Well, you're the one who knows yourself best, of course.", "notes": "", "reviewed": true}
+{"id": 12802, "label": "sm2", "key": 1565791659, "index": 249, "ar": "لكن... أنا هنا لأساعدك.", "en": "But...I'm here to help you.", "notes": "", "reviewed": true}
+{"id": 12803, "label": "sm2", "key": 1906481953, "index": 250, "ar": "ترد مونيكا ابتسامة سايوري.", "en": "Monika returns Sayori's smile.", "notes": "", "reviewed": true}
+{"id": 12804, "label": "sm2", "key": -2012810104, "index": 251, "ar": "من المدهش، إلى حد ما، كم أنت لطيفة.", "en": "It's sort of amazing, how kind you are.", "notes": "", "reviewed": true}
+{"id": 12805, "label": "sm2", "key": -1693531889, "index": 252, "ar": "سنجعل من هذا النادي أفضل ناد على الإطلاق، بلا شك.", "en": "We're really gonna make this the best club ever.", "notes": "", "reviewed": true}
+{"id": 12806, "label": "sm2", "key": 1848306826, "index": 253, "ar": "تومئ سايوري، وتبقى الاثنتان صامتتين لحظة غارقتين في\nأفكارهما.", "en": "Sayori nods, and the two remain silent for a moment, lost in thought.", "notes": "", "reviewed": true}
+{"id": 12807, "label": "sm2", "key": -415073191, "index": 254, "ar": "الصوت الوحيد هو همس المكيّف الهادئ المستمر.", "en": "The only sound is the steady whisper of the air conditioner.", "notes": "", "reviewed": true}
+{"id": 12808, "label": "sm2", "key": 360636060, "index": 255, "ar": "والحركة الوحيدة هي ضوء العصر، يتسلل داخلا وخارجا مع\nانزلاق الغيوم.", "en": "And the only movement is the afternoon sunlight, trickling its way in and out of the moving clouds.", "notes": "", "reviewed": true}
+{"id": 12809, "label": "sm2", "key": -1197760616, "index": 256, "ar": "تكسر سايوري تلك اللحظة بتثاؤب عريض.", "en": "Sayori breaks the moment with a big yawn.", "notes": "", "reviewed": true}
+{"id": 12810, "label": "sm2", "key": -1715745274, "index": 257, "ar": "حان وقت العودة إلى المنزل؟", "en": "Time to go home?", "notes": "", "reviewed": true}
+{"id": 12811, "label": "sm2", "key": -550305276, "index": 258, "ar": "أنت من تقرر. أنت الرئيسة.", "en": "You tell me. You're the President.", "notes": "", "reviewed": true}
+{"id": 12812, "label": "sm2", "key": -421360229, "index": 259, "ar": "هههه.", "en": "Ahaha.", "notes": "", "reviewed": true}
+{"id": 12813, "label": "sm2", "key": 337959770, "index": 260, "ar": "إذن، انتهى اجتماع اليوم رسميا.", "en": "In that case, today's meeting is officially over.", "notes": "", "reviewed": true}
+{"id": 12814, "label": "sm2", "key": 939974373, "index": 261, "ar": "أتطلع إلى لقاءنا غدا.", "en": "I look forward to tomorrow.", "notes": "", "reviewed": true}
+{"id": 12815, "label": "sm2", "key": -136838770, "index": 262, "ar": "وأنا أيضا!", "en": "Me too!", "notes": "", "reviewed": true}
+{"id": 12816, "label": "sm2", "key": 1848710903, "index": 263, "ar": "تبتهج سايوري ابتسامة واسعة، ثم تجمع أغراضها.", "en": "Sayori beams and grabs her things.", "notes": "", "reviewed": true}
+{"id": 12817, "label": "sm2", "key": -507729172, "index": 264, "ar": "تفضّلي، اذهبي قبلي إن شئت؛ ما زلت بحاجة إلى بضع دقائق.", "en": "You can go on ahead, I need a few minutes still.", "notes": "", "reviewed": true}
+{"id": 12818, "label": "sm2", "key": -454849894, "index": 265, "ar": "أوه، أستطيع أن أنتظرك!", "en": "Oh, I can wait!", "notes": "", "reviewed": true}
+{"id": 12819, "label": "sm2", "key": 502877687, "index": 266, "ar": "لا بأس، أريد فقط لحظة من الهدوء لنفسي.", "en": "That's alright, I just want some alone time.", "notes": "", "reviewed": true}
+{"id": 12820, "label": "sm2", "key": 496598550, "index": 267, "ar": "همم... إذن، في هذه الحالة...", "en": "Hmm, in that case...", "notes": "", "reviewed": true}
+{"id": 12821, "label": "sm2", "key": 171042689, "index": 268, "ar": "تلوّح سايوري لمونيكا بحماس.", "en": "Sayori waves enthusiastically at Monika.", "notes": "", "reviewed": true}
+{"id": 12822, "label": "sm2", "key": 529070590, "index": 269, "ar": "بالتوفيق.", "en": "Good luck.", "notes": "", "reviewed": true}

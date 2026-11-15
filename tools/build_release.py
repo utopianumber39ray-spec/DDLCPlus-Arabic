@@ -1,0 +1,132 @@
+import argparse
+import hashlib
+import json
+import shutil
+from pathlib import Path
+from zipfile import ZIP_DEFLATED, ZipFile, ZipInfo
+
+ROOT = Path(__file__).resolve().parents[1]
+REPLACEMENTS = {
+    "Doki Doki Literature Club Plus_Data/resources.assets": (
+        ".work/technical/candidate/resources.assets",
+        "ea514f692feceac5f849e5fdfea10d8da5b33ac90e1c7747063bc323896900f8",
+    ),
+    "Doki Doki Literature Club Plus_Data/sharedassets1.assets": (
+        ".work/technical/candidate/sharedassets1.assets",
+        "5386fbc086041e62d776ca0a2b942b766914ca92af7d4a31fdc0a69b5ae8cc4b",
+    ),
+    "Doki Doki Literature Club Plus_Data/Managed/DDLC.dll": (
+        ".work/technical/candidate_managed/DDLC.dll",
+        "d4da6ba016c1a10a36f2b5df75552f7a05c25529a411d25698eae7a3f5eb81ac",
+    ),
+    "Doki Doki Literature Club Plus_Data/StreamingAssets/AssetBundles/Windows/langar.cy": (
+        ".work/final/langar.cy",
+        "047831742e2f7b163b01ae00bded535fb0a5ef79be2f9f16bf6a12a9bdef5d42",
+    ),
+}
+HELPER_NAME = "Doki Doki Literature Club Plus_Data/Managed/ArabicOutlineFix.dll"
+HELPER_PATH = ".work/technical/candidate_managed/ArabicOutlineFix.dll"
+HELPER_SHA256 = json.loads(
+    (ROOT / ".work/technical/candidate_managed/managed_candidate.json").read_text(encoding="utf-8")
+)["helper_sha256"]
+
+
+def sha256_stream(stream):
+    digest = hashlib.sha256()
+    for block in iter(lambda: stream.read(1024 * 1024), b""):
+        digest.update(block)
+    return digest.hexdigest()
+
+
+def sha256_path(path):
+    with path.open("rb") as stream:
+        return sha256_stream(stream)
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--baseline", type=Path, default=ROOT / ".work/DDLCPlus-Arabic-Full-v1.2.2.zip")
+    parser.add_argument("--output", type=Path, default=ROOT / ".work/DDLCPlus-Arabic-Full-v1.3.0.zip")
+    args = parser.parse_args()
+    baseline = args.baseline.resolve()
+    output = args.output.resolve()
+    partial = output.with_suffix(output.suffix + ".partial")
+    if output.exists() or partial.exists():
+        raise FileExistsError(f"Refusing to overwrite {output} or {partial}")
+    sources = {name: ROOT / relative for name, (relative, _) in REPLACEMENTS.items()}
+    for name, (relative, expected) in REPLACEMENTS.items():
+        actual = sha256_path(ROOT / relative)
+        if actual != expected:
+            raise ValueError(f"Candidate hash differs for {name}: {actual}")
+    helper = ROOT / HELPER_PATH
+    if sha256_path(helper) != HELPER_SHA256:
+        raise ValueError("Helper hash differs")
+    with ZipFile(baseline) as source:
+        infos = source.infolist()
+        names = [info.filename for info in infos]
+        if len(names) != len(set(names)) or HELPER_NAME in names:
+            raise ValueError("Baseline archive names differ")
+        missing = set(sources) - set(names)
+        if missing:
+            raise ValueError(f"Baseline entries missing: {sorted(missing)}")
+        baseline_entries = {
+            info.filename: {"crc": info.CRC, "size": info.file_size}
+            for info in infos
+        }
+        with ZipFile(partial, "w", allowZip64=True) as target:
+            target.comment = source.comment
+            for info in infos:
+                replacement = sources.get(info.filename)
+                origin = replacement.open("rb") if replacement else source.open(info)
+                with origin, target.open(info, "w", force_zip64=True) as destination:
+                    shutil.copyfileobj(origin, destination, 1024 * 1024)
+            helper_info = ZipInfo.from_file(helper, HELPER_NAME)
+            helper_info.compress_type = ZIP_DEFLATED
+            with helper.open("rb") as origin, target.open(helper_info, "w") as destination:
+                shutil.copyfileobj(origin, destination, 1024 * 1024)
+    with ZipFile(partial) as archive:
+        bad = archive.testzip()
+        if bad is not None:
+            raise ValueError(f"Archive CRC failed: {bad}")
+        names = archive.namelist()
+        if len(names) != len(baseline_entries) + 1 or len(names) != len(set(names)):
+            raise ValueError("Output archive inventory differs")
+        for name, source_path in sources.items():
+            with archive.open(name) as stream:
+                actual = sha256_stream(stream)
+            if actual != sha256_path(source_path):
+                raise ValueError(f"Archived replacement differs: {name}")
+        with archive.open(HELPER_NAME) as stream:
+            if sha256_stream(stream) != HELPER_SHA256:
+                raise ValueError("Archived helper differs")
+        for info in archive.infolist():
+            if info.filename == HELPER_NAME:
+                continue
+            original = baseline_entries[info.filename]
+            if info.filename in sources:
+                continue
+            if info.CRC != original["crc"] or info.file_size != original["size"]:
+                raise ValueError(f"Unchanged entry differs: {info.filename}")
+    partial.replace(output)
+    report = {
+        "version": "v1.3.0",
+        "archive": output.name,
+        "archive_size": output.stat().st_size,
+        "archive_sha256": sha256_path(output),
+        "entries": len(names),
+        "baseline_entries": len(baseline_entries),
+        "crc_verified": True,
+        "unchanged_entries_verified": len(names) - len(sources) - 1,
+        "replacements": {
+            name: {"source": relative, "sha256": expected}
+            for name, (relative, expected) in REPLACEMENTS.items()
+        },
+        "added": {HELPER_NAME: {"source": HELPER_PATH, "sha256": HELPER_SHA256}},
+    }
+    report_path = ROOT / ".work/final/release-manifest.json"
+    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    print("RELEASE_ARCHIVE_VERIFIED", json.dumps(report, ensure_ascii=False))
+
+
+if __name__ == "__main__":
+    main()

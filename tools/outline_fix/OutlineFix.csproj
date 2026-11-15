@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>ArabicOutlineFix</AssemblyName>
+    <LangVersion>7.3</LangVersion>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <GameData Condition="'$(GameData)' == ''">$(MSBuildProjectDirectory)/../../.work/extracted/Doki Doki Literature Club Plus_Data</GameData>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ArabicOutlineFix.cs" />
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>$(GameData)/Managed/Unity.TextMeshPro.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(GameData)/Managed/UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>$(GameData)/Managed/UnityEngine.UIModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>$(GameData)/Managed/UnityEngine.UI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="DDLC">
+      <HintPath>$(GameData)/Managed/DDLC.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

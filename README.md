@@ -1,4 +1,4 @@
-﻿# نسخة معربة من دوكي دوكي بلس
+# نسخة معربة من دوكي دوكي بلس
 
 <div dir="rtl">
 
@@ -32,10 +32,10 @@
 
 <div dir="rtl">
 
-1. نزّل الملف `DDLCPlus-Arabic-Full-v1.2.2.zip` من صفحة [الإصدارات](../../releases/latest).
+1. نزّل الملف `DDLCPlus-Arabic-Full-v1.3.0.zip` من صفحة [الإصدارات](../../releases/latest).
 2. فك ضغطه في أي مجلد (كليك يمين ← «استخراج الكل» — لا حاجة لأي برنامج إضافي).
 3. افتح المجلد المستخرَج وشغّل **`Doki Doki Literature Club Plus.exe`**.
-4. اللعبة تفتح **بالعربية مباشرة من أول تشغيل** وتعمل كل مراحلها بدون أي مشاكل.
+4. اللعبة تفتح **بالعربية مباشرة من أول تشغيل**، والترجمة والخطوط مدمجة بلا إعدادات إضافية.
 
 </div>
 
@@ -46,7 +46,7 @@
 بصمة الملف (SHA-256):
 
 ```
-5aeca35136e69fcba942ca25707fca59827621e8229e2a56f2bbf0d95997e55f  DDLCPlus-Arabic-Full-v1.2.2.zip
+4f851f48a6344feccc43cbb8f1893d47852d04a2d12b9fa4ab9744556196f562  DDLCPlus-Arabic-Full-v1.3.0.zip
 ```
 
 </div>
@@ -68,12 +68,12 @@
 
 <table>
   <tr>
-    <td align="center"><img src="screenshots/dialogue.png" alt="حوار مع اسم اللاعب العربي" width="470"><br><sub>اسم اللاعب العربي في شريط الاسم</sub></td>
-    <td align="center"><img src="screenshots/typing_rtl.png" alt="النص يتكشف من اليمين إلى اليسار" width="470"><br><sub>الكتابة الآلية من اليمين إلى اليسار</sub></td>
+    <td align="center"><img src="screenshots/dialogue_sayori_v1.3.0.png" alt="حوار سايوري بالخط الجديد" width="470"><br><sub>حوار أبيض واضح واسم الشخصية بحافة وردية فاتحة</sub></td>
+    <td align="center"><img src="screenshots/dialogue_natsuki_v1.3.0.png" alt="حوار ناتسوكي بالخط الجديد" width="470"><br><sub>اسم ناتسوكي بحجم واضح وحافة وردية غير مشوهة</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="screenshots/dialogue_lines.png" alt="فقرة من سطرين" width="470"><br><sub>فقرة من سطرين تبدأ من اليمين بالترتيب الصحيح</sub></td>
-    <td align="center"><img src="screenshots/dialogue_quoted.png" alt="سطر بين علامتي اقتباس" width="470"><br><sub>سطر بين علامتي اقتباس محاذى لليمين</sub></td>
+    <td align="center"><img src="screenshots/typing_rtl.png" alt="النص يتكشف من اليمين إلى اليسار" width="470"><br><sub>الكتابة الآلية من اليمين إلى اليسار</sub></td>
+    <td align="center"><img src="screenshots/settings_v1.3.0.png" alt="الإعدادات بالحواف الوردية الفاتحة" width="470"><br><sub>الإعدادات بالحواف الوردية الفاتحة</sub></td>
   </tr>
 </table>
 
