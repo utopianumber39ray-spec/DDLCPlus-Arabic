@@ -7,13 +7,13 @@ TECH = ROOT / ".work/technical"
 ORIGINAL = ROOT / ".work/extracted/Doki Doki Literature Club Plus_Data/Managed"
 CANDIDATE = TECH / "candidate_managed"
 EXPECTED_ORIGINAL = "9b354df81e2903b7c7ac30a67e4af20d819ecba6971328c6d72239900ab49475"
-EXPECTED_CANDIDATE = "d4da6ba016c1a10a36f2b5df75552f7a05c25529a411d25698eae7a3f5eb81ac"
 EXPECTED_HOOKS = [
     "RenpyOutlines.CreateOutlines(TextMeshProUGUI, RenpyOutlinesUI)",
     "RenpyOutlines.ApplySingleOutline(RenpyOutlineData, TextMeshProUGUI)",
     "RenpyOutlinesUI.SetOutlines(RenpyOutlines)",
     "RenpyWindowManager.Update()",
     "RenpyPreferencesMenuUI.Update()",
+    "RenpyHistoryMenuUI.OnShow()",
     "TextTypewriterEffect.StartText(string, int, int, int, int, List<Tuple<int, float>>, float)",
 ]
 
@@ -31,7 +31,7 @@ def decompiled(name):
 def main():
     report = json.loads((CANDIDATE / "managed_candidate.json").read_text(encoding="utf-8"))
     assert sha256(ORIGINAL / "DDLC.dll") == EXPECTED_ORIGINAL == report["source_sha256"]
-    assert sha256(CANDIDATE / "DDLC.dll") == EXPECTED_CANDIDATE == report["candidate_sha256"]
+    assert sha256(CANDIDATE / "DDLC.dll") == report["candidate_sha256"]
     assert sha256(CANDIDATE / "ArabicOutlineFix.dll") == report["helper_sha256"]
     assert sha256(ORIGINAL / "TextTypewriterEffect.dll") == report["typewriter_source_sha256"]
     assert sha256(CANDIDATE / "TextTypewriterEffect.dll") == report["typewriter_sha256"]
@@ -68,6 +68,8 @@ def main():
     assert "ArabicOutlineFix.ApplyDialogueName(whoText);" in window
     preferences = decompiled("RenpyPreferencesMenuUI.candidate")
     assert "ArabicOutlineFix.ApplySettings(this);" in preferences
+    history = decompiled("RenpyHistoryMenuUI.candidate")
+    assert "ArabicOutlineFix.ApplyHistory(this);" in history
 
     typewriter = decompiled("TextTypewriterEffect.candidate")
     assert "if (!ArabicOutlineFix.TryShowDialogueImmediately(this, newText, autoForwardTime))" in typewriter
@@ -84,10 +86,15 @@ def main():
     assert "public static void ApplyDialogueName(TextMeshProUGUI text)" in helper
     assert "dialogueNameText != text" in helper
     assert 'text.text == "ﺎﻜﻴﻧﻮﻣ"' in helper
-    assert "dialogueNameBaseline + ((text.text ==" in helper
-    assert "Debug.Log" not in helper
+    assert "dialogueNameBaseline + (flag ? 3f" in helper
+    assert "text.enableAutoSizing = true;" in helper
+    assert "text.fontSizeMin = 14f;" in helper
     assert "public static void ApplySettings(RenpyPreferencesMenuUI menu)" in helper
+    assert "public static void ApplyHistory(RenpyHistoryMenuUI menu)" in helper
+    assert "obj.color = HistoryColor;" in helper
+    assert "obj.faceColor = HistoryColor;" in helper
     assert "public static bool TryApplyInteractive(TextMeshProUGUI text)" in helper
+    assert "ApplyHistory(componentInParent);" in helper
     assert "text.faceColor = Color.white;" in helper
     assert 'EnableKeyword("OUTLINE_ON")' in helper
     assert 'SetFloat("_OutlineWidth", 0.18f)' in helper

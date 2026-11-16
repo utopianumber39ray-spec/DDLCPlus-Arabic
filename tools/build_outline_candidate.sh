@@ -26,6 +26,7 @@ rm "$NEXT/DDLC.dll" "$NEXT/TextTypewriterEffect.dll"
 "$DOTNET" run --project "$PROJECT/PatchOutline.csproj" -c Release --no-build -- "$ORIGINAL/DDLC.dll" "$NEXT/DDLC.dll" "$ORIGINAL/TextTypewriterEffect.dll" "$NEXT/TextTypewriterEffect.dll"
 cp "$PROJECT/bin/Release/netstandard2.0/ArabicOutlineFix.dll" "$NEXT/ArabicOutlineFix.dll"
 "$TECH/vendor/dotnet-tools/ilspycmd" "$NEXT/ArabicOutlineFix.dll" -t ArabicOutlineFix -o "$TECH/reports"
+"$TECH/vendor/dotnet-tools/ilspycmd" "$NEXT/DDLC.dll" -t RenpyHistoryMenuUI > "$TECH/reports/RenpyHistoryMenuUI.candidate.decompiled.cs"
 "$TECH/vendor/dotnet-tools/ilspycmd" "$NEXT/TextTypewriterEffect.dll" -t TextTypewriterEffect.TextTypewriterEffect > "$TECH/reports/TextTypewriterEffect.candidate.decompiled.cs"
 mv "$NEXT" "$OUTPUT"
 python3 - "$ROOT" "$OUTPUT" <<'PY'
@@ -63,6 +64,7 @@ report = {
         "RenpyOutlinesUI.SetOutlines(RenpyOutlines)",
         "RenpyWindowManager.Update()",
         "RenpyPreferencesMenuUI.Update()",
+        "RenpyHistoryMenuUI.OnShow()",
         "TextTypewriterEffect.StartText(string, int, int, int, int, List<Tuple<int, float>>, float)",
     ],
     "arabic_dialogue_immediate": True,

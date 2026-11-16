@@ -20,7 +20,7 @@ REPLACEMENTS = {
     ),
     "Doki Doki Literature Club Plus_Data/Managed/DDLC.dll": (
         ".work/technical/candidate_managed/DDLC.dll",
-        "d4da6ba016c1a10a36f2b5df75552f7a05c25529a411d25698eae7a3f5eb81ac",
+        "c10499e0bba181a27cf95de0ecfc38b5d59ef9b0f7710795cdb9cca9695da8d5",
     ),
     "Doki Doki Literature Club Plus_Data/Managed/TextTypewriterEffect.dll": (
         ".work/technical/candidate_managed/TextTypewriterEffect.dll",
@@ -28,7 +28,7 @@ REPLACEMENTS = {
     ),
     "Doki Doki Literature Club Plus_Data/StreamingAssets/AssetBundles/Windows/langar.cy": (
         ".work/final/langar.cy",
-        "047831742e2f7b163b01ae00bded535fb0a5ef79be2f9f16bf6a12a9bdef5d42",
+        "3d6aab4307671db80d8fee45bf2cc4e0cf6862a3e573f74877ce3be424c1c7ca",
     ),
 }
 HELPER_NAME = "Doki Doki Literature Club Plus_Data/Managed/ArabicOutlineFix.dll"
@@ -51,7 +51,7 @@ def sha256_path(path):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--baseline", type=Path, default=ROOT / ".work/DDLCPlus-Arabic-Full-v1.2.2.zip")
-    parser.add_argument("--output", type=Path, default=ROOT / ".work/DDLCPlus-Arabic-Full-v1.3.2.zip")
+    parser.add_argument("--output", type=Path, default=ROOT / ".work/DDLCPlus-Arabic-Full-v1.3.3.zip")
     args = parser.parse_args()
     baseline = args.baseline.resolve()
     output = args.output.resolve()
@@ -114,7 +114,7 @@ def main():
                 raise ValueError(f"Unchanged entry differs: {info.filename}")
     partial.replace(output)
     report = {
-        "version": "v1.3.2",
+        "version": "v1.3.3",
         "archive": output.name,
         "archive_size": output.stat().st_size,
         "archive_sha256": sha256_path(output),

@@ -5,9 +5,11 @@ using UnityEngine;
 public static class ArabicOutlineFix
 {
     private static readonly Color OutlineColor = new Color(1f, 0.55f, 0.72f, 1f);
+    private static readonly Color HistoryColor = new Color(0.28f, 0.10f, 0.20f, 1f);
     private const float OutlineWidth = 0.18f;
     private static TextMeshProUGUI dialogueNameText;
     private static float dialogueNameBaseline;
+    private static float dialogueNameFontSize;
 
     public static void ApplyDialogue(TextMeshProUGUI text)
     {
@@ -25,9 +27,23 @@ public static class ArabicOutlineFix
             {
                 dialogueNameText = text;
                 dialogueNameBaseline = text.rectTransform.anchoredPosition.y;
+                dialogueNameFontSize = text.fontSize;
+            }
+            string playerName = Renpy.CurrentContext.GetVariableString("player");
+            bool isPlayerName = !string.IsNullOrEmpty(playerName) && text.text == playerName;
+            if (isPlayerName)
+            {
+                text.enableAutoSizing = true;
+                text.fontSizeMin = 14f;
+                text.fontSizeMax = Mathf.Min(dialogueNameFontSize, 24f);
+            }
+            else
+            {
+                text.enableAutoSizing = false;
+                text.fontSize = dialogueNameFontSize;
             }
             Vector2 position = text.rectTransform.anchoredPosition;
-            position.y = dialogueNameBaseline + (text.text == "ﺎﻜﻴﻧﻮﻣ" ? 2f : 5f);
+            position.y = dialogueNameBaseline + (isPlayerName ? 3f : (text.text == "ﺎﻜﻴﻧﻮﻣ" ? 2f : 5f));
             text.rectTransform.anchoredPosition = position;
             text.color = Color.white;
             text.faceColor = Color.white;
@@ -112,11 +128,34 @@ public static class ArabicOutlineFix
         }
     }
 
+    public static void ApplyHistory(RenpyHistoryMenuUI menu)
+    {
+        RenpyOutlinesUI controller = menu.HistoryText.GetComponent<RenpyOutlinesUI>();
+        if (controller != null)
+        {
+            controller.ResetStructure();
+        }
+        menu.HistoryText.alignment = TextAlignmentOptions.TopRight;
+        foreach (TextMeshProUGUI text in menu.HistoryText.transform.parent.GetComponentsInChildren<TextMeshProUGUI>(true))
+        {
+            text.color = HistoryColor;
+            text.faceColor = HistoryColor;
+            text.outlineWidth = 0.0f;
+            text.SetMaterialDirty();
+        }
+    }
+
     public static bool TryApplyInteractive(TextMeshProUGUI text)
     {
         if (!IsArabic(text))
         {
             return false;
+        }
+        RenpyHistoryMenuUI history = text.GetComponentInParent<RenpyHistoryMenuUI>();
+        if (history != null)
+        {
+            ApplyHistory(history);
+            return true;
         }
         RenpyOutlinesUI controller = text.GetComponent<RenpyOutlinesUI>();
         if (controller != null)

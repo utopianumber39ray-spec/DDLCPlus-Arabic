@@ -78,6 +78,17 @@ using (var module = ModuleDefinition.ReadModule(args[0], parameters))
     preferencesProcessor.InsertBefore(preferencesFirst, preferencesProcessor.Create(OpCodes.Ldarg_0));
     preferencesProcessor.InsertBefore(preferencesFirst, preferencesProcessor.Create(OpCodes.Call, applySettings));
 
+    var history = module.Types.Single(type => type.FullName == "RenpyHistoryMenuUI");
+    var applyHistory = new MethodReference("ApplyHistory", module.TypeSystem.Void, helperType);
+    applyHistory.Parameters.Add(new ParameterDefinition(history));
+    var historyShow = history.Methods.Single(item => item.Name == "OnShow").Body;
+    var historyProcessor = historyShow.GetILProcessor();
+    foreach (var ret in historyShow.Instructions.Where(item => item.OpCode == OpCodes.Ret).ToArray())
+    {
+        historyProcessor.InsertBefore(ret, historyProcessor.Create(OpCodes.Ldarg_0));
+        historyProcessor.InsertBefore(ret, historyProcessor.Create(OpCodes.Call, applyHistory));
+    }
+
     module.Write(args[1]);
 }
 using (var module = ModuleDefinition.ReadModule(args[2], parameters))

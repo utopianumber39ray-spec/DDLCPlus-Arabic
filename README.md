@@ -32,7 +32,7 @@
 
 <div dir="rtl">
 
-1. نزّل الملف `DDLCPlus-Arabic-Full-v1.3.2.zip` من صفحة [الإصدارات](../../releases/latest).
+1. نزّل الملف `DDLCPlus-Arabic-Full-v1.3.3.zip` من صفحة [الإصدارات](../../releases/latest).
 2. فك ضغطه في أي مجلد (كليك يمين ← «استخراج الكل» — لا حاجة لأي برنامج إضافي).
 3. افتح المجلد المستخرَج وشغّل **`Doki Doki Literature Club Plus.exe`**.
 4. اللعبة تفتح **بالعربية مباشرة من أول تشغيل**، والترجمة والخطوط مدمجة بلا إعدادات إضافية.
@@ -46,62 +46,8 @@
 بصمة الملف (SHA-256):
 
 ```
-3b40d00410fcc3b45911415fde6721ac2abd8348055421dc345e8bfebdcaaa88  DDLCPlus-Arabic-Full-v1.3.2.zip
+b72717c7f50ef5c162d6d5ece631ad1b3291dadcb76a0c8ac7180eeb4ab17663  DDLCPlus-Arabic-Full-v1.3.3.zip
 ```
-
-</div>
-
-## لقطات من اللعب
-
-<div dir="rtl">
-
-**تبدأ اللعبة بالعربية مباشرة:**
-
-<table>
-  <tr>
-    <td align="center"><img src="screenshots/login.png" alt="شاشة الدخول بالعربية" width="470"><br><sub>شاشة الدخول</sub></td>
-    <td align="center"><img src="screenshots/hub.png" alt="مركز اللعبة" width="470"><br><sub>مركز اللعبة (الهَب)</sub></td>
-  </tr>
-</table>
-
-**الحوار واتجاه الكتابة والأسطر:**
-
-<table>
-  <tr>
-    <td align="center"><img src="screenshots/dialogue_sayori_v1.3.1.png" alt="حوار سايوري بالخط الجديد" width="470"><br><sub>حوار أبيض واضح واسم الشخصية بحافة وردية فاتحة</sub></td>
-    <td align="center"><img src="screenshots/dialogue_natsuki_v1.3.2.png" alt="حوار ناتسوكي بالخط الجديد" width="470"><br><sub>اسم ناتسوكي بحجم واضح وحافة وردية غير مشوهة</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="screenshots/dialogue_full_v1.3.2.png" alt="الحوار العربي كامل ومتعدد الأسطر" width="470"><br><sub>الحوار العربي يظهر كاملًا فورًا وباتجاه صحيح</sub></td>
-    <td align="center"><img src="screenshots/settings_v1.3.2.png" alt="الإعدادات بالحواف الوردية الفاتحة" width="470"><br><sub>الإعدادات بالحواف الوردية الفاتحة</sub></td>
-  </tr>
-</table>
-
-**الاختيارات والشعر والحفظ والإعدادات:**
-
-<table>
-  <tr>
-    <td align="center"><img src="screenshots/choice.png" alt="قائمة اختيار" width="470"><br><sub>قائمة اختيار أثناء القصة</sub></td>
-    <td align="center"><img src="screenshots/poem.png" alt="لعبة كتابة القصيدة" width="470"><br><sub>كتابة القصيدة — الكلمات بالعربية</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="screenshots/save_slots.png" alt="شاشة الحفظ" width="470"><br><sub>شاشة الحفظ</sub></td>
-    <td align="center"><img src="screenshots/settings_ingame.png" alt="الإعدادات" width="470"><br><sub>الإعدادات كاملة بالعربية</sub></td>
-  </tr>
-</table>
-
-**التطبيقات والقصص الجانبية:**
-
-<table>
-  <tr>
-    <td align="center"><img src="screenshots/stories.png" alt="القصص الجانبية" width="470"><br><sub>القصص الجانبية</sub></td>
-    <td align="center"><img src="screenshots/files.png" alt="تطبيق الملفات" width="470"><br><sub>تطبيق الملفات</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="screenshots/music.png" alt="تطبيق الموسيقى" width="470"><br><sub>تطبيق الموسيقى</sub></td>
-    <td align="center"><img src="screenshots/settings.png" alt="اختيار اللغة" width="470"><br><sub>اختيار اللغة «العربية»</sub></td>
-  </tr>
-</table>
 
 </div>
 
