@@ -1,4 +1,6 @@
 .work/
 .unlazy/
+__pycache__/
+*.pyc
 tools/outline_fix/bin/
 tools/outline_fix/obj/
