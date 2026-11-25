@@ -1,10 +1,19 @@
-"""Verify Monika's 'Hole in the Wall' poem line order in langar.cy."""
+"""Verify Monika's 'Hole in the Wall' poem line order in langar.cy.
+
+The poem is stored as 14 presentation-form lines joined by literal ``\\n``.
+It must be in the same order as the English original: the first line is
+"It couldn't have been me" and the last is "...was looking in".
+"""
 import sys
 from pathlib import Path
 import UnityPy
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
-from rtl_codec import decode_raw
+from rtl_codec import decode_body
+
+FIRST = ("لا يمكن", "منّي", "It couldn't have been me", "can't be")
+LAST = ("ينظر", "look")
+
 
 def main():
     p = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / ".work/fixes/langar.cy"
@@ -14,11 +23,16 @@ def main():
     tmp.write_bytes(dec)
     env = UnityPy.load(str(tmp))
     obj = [o for o in env.objects if o.type.name == "MonoBehaviour"][0]
-    s = decode_raw(obj.read_typetree()["linesdict"][224]["values"][174]).replace("\\n", "\n")
-    lines = [x for x in s.split("\n") if x.strip()]
-    first_ok = "It couldn't have been me" in lines[0] or " concede" in lines[0] or "can't be" in lines[0] or "لا يمكن" in lines[0] or "منّي" in lines[0]
-    last_ok = "was looking in" in lines[-1] or "ينظر" in lines[-1] and "الداخل" in lines[-1]
-    print("POEM_ORDER", "OK" if (first_ok and last_ok) else f"CHECK first={lines[0][:60]!r} last={lines[-1][:60]!r}")
+    raw = obj.read_typetree()["linesdict"][224]["values"][174]
+    lines = [decode_body(x).strip() for x in raw.split("\\n") if x.strip()]
+    first_ok = any(x in lines[0] for x in FIRST)
+    last_ok = any(x in lines[-1] for x in LAST)
+    ok = len(lines) == 14 and first_ok and last_ok
+    print("POEM_ORDER", "OK" if ok else
+          f"CHECK lines={len(lines)} first={lines[0][:60]!r} last={lines[-1][:60]!r}")
+    if not ok:
+        sys.exit(1)
+
 
 if __name__ == "__main__":
     main()
