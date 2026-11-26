@@ -17,6 +17,21 @@ sys.path.insert(0, str(ROOT / "tools"))
 from rtl_codec import decode_body, encode_body
 
 
+def unwrap(segment):
+    """Split off <align=right>/</align> wrappers in either (bidi-swapped) order."""
+    prefix = ""
+    while segment.startswith("<align=right>") or segment.startswith("</align>"):
+        token = "<align=right>" if segment.startswith("<align=right>") else "</align>"
+        prefix += token
+        segment = segment[len(token):]
+    suffix = ""
+    while segment.endswith("<align=right>") or segment.endswith("</align>"):
+        token = "<align=right>" if segment.endswith("<align=right>") else "</align>"
+        suffix = token + suffix
+        segment = segment[:-len(token)]
+    return prefix, suffix, segment
+
+
 def main():
     path = Path(sys.argv[1])
     patches = json.loads(Path(sys.argv[2]).read_text(encoding="utf-8"))
@@ -30,23 +45,27 @@ def main():
 
     grouped = {}
     for patch in patches:
-        grouped.setdefault(patch["value"], []).append(patch)
+        key = (patch.get("group", 224), patch["value"])
+        grouped.setdefault(key, []).append(patch)
 
     applied = 0
-    for value_index, edits in sorted(grouped.items()):
-        raw = values[value_index]
+    for (group_index, value_index), edits in sorted(grouped.items()):
+        group_values = tree["linesdict"][group_index]["values"]
+        raw = group_values[value_index]
+        values = group_values
         stored = raw.split("\\n")
         logical = list(reversed(stored))
         for edit in edits:
             line_no = edit["line"]
             if not 1 <= line_no <= len(logical):
                 raise ValueError(f"value {value_index}: bad line {line_no}")
-            current = decode_body(logical[line_no - 1])
+            prefix, suffix, body = unwrap(logical[line_no - 1])
+            current = decode_body(body)
             if current.strip() != edit["old"].strip():
                 raise ValueError(
                     f"value {value_index} line {line_no}: expected {edit['old']!r}, got {current!r}"
                 )
-            logical[line_no - 1] = encode_body(edit["new"])
+            logical[line_no - 1] = prefix + encode_body(edit["new"]) + suffix
             applied += 1
         values[value_index] = "\\n".join(reversed(logical))
 
