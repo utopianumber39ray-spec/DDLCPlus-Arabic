@@ -22,9 +22,9 @@ import unity_support as support
 CHANGES = {
     "m_fontSize": 28.0,
     "m_fontSizeBase": 28.0,
-    "m_lineSpacing": 0.30,
+    "m_lineSpacing": 0.50,
     "m_lineSpacingMax": 0.0,
-    "m_paragraphSpacing": 0.15,
+    "m_paragraphSpacing": 0.25,
     "m_wordWrappingRatios": 0.0,
     # Keep each poem line on a single row. Auto-shrinking lets the longest
     # Arabic line fit the page instead of breaking a word in half.
