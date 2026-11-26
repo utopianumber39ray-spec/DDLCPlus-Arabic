@@ -1,8 +1,9 @@
 """Verify Monika's 'Hole in the Wall' poem line order in langar.cy.
 
-The poem is stored as 14 presentation-form lines joined by literal ``\\n``.
-It must be in the same order as the English original: the first line is
-"It couldn't have been me" and the last is "...was looking in".
+`ArabicShaper.dll` reverses RTL multiline lines at runtime, so the stored
+segments must be the reverse of the logical/English order: the first stored
+line is "And he, on the other side, was looking in" and the last stored line
+is "It couldn't have been me".
 """
 import sys
 from pathlib import Path
@@ -11,8 +12,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 from rtl_codec import decode_body
 
-FIRST = ("لا يمكن", "منّي", "It couldn't have been me", "can't be")
-LAST = ("ينظر", "look")
+FIRST = ("وهو", "في الجهة الأخرى", "was looking in")
+LAST = ("لا يمكن", "منّي", "It couldn't have been me", "can't be")
 
 
 def main():
