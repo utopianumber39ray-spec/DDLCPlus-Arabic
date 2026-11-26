@@ -22,7 +22,7 @@ import unity_support as support
 CHANGES = {
     "m_fontSize": 28.0,
     "m_fontSizeBase": 28.0,
-    "m_lineSpacing": 0.85,
+    "m_lineSpacing": 1.0,
     "m_lineSpacingMax": 0.0,
     "m_paragraphSpacing": 0.35,
     "m_wordWrappingRatios": 0.0,
