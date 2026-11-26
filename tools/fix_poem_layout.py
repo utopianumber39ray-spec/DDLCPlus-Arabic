@@ -26,6 +26,12 @@ CHANGES = {
     "m_lineSpacingMax": 0.0,
     "m_paragraphSpacing": 0.15,
     "m_wordWrappingRatios": 0.0,
+    # Keep each poem line on a single row. Auto-shrinking lets the longest
+    # Arabic line fit the page instead of breaking a word in half.
+    "m_enableWordWrapping": 0,
+    "m_enableAutoSizing": 1,
+    "m_fontSizeMin": 12.0,
+    "m_fontSizeMax": 28.0,
 }
 # style name -> original size -> new size (~22% smaller, matching TMP 36 -> 28)
 STYLE_SIZES = {
@@ -63,6 +69,9 @@ def patch_styles(path):
             if abs(value - old) < 0.5:
                 struct.pack_into("<f", data, offset, new)
                 print(f"{name}: {value} -> {new} at 0x{offset:X}")
+                break
+            if abs(value - new) < 0.5:
+                print(f"{name}: already {new}")
                 break
         else:
             raise ValueError(f"Style size not found for {name}")
