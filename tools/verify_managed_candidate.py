@@ -13,6 +13,7 @@ EXPECTED_HOOKS = [
     "RenpyOutlinesUI.SetOutlines(RenpyOutlines)",
     "RenpyWindowManager.Update()",
     "RenpyPreferencesMenuUI.Update()",
+    "RenpyPreferencesMenuUI.OnHide()",
     "RenpyHistoryMenuUI.OnShow()",
     "TextTypewriterEffect.StartText(string, int, int, int, int, List<Tuple<int, float>>, float)",
 ]
@@ -43,6 +44,7 @@ def main():
     assert report["dialogue_outline_width"] == 0.0
     assert report["dialogue_name_outline_width"] == 0.08
     assert report["runtime_material_replacement"] is False
+    assert report["per_instance_material"] is True
     assert report["diagnostics_removed"] is True
     assert report["hooks"] == EXPECTED_HOOKS
     assert report["dialogue_component"] == "RenpyWindowManager.tte.text (TMPro.TextMeshProUGUI)"
@@ -90,9 +92,9 @@ def main():
     assert "text.enableAutoSizing = true;" in helper
     assert "text.fontSizeMin = 14f;" in helper
     assert "public static void ApplySettings(RenpyPreferencesMenuUI menu)" in helper
+    assert "public static void ResetSettings()" in helper
     assert "public static void ApplyHistory(RenpyHistoryMenuUI menu)" in helper
-    assert "obj.color = HistoryColor;" in helper
-    assert "obj.faceColor = HistoryColor;" in helper
+    assert "HistoryColor" in helper
     assert "public static bool TryApplyInteractive(TextMeshProUGUI text)" in helper
     assert "ApplyHistory(componentInParent);" in helper
     assert "text.faceColor = Color.white;" in helper
@@ -105,6 +107,9 @@ def main():
     assert "j < textInfo.characterInfo.Length" in helper
     assert "component.ResetStructure();" in helper
     assert "text.SetMaterialDirty();" in helper
+    # Verify per-instance material usage (fontMaterial, not fontSharedMaterial)
+    assert "fontMaterial" in helper
+    assert "fontSharedMaterial" not in helper
     for removed in ("Debug.Log", "Diagnose", "TextSnapshots", "AODIAG", "Resources.FindObjectsOfTypeAll", "fontMaterial =", "fontMaterials ="):
         assert removed not in helper, removed
     for injected in (outlines, controller, window, preferences):

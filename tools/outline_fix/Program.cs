@@ -78,6 +78,19 @@ using (var module = ModuleDefinition.ReadModule(args[0], parameters))
     preferencesProcessor.InsertBefore(preferencesFirst, preferencesProcessor.Create(OpCodes.Ldarg_0));
     preferencesProcessor.InsertBefore(preferencesFirst, preferencesProcessor.Create(OpCodes.Call, applySettings));
 
+    // Hook ResetSettings into OnHide (or Hide/Close) so the guard resets when
+    // the settings menu is dismissed, allowing re-application on next open.
+    var resetSettings = new MethodReference("ResetSettings", module.TypeSystem.Void, helperType);
+    var hideMethod = preferences.Methods.FirstOrDefault(m => m.Name == "OnHide")
+        ?? preferences.Methods.FirstOrDefault(m => m.Name == "Hide")
+        ?? preferences.Methods.FirstOrDefault(m => m.Name == "Close");
+    if (hideMethod != null)
+    {
+        var hideProcessor = hideMethod.Body.GetILProcessor();
+        var hideFirst = hideMethod.Body.Instructions[0];
+        hideProcessor.InsertBefore(hideFirst, hideProcessor.Create(OpCodes.Call, resetSettings));
+    }
+
     var history = module.Types.Single(type => type.FullName == "RenpyHistoryMenuUI");
     var applyHistory = new MethodReference("ApplyHistory", module.TypeSystem.Void, helperType);
     applyHistory.Parameters.Add(new ParameterDefinition(history));

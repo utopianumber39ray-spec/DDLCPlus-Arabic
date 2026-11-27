@@ -26,6 +26,10 @@ rm "$NEXT/DDLC.dll" "$NEXT/TextTypewriterEffect.dll"
 "$DOTNET" run --project "$PROJECT/PatchOutline.csproj" -c Release --no-build -- "$ORIGINAL/DDLC.dll" "$NEXT/DDLC.dll" "$ORIGINAL/TextTypewriterEffect.dll" "$NEXT/TextTypewriterEffect.dll"
 cp "$PROJECT/bin/Release/netstandard2.0/ArabicOutlineFix.dll" "$NEXT/ArabicOutlineFix.dll"
 "$TECH/vendor/dotnet-tools/ilspycmd" "$NEXT/ArabicOutlineFix.dll" -t ArabicOutlineFix -o "$TECH/reports"
+"$TECH/vendor/dotnet-tools/ilspycmd" "$NEXT/DDLC.dll" -t RenpyOutlines > "$TECH/reports/RenpyOutlines.candidate.decompiled.cs"
+"$TECH/vendor/dotnet-tools/ilspycmd" "$NEXT/DDLC.dll" -t RenpyOutlinesUI > "$TECH/reports/RenpyOutlinesUI.candidate.decompiled.cs"
+"$TECH/vendor/dotnet-tools/ilspycmd" "$NEXT/DDLC.dll" -t RenpyWindowManager > "$TECH/reports/RenpyWindowManager.candidate.decompiled.cs"
+"$TECH/vendor/dotnet-tools/ilspycmd" "$NEXT/DDLC.dll" -t RenpyPreferencesMenuUI > "$TECH/reports/RenpyPreferencesMenuUI.candidate.decompiled.cs"
 "$TECH/vendor/dotnet-tools/ilspycmd" "$NEXT/DDLC.dll" -t RenpyHistoryMenuUI > "$TECH/reports/RenpyHistoryMenuUI.candidate.decompiled.cs"
 "$TECH/vendor/dotnet-tools/ilspycmd" "$NEXT/TextTypewriterEffect.dll" -t TextTypewriterEffect.TextTypewriterEffect > "$TECH/reports/TextTypewriterEffect.candidate.decompiled.cs"
 mv "$NEXT" "$OUTPUT"
@@ -64,6 +68,7 @@ report = {
         "RenpyOutlinesUI.SetOutlines(RenpyOutlines)",
         "RenpyWindowManager.Update()",
         "RenpyPreferencesMenuUI.Update()",
+        "RenpyPreferencesMenuUI.OnHide()",
         "RenpyHistoryMenuUI.OnShow()",
         "TextTypewriterEffect.StartText(string, int, int, int, int, List<Tuple<int, float>>, float)",
     ],
@@ -73,11 +78,17 @@ report = {
     "dialogue_component": "RenpyWindowManager.tte.text (TMPro.TextMeshProUGUI)",
     "dialogue_name_component": "RenpyWindowManager.whoText (TMPro.TextMeshProUGUI)",
     "settings_component": "RenpyPreferencesMenuUI children (TMPro.TextMeshProUGUI)",
+    "settings_reset_hook": "RenpyPreferencesMenuUI.OnHide() -> ArabicOutlineFix.ResetSettings()",
+    "settings_guard": "ApplySettings runs once per menu open; ResetSettings clears the guard on close",
+    "history_arabic_only": True,
     "outline_rgba": [1.0, 0.55, 0.72, 1.0],
     "outline_width": 0.18,
     "dialogue_outline_width": 0.0,
     "dialogue_name_outline_width": 0.08,
+    "interactive_outline_color": "HistoryColor (dark maroon)",
+    "interactive_outline_width": 0.0,
     "runtime_material_replacement": False,
+    "per_instance_material": True,
     "diagnostics_removed": True,
     "latin_path_preserved": True,
 }
